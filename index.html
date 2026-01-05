@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>아이작의 번제 아이템 도감</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .subtitle {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .search-section {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .search-box {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        #searchInput {
+            flex: 1;
+            padding: 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        #searchInput:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .filter-buttons {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 10px 20px;
+            border: 2px solid #667eea;
+            background: white;
+            color: #667eea;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s;
+            font-weight: 600;
+        }
+
+        .filter-btn:hover {
+            background: #f0f0f0;
+        }
+
+        .filter-btn.active {
+            background: #667eea;
+            color: white;
+        }
+
+        .stats {
+            text-align: center;
+            color: #666;
+            margin-top: 15px;
+            font-size: 14px;
+        }
+
+        .items-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .item-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+        }
+
+        .item-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        .item-image {
+            width: 100%;
+            height: 150px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+            overflow: hidden;
+        }
+
+        .item-image img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+        .item-type {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .type-active {
+            background: #ffeaa7;
+            color: #d63031;
+        }
+
+        .type-passive {
+            background: #dfe6e9;
+            color: #2d3436;
+        }
+
+        .type-trinket {
+            background: #a29bfe;
+            color: #6c5ce7;
+        }
+
+        .item-name {
+            font-size: 1.3em;
+            font-weight: 700;
+            color: #2d3436;
+            margin-bottom: 8px;
+        }
+
+        .item-id {
+            font-size: 0.85em;
+            color: #999;
+            margin-bottom: 8px;
+        }
+
+        .item-description {
+            color: #636e72;
+            font-size: 0.95em;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+
+        .item-cooldown {
+            display: inline-block;
+            background: #74b9ff;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 10px;
+            font-size: 0.85em;
+            margin-bottom: 8px;
+        }
+
+        .item-grade {
+            display: inline-block;
+            background: #ffeaa7;
+            color: #d63031;
+            padding: 3px 8px;
+            border-radius: 10px;
+            font-size: 0.85em;
+            margin-left: 5px;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            color: white;
+            font-size: 1.2em;
+        }
+
+        .no-results-icon {
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+
+        /* 모달 스타일 */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.7);
+            z-index: 1000;
+            overflow-y: auto;
+        }
+
+        .modal.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .modal-content {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            max-width: 700px;
+            width: 100%;
+            position: relative;
+            animation: slideIn 0.3s;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            font-size: 30px;
+            cursor: pointer;
+            color: #999;
+            transition: color 0.3s;
+            background: none;
+            border: none;
+            z-index: 1;
+        }
+
+        .modal-close:hover {
+            color: #333;
+        }
+
+        .modal-image {
+            width: 100%;
+            height: 250px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+
+        .modal-image img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+        .modal-title {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #2d3436;
+        }
+
+        .modal-english-name {
+            font-size: 1.2em;
+            color: #636e72;
+            margin-bottom: 15px;
+        }
+
+        .modal-badges {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .modal-badge {
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 600;
+        }
+
+        .badge-cooldown {
+            background: #74b9ff;
+            color: white;
+        }
+
+        .badge-grade {
+            background: #ffeaa7;
+            color: #d63031;
+        }
+
+        .badge-id {
+            background: #dfe6e9;
+            color: #2d3436;
+        }
+
+        .modal-detail {
+            margin-bottom: 15px;
+        }
+
+        .modal-label {
+            font-weight: 700;
+            color: #667eea;
+            margin-bottom: 5px;
+            font-size: 0.95em;
+        }
+
+        .modal-text {
+            color: #636e72;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .items-grid {
+                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            }
+
+            .modal-content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎮 아이작의 번제 아이템 도감</h1>
+        </header>
+
+        <div class="search-section">
+            <div class="search-box">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    placeholder="아이템 이름, 설명, 효과를 검색하세요... (예: 비행, 공격력, 폭탄)"
+                >
+            </div>
+            
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-type="all">전체</button>
+                <button class="filter-btn" data-type="active">액티브</button>
+                <button class="filter-btn" data-type="passive">패시브</button>
+                <button class="filter-btn" data-type="trinket">장신구</button>
+            </div>
+
+            <div class="stats" id="stats">로딩 중...</div>
+        </div>
+
+        <div class="items-grid" id="itemsGrid"></div>
+
+        <div class="no-results" id="noResults" style="display: none;">
+            <div class="no-results-icon">🔍</div>
+            <div>검색 결과가 없습니다</div>
+        </div>
+    </div>
+
+    <!-- 모달 -->
+    <div class="modal" id="itemModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">&times;</button>
+            <div class="modal-image" id="modalImage"></div>
+            <div class="modal-title" id="modalTitle"></div>
+            <div class="modal-english-name" id="modalEnglishName"></div>
+            <div class="modal-badges" id="modalBadges"></div>
+            
+            <div class="modal-detail">
+                <div class="modal-label">📝 설명</div>
+                <div class="modal-text" id="modalDescription"></div>
+            </div>
+            
+            <div class="modal-detail">
+                <div class="modal-label">⚡ 효과</div>
+                <div class="modal-text" id="modalEffect"></div>
+            </div>
+            
+            <div class="modal-detail" id="modalUnlockSection">
+                <div class="modal-label">🔓 언락 조건</div>
+                <div class="modal-text" id="modalUnlock"></div>
+            </div>
+            
+            <div class="modal-detail" id="modalLocationSection">
+                <div class="modal-label">📍 등장 장소</div>
+                <div class="modal-text" id="modalLocation"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 외부 데이터 파일 불러오기 -->
+    <script src="active_items_complete.js"></script>
+    <script src="passive_items.js"></script>
+    <script src="trinket_items.js"></script>
+    
+    <!-- 메인 스크립트 -->
+    <script>
+        let currentFilter = 'all';
+        let searchQuery = '';
+        let itemsData = [];
+
+        // 페이지 로드 시 아이템 표시
+        window.onload = function() {
+            // active_items_complete.js에서 activeItemsData를 불러왔는지 확인
+            if (typeof activeItemsData === 'undefined') {
+                document.getElementById('stats').textContent = '❌ 데이터 파일을 불러올 수 없습니다';
+                console.error('active_items_complete.js 파일을 찾을 수 없습니다.');
+                return;
+            }
+
+            if (typeof passiveItemsData === 'undefined') {
+                document.getElementById('stats').textContent = '❌ 데이터 파일을 불러올 수 없습니다';
+                console.error('passive_items.js 파일을 찾을 수 없습니다.');
+                return;
+            }
+
+            if (typeof trinketItemsData === "undefined"){
+                document.getElementById('stats').textContent = '❌ 데이터 파일을 불러올 수 없습니다';
+                console.error('trinket_items.js 파일을 찾을 수 없습니다.');
+                return;
+            }
+            
+            itemsData = [...itemsData, ...activeItemsData, ...passiveItemsData, ...trinketItemsData]
+            renderItems();
+        };
+
+        // 필터 버튼 이벤트
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                currentFilter = this.dataset.type;
+                renderItems();
+            });
+        });
+
+        // 검색 입력 이벤트
+        document.getElementById('searchInput').addEventListener('input', function(e) {
+            searchQuery = e.target.value.toLowerCase();
+            renderItems();
+        });
+
+        // 아이템 렌더링 함수
+        function renderItems() {
+            const grid = document.getElementById('itemsGrid');
+            const noResults = document.getElementById('noResults');
+            
+            let filtered = itemsData;
+
+            // 타입 필터링
+            if (currentFilter !== 'all') {
+                filtered = filtered.filter(item => item.type === currentFilter);
+            }
+
+            // 검색 필터링
+            if (searchQuery) {
+                filtered = filtered.filter(item => 
+                    item.name.toLowerCase().includes(searchQuery) ||
+                    item.english_name.toLowerCase().includes(searchQuery) ||
+                    item.description.toLowerCase().includes(searchQuery) ||
+                    item.effect.toLowerCase().includes(searchQuery) ||
+                    item.location.toLowerCase().includes(searchQuery) ||
+                    item.game_id.toString().includes(searchQuery)
+                );
+            }
+
+            // 통계 업데이트
+            document.getElementById('stats').textContent = `${filtered.length}개 아이템`;
+
+            // 결과가 없는 경우
+            if (filtered.length === 0) {
+                grid.style.display = 'none';
+                noResults.style.display = 'block';
+                return;
+            }
+
+            grid.style.display = 'grid';
+            noResults.style.display = 'none';
+
+            // 아이템 카드 생성
+            grid.innerHTML = filtered.map(item => `
+                <div class="item-card" onclick="openModal(${item.id})">
+                    <div class="item-image">
+                        ${item.image_url ? `<img src="${item.image_url}" alt="${item.name}" loading="lazy">` : item.icon}
+                    </div>
+                    <div class="item-type type-${item.type}">
+                        ${item.type === 'active' ? '액티브' : item.type === 'passive' ? '패시브' : '장신구'}
+                    </div>
+                    <div class="item-name">${item.name}</div>
+                    <div class="item-id">ID: ${item.game_id}</div>
+                    <div class="item-description">${item.description}</div>
+                    ${item.cooldown ? `<span class="item-cooldown">⏱️ ${item.cooldown}</span>` : ''}
+                    ${item.grade ? `<span class="item-grade">⭐ ${item.grade}</span>` : ''}
+                </div>
+            `).join('');
+        }
+
+        // 모달 열기
+        function openModal(id) {
+            console.log(id);
+            const item = itemsData.find(i => i.id === id);
+            console.log(item);
+            if (!item) return;
+
+            // 이미지
+            const modalImage = document.getElementById('modalImage');
+            if (item.image_url) {
+                modalImage.innerHTML = `<img src="${item.image_url}" alt="${item.name}">`;
+            } else {
+                modalImage.textContent = item.icon;
+            }
+
+            // 제목
+            document.getElementById('modalTitle').textContent = item.name;
+            document.getElementById('modalEnglishName').textContent = item.english_name;
+
+            // 배지
+            const badges = [];
+            if (item.game_id) badges.push(`<span class="modal-badge badge-id">ID: ${item.game_id}</span>`);
+            if (item.cooldown) badges.push(`<span class="modal-badge badge-cooldown">⏱️ ${item.cooldown}</span>`);
+            if (item.grade) badges.push(`<span class="modal-badge badge-grade">⭐ ${item.grade}</span>`);
+            document.getElementById('modalBadges').innerHTML = badges.join('');
+
+            // 설명
+            document.getElementById('modalDescription').textContent = item.description || '설명 없음';
+
+            // 효과
+            document.getElementById('modalEffect').textContent = item.effect || '효과 정보 없음';
+
+            // 언락 조건
+            const unlockSection = document.getElementById('modalUnlockSection');
+            const unlockText = document.getElementById('modalUnlock');
+            if (item.unlock_condition && item.unlock_condition !== '없음') {
+                unlockSection.style.display = 'block';
+                unlockText.textContent = item.unlock_condition;
+            } else {
+                unlockSection.style.display = 'none';
+            }
+
+            // 등장 장소
+            const locationSection = document.getElementById('modalLocationSection');
+            const locationText = document.getElementById('modalLocation');
+            if (item.location && item.location !== '없음') {
+                locationSection.style.display = 'block';
+                locationText.textContent = item.location;
+            } else {
+                locationSection.style.display = 'none';
+            }
+
+            document.getElementById('itemModal').classList.add('active');
+        }
+
+        // 모달 닫기
+        function closeModal() {
+            document.getElementById('itemModal').classList.remove('active');
+        }
+
+        // 모달 외부 클릭 시 닫기
+        document.getElementById('itemModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeModal();
+            }
+        });
+
+        // ESC 키로 모달 닫기
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeModal();
+            }
+        });
+    </script>
+</body>
+</html>
