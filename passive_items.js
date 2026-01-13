@@ -1,6 +1,6 @@
 const passiveItemsData = [
   {
-    "id": 200,
+    "id": 1000,
     "type": "passive",
     "name": "눈물나는 양파",
     "english_name": "The Sad Onion",
@@ -15,7 +15,7 @@ const passiveItemsData = [
     "game_id": "1"
   },
   {
-    "id": 201,
+    "id": 1001,
     "type": "passive",
     "name": "내면의 눈",
     "english_name": "The Inner Eye",
@@ -30,7 +30,7 @@ const passiveItemsData = [
     "game_id": "2"
   },
   {
-    "id": 202,
+    "id": 1002,
     "type": "passive",
     "name": "초능력자",
     "english_name": "Spoon Bender",
@@ -45,7 +45,22 @@ const passiveItemsData = [
     "game_id": "3"
   },
   {
-    "id": 203,
+    "id": 1003,
+    "type": "passive",
+    "name": "크리켓의 머리",
+    "english_name": "Cricket's Head",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/cx1Mu8dSMSBh-R38gPq3Bzd8dX2em9RRjzN2r4vbnqfN6lOYNodOJ8Cv6aReZ20sSzWfbIt7hs8exSG7xOswYg.png",
+    "description": "DMG up (공격력 증가)",
+    "cooldown": "",
+    "unlock_condition": "없음",
+    "location": "보물 방, 보물 방, 인형 뽑기",
+    "grade": "4등급",
+    "effect": "공격력 + 0.5, 공격력 배율 × 1.5, 눈이 더 커지고 그렁그렁하는 모양도 더 커진 모습을 하게 된다. 눈물의 크기가 조금 커진다.",
+    "game_id": "4"
+  },
+  {
+    "id": 1004,
     "type": "passive",
     "name": "거울상",
     "english_name": "My Reflection",
@@ -60,7 +75,7 @@ const passiveItemsData = [
     "game_id": "5"
   },
   {
-    "id": 204,
+    "id": 1005,
     "type": "passive",
     "name": "오줌싸개",
     "english_name": "Number One",
@@ -75,7 +90,7 @@ const passiveItemsData = [
     "game_id": "6"
   },
   {
-    "id": 205,
+    "id": 1006,
     "type": "passive",
     "name": "순교자의 피",
     "english_name": "Blood of the Martyr",
@@ -90,7 +105,7 @@ const passiveItemsData = [
     "game_id": "7"
   },
   {
-    "id": 206,
+    "id": 1007,
     "type": "passive",
     "name": "보비 형",
     "english_name": "Brother Bobby",
@@ -105,7 +120,7 @@ const passiveItemsData = [
     "game_id": "8"
   },
   {
-    "id": 207,
+    "id": 1008,
     "type": "passive",
     "name": "스카톨",
     "english_name": "Skatole",
@@ -120,7 +135,7 @@ const passiveItemsData = [
     "game_id": "9"
   },
   {
-    "id": 208,
+    "id": 1009,
     "type": "passive",
     "name": "파리 떼",
     "english_name": "Halo of Flies",
@@ -135,7 +150,22 @@ const passiveItemsData = [
     "game_id": "10"
   },
   {
-    "id": 209,
+    "id": 1010,
+    "type": "passive",
+    "name": "1UP!",
+    "english_name": "1UP!",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/4D-I_UP6NUC0WU5VQD4673QixjxjdHo2R1QXroocmbscXFMkhtSc4TGVO4kGtXn2jveNFo2t6piBLSPIX9RJgg.webp",
+    "description": "Extra Life (목숨 추가)",
+    "cooldown": "",
+    "unlock_condition": "없음",
+    "location": "비밀 방, 상점, 비밀 방",
+    "grade": "2등급",
+    "effect": "슈퍼 마리오 시리즈의 그 버섯. 획득 시 특유의 사운드와 함께 목숨을 하나 늘려준다. 캐릭터가 사망할 시 1UP! 아이템이 사라지며 현재 가지고 있는 빨간 하트 체력을 전부 회복한 후 전 방에서 부활한다. 우선순위가 2번째로 높기 때문에 다른 캐릭터 부활 아이템으로 부활하면 이후 버섯으로 부활해도 원래 캐릭터로 부활하지 않는다. 최대 체력이 없는 상태에서 사망 시 소울 하트 반칸으로 부활한다. 빨간 최대 체력을 지닐 수 없는 ??? 캐릭터, 더럽혀진 Bethany, 더럽혀진 The Forgotten은 소울 하트 3칸으로, Dark Judas[6], 더렵혀진 Judas의 경우 블랙 하트 2칸으로 부활한다.",
+    "game_id": "11"
+  },
+  {
+    "id": 1011,
     "type": "passive",
     "name": "요술 버섯",
     "english_name": "Magic Mushroom",
@@ -150,7 +180,7 @@ const passiveItemsData = [
     "game_id": "12"
   },
   {
-    "id": 210,
+    "id": 1012,
     "type": "passive",
     "name": "바이러스",
     "english_name": "The Virus",
@@ -165,7 +195,37 @@ const passiveItemsData = [
     "game_id": "13"
   },
   {
-    "id": 211,
+    "id": 1013,
+    "type": "passive",
+    "name": "불량 스테로이드",
+    "english_name": "Roid Rage",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/bC9lHJ-mZ_yScADjVP2QO6hWRHHeClJRada9tRoBrTFP0NFMbzZSPw7QiYgdPVlTk98uoM02Vn7LDYnF_UFWHg.webp",
+    "description": "Speed and range up (이동속도와 사거리 증가)",
+    "cooldown": "",
+    "unlock_condition": "없음",
+    "location": "보물 방, 보스 방, 악마 거지, Greed 보스 방",
+    "grade": "2등급",
+    "effect": " 이동 속도 +0.3, 사거리 +2.5",
+    "game_id": "14"
+  },
+  {
+    "id": 1014,
+    "type": "passive",
+    "name": "<3 심장 하트",
+    "english_name": "<3",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/hzZv82zWV04feYpzYNJ-BZu3VpI6j-aUkFkXs2Zs2lwgDyyrtDyZf0pQ2H6s6I3_6VpO8Y6YgsPmVouMKiETuw.webp",
+    "description": "HP Up (체력 증가)",
+    "cooldown": "",
+    "unlock_condition": "없음",
+    "location": "보물 방, Greed 보스 방, 특급 비밀 방",
+    "grade": "2등급",
+    "effect": "최대 체력 + 1칸 & 빨간 하트 체력을 전부 회복한다. Gluttony 미니 보스가 가끔 드랍하며, Bumbino 보스가 동전 12개를 습득했을 시 떠나면서 이 아이템을 드랍할 수 있다.",
+    "game_id": "15"
+  },
+  {
+    "id": 1015,
     "type": "passive",
     "name": "생간",
     "english_name": "Raw Liver",
@@ -180,7 +240,7 @@ const passiveItemsData = [
     "game_id": "16"
   },
   {
-    "id": 212,
+    "id": 1016,
     "type": "passive",
     "name": "해골 열쇠",
     "english_name": "Skeleton Key",
@@ -195,7 +255,7 @@ const passiveItemsData = [
     "game_id": "17"
   },
   {
-    "id": 213,
+    "id": 1017,
     "type": "passive",
     "name": "1달러",
     "english_name": "A Dollar",
@@ -210,7 +270,7 @@ const passiveItemsData = [
     "game_id": "18"
   },
   {
-    "id": 214,
+    "id": 1018,
     "type": "passive",
     "name": "꽈광!",
     "english_name": "Boom!",
@@ -225,7 +285,7 @@ const passiveItemsData = [
     "game_id": "19"
   },
   {
-    "id": 215,
+    "id": 1019,
     "type": "passive",
     "name": "초월",
     "english_name": "Transcendence",
@@ -240,7 +300,7 @@ const passiveItemsData = [
     "game_id": "20"
   },
   {
-    "id": 216,
+    "id": 1020,
     "type": "passive",
     "name": "나침반",
     "english_name": "The Compass",
@@ -255,7 +315,7 @@ const passiveItemsData = [
     "game_id": "21"
   },
   {
-    "id": 217,
+    "id": 1021,
     "type": "passive",
     "name": "점심밥",
     "english_name": "Lunch",
@@ -270,7 +330,7 @@ const passiveItemsData = [
     "game_id": "22"
   },
   {
-    "id": 218,
+    "id": 1022,
     "type": "passive",
     "name": "저녁밥",
     "english_name": "Dinner",
@@ -285,7 +345,7 @@ const passiveItemsData = [
     "game_id": "23"
   },
   {
-    "id": 219,
+    "id": 1023,
     "type": "passive",
     "name": "간식",
     "english_name": "Dessert",
@@ -300,7 +360,7 @@ const passiveItemsData = [
     "game_id": "24"
   },
   {
-    "id": 220,
+    "id": 1024,
     "type": "passive",
     "name": "아침밥",
     "english_name": "BreakFast",
@@ -315,7 +375,7 @@ const passiveItemsData = [
     "game_id": "25"
   },
   {
-    "id": 221,
+    "id": 1025,
     "type": "passive",
     "name": "썩은 고기",
     "english_name": "Rotten Meat",
@@ -330,7 +390,7 @@ const passiveItemsData = [
     "game_id": "26"
   },
   {
-    "id": 222,
+    "id": 1026,
     "type": "passive",
     "name": "나무 숟가락",
     "english_name": "Wooden Spoon",
@@ -345,7 +405,7 @@ const passiveItemsData = [
     "game_id": "27"
   },
   {
-    "id": 223,
+    "id": 1027,
     "type": "passive",
     "name": "벨트",
     "english_name": "The Belt",
@@ -360,7 +420,7 @@ const passiveItemsData = [
     "game_id": "28"
   },
   {
-    "id": 224,
+    "id": 1028,
     "type": "passive",
     "name": "엄마의 속옷",
     "english_name": "Mom's Underwear",
@@ -375,7 +435,7 @@ const passiveItemsData = [
     "game_id": "29"
   },
   {
-    "id": 225,
+    "id": 1029,
     "type": "passive",
     "name": "엄마의 하이힐",
     "english_name": "Mom's Heels",
@@ -390,7 +450,7 @@ const passiveItemsData = [
     "game_id": "30"
   },
   {
-    "id": 226,
+    "id": 1030,
     "type": "passive",
     "name": "엄마의 립스틱",
     "english_name": "Mom's Lipstick",
@@ -405,7 +465,7 @@ const passiveItemsData = [
     "game_id": "31"
   },
   {
-    "id": 227,
+    "id": 1031,
     "type": "passive",
     "name": "철제 옷걸이",
     "english_name": "Wire Coat Hanger",
@@ -420,7 +480,7 @@ const passiveItemsData = [
     "game_id": "32"
   },
   {
-    "id": 228,
+    "id": 1032,
     "type": "passive",
     "name": "행운의 발목",
     "english_name": "Lucky Foot",
@@ -435,7 +495,7 @@ const passiveItemsData = [
     "game_id": "46"
   },
   {
-    "id": 229,
+    "id": 1033,
     "type": "passive",
     "name": "큐피드의 화살",
     "english_name": "Cupid's Arrow",
@@ -450,7 +510,7 @@ const passiveItemsData = [
     "game_id": "48"
   },
   {
-    "id": 230,
+    "id": 1034,
     "type": "passive",
     "name": "스티븐",
     "english_name": "Steven",
@@ -465,7 +525,7 @@ const passiveItemsData = [
     "game_id": "50"
   },
   {
-    "id": 231,
+    "id": 1035,
     "type": "passive",
     "name": "오망성",
     "english_name": "Pentagram",
@@ -480,7 +540,7 @@ const passiveItemsData = [
     "game_id": "51"
   },
   {
-    "id": 232,
+    "id": 1036,
     "type": "passive",
     "name": "태아 박사",
     "english_name": "Dr. Fetus",
@@ -495,7 +555,7 @@ const passiveItemsData = [
     "game_id": "52"
   },
   {
-    "id": 233,
+    "id": 1037,
     "type": "passive",
     "name": "자석",
     "english_name": "Magneto",
@@ -510,7 +570,7 @@ const passiveItemsData = [
     "game_id": "53"
   },
   {
-    "id": 234,
+    "id": 1038,
     "type": "passive",
     "name": "보물 지도",
     "english_name": "Treasure Map",
@@ -525,7 +585,7 @@ const passiveItemsData = [
     "game_id": "54"
   },
   {
-    "id": 235,
+    "id": 1039,
     "type": "passive",
     "name": "엄마의 눈알",
     "english_name": "Mom's eye",
@@ -540,7 +600,7 @@ const passiveItemsData = [
     "game_id": "55"
   },
   {
-    "id": 236,
+    "id": 1040,
     "type": "passive",
     "name": "짝사랑",
     "english_name": "Distant Admiration",
@@ -555,7 +615,7 @@ const passiveItemsData = [
     "game_id": "57"
   },
   {
-    "id": 237,
+    "id": 1041,
     "type": "passive",
     "name": "벨리알의 서",
     "english_name": "Book of Belial",
@@ -567,10 +627,10 @@ const passiveItemsData = [
     "location": "없음",
     "grade": "2등급",
     "effect": "유다가 생득권을 획득하면 자동으로 획득하는 아이템이다. Book of Virtues(미덕의 책)처럼 책 위에 액티브 아이템을 올릴 수 있다. 자세한 효과는유다 생득권시너지 참조.",
-    "game_id": "34,59"
+    "game_id": "59"
   },
   {
-    "id": 238,
+    "id": 1042,
     "type": "passive",
     "name": "사다리",
     "english_name": "The Ladder",
@@ -585,7 +645,22 @@ const passiveItemsData = [
     "game_id": "60"
   },
   {
-    "id": 239,
+    "id": 1043,
+    "type": "passive",
+    "name": "흡혈귀의 부적",
+    "english_name": "Charm of the Vampire",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/vJFaPr-pDCkI7sj33RylIgrJ7M4ARSKE51cNqAwr-kD9rhaYLJ-bH33-JOtByNYvfGbQ69UrCzO07rrCPYp_FA.webp",
+    "description": "Kills Heal (체력 흡수)",
+    "cooldown": "",
+    "unlock_condition": "없음",
+    "location": "보물 방, Greed 보물 방",
+    "grade": "1등급",
+    "effect": " 공격력 + 0.3 적을 13마리 죽일 때마다 빨간 하트 체력 반 칸이 회복된다. 이 적은 그리드 인형을 포함한다.(더럽혀진) 키퍼 또한 코인 하트 체력을 회복할 수 있다. 더럽혀진 베다니는 빨간 하트 게이지가 1칸 차오른다.게임을 중간에 저장하고 나가도 처치 카운트는 유지된다. 그래서 여러 적이 있는 방에서 일부만 처치 후 게임을 나가고 컨티뉴로 다시 들어오면 그 방의 적들이 초기화되나 아이템 카운트는 유지되므로 이 방법으로 피를 채울 수도 있다. 같이 재생되는 적들 또한 1차 처치로 카운팅 처리가 되기 때문에 부활하게 두는 꼼수로 체력을 회복할 수 있다. 버그로 캐릭터가 체력이 다 닳아 죽는 모션을 취할 때 주변 아이템 효과로 인해 적을 잡고 체력이 반칸 회복되면 반칸 회복된 상태에서 유서를 보게 된다. 흡혈귀는 거울 같은 것에 모습이 비치지 않는다는 특징에서 가져온 이스터에그로, 이 아이템을 먹으면 Flooded Caves, Downpour, Dross 스테이지의 수면에 캐릭터의 모습이 보이지 않게 된다. 물론 아이콘이 거울인 My Reflction의 효과가 없어지는 것은 아니다.",
+    "game_id": "62"
+  },
+  {
+    "id": 1044,
     "type": "passive",
     "name": "충전지",
     "english_name": "The Battery",
@@ -600,7 +675,7 @@ const passiveItemsData = [
     "game_id": "63"
   },
   {
-    "id": 240,
+    "id": 1045,
     "type": "passive",
     "name": "스팀 세일",
     "english_name": "SteamSale",
@@ -615,7 +690,7 @@ const passiveItemsData = [
     "game_id": "64"
   },
   {
-    "id": 241,
+    "id": 1046,
     "type": "passive",
     "name": "매기 누나",
     "english_name": "Sister Maggy",
@@ -630,7 +705,7 @@ const passiveItemsData = [
     "game_id": "67"
   },
   {
-    "id": 242,
+    "id": 1047,
     "type": "passive",
     "name": "기계 장치",
     "english_name": "Technology",
@@ -645,7 +720,7 @@ const passiveItemsData = [
     "game_id": "68"
   },
   {
-    "id": 243,
+    "id": 1048,
     "type": "passive",
     "name": "초코 우유",
     "english_name": "Chocolate Milk",
@@ -660,7 +735,7 @@ const passiveItemsData = [
     "game_id": "69"
   },
   {
-    "id": 244,
+    "id": 1049,
     "type": "passive",
     "name": "성장 호르몬",
     "english_name": "Growth Hormones",
@@ -675,7 +750,7 @@ const passiveItemsData = [
     "game_id": "70"
   },
   {
-    "id": 245,
+    "id": 1050,
     "type": "passive",
     "name": "미니 버섯",
     "english_name": "Mini Mush",
@@ -690,7 +765,7 @@ const passiveItemsData = [
     "game_id": "71"
   },
   {
-    "id": 246,
+    "id": 1051,
     "type": "passive",
     "name": "묵주",
     "english_name": "Rosary",
@@ -705,7 +780,7 @@ const passiveItemsData = [
     "game_id": "72"
   },
   {
-    "id": 247,
+    "id": 1052,
     "type": "passive",
     "name": "고기조각",
     "english_name": "Cube of Meat",
@@ -720,7 +795,7 @@ const passiveItemsData = [
     "game_id": "73"
   },
   {
-    "id": 248,
+    "id": 1053,
     "type": "passive",
     "name": "쿼터",
     "english_name": "A Quarter",
@@ -735,7 +810,7 @@ const passiveItemsData = [
     "game_id": "74"
   },
   {
-    "id": 249,
+    "id": 1054,
     "type": "passive",
     "name": "박사학위",
     "english_name": "PHD",
@@ -750,7 +825,7 @@ const passiveItemsData = [
     "game_id": "75"
   },
   {
-    "id": 250,
+    "id": 1055,
     "type": "passive",
     "name": "투시 안경",
     "english_name": "X-Ray Vision",
@@ -765,7 +840,7 @@ const passiveItemsData = [
     "game_id": "76"
   },
   {
-    "id": 251,
+    "id": 1056,
     "type": "passive",
     "name": "낙인",
     "english_name": "The Mark",
@@ -780,7 +855,7 @@ const passiveItemsData = [
     "game_id": "79"
   },
   {
-    "id": 252,
+    "id": 1057,
     "type": "passive",
     "name": "계약",
     "english_name": "The Pact",
@@ -795,7 +870,7 @@ const passiveItemsData = [
     "game_id": "80"
   },
   {
-    "id": 253,
+    "id": 1058,
     "type": "passive",
     "name": "죽은 고양이",
     "english_name": "Dead Cat",
@@ -810,7 +885,7 @@ const passiveItemsData = [
     "game_id": "81"
   },
   {
-    "id": 254,
+    "id": 1059,
     "type": "passive",
     "name": "구덩이의 제왕",
     "english_name": "Lord of the Pit",
@@ -825,7 +900,7 @@ const passiveItemsData = [
     "game_id": "82"
   },
   {
-    "id": 255,
+    "id": 1060,
     "type": "passive",
     "name": "로키의 뿔",
     "english_name": "Loki's Horns",
@@ -840,7 +915,7 @@ const passiveItemsData = [
     "game_id": "87"
   },
   {
-    "id": 256,
+    "id": 1061,
     "type": "passive",
     "name": "리틀 처비",
     "english_name": "Little Chubby",
@@ -855,7 +930,22 @@ const passiveItemsData = [
     "game_id": "88"
   },
   {
-    "id": 257,
+    "id": 1062,
+    "type": "passive",
+    "name": "거미물림",
+    "english_name": "Spider Bite",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/f8r3oBrhMzgvTUQhrDVu3gRZ30YW4ZoAcV5xUGqrQXhH7fkjl22lMmuOIetUColHfSMawI0ft5IXOKb147S7MA.webp",
+    "description": "둔화 효과",
+    "cooldown": "",
+    "unlock_condition": "없음",
+    "location": "보물 방,, Greed 보물 방,, 인형 뽑기",
+    "grade": "2등급",
+    "effect": "공격 시 확률적으로 2.5초 동안둔화상태이상을 부여하는 눈물을 발사한다. 둔화 상태이상에 걸린 적들은 행동이 느려지며, 적들이 발사하는 눈물의 속도도 같이 느려진다.",
+    "game_id": "89"
+  },
+  {
+    "id": 1063,
     "type": "passive",
     "name": "돌멩이",
     "english_name": "The Small Rock",
@@ -870,7 +960,22 @@ const passiveItemsData = [
     "game_id": "90"
   },
   {
-    "id": 258,
+    "id": 1064,
+    "type": "passive",
+    "name": "광부 모자",
+    "english_name": "Spelunker Hat",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/5YH8QDNryjBUJ217wQyHhKFEX_K87nQonawQW4IcIRHypSvBKJ5e_onWciC6oo072tp04gtQRKW95ZDhUfJi5g.webp",
+    "description": "문 투시",
+    "cooldown": "",
+    "unlock_condition": "없음",
+    "location": "보물 방,, Greed 상점,, 인형 뽑기",
+    "grade": "2등급",
+    "effect": "캐릭터가 위치한 방의 주변 2칸 멀리까지에 존재하는 방들의 정보(비밀 방과 일급비밀 방 포함)를 알려준다. The Mind가 서치 아이템 삼신기(Treasure Map, The Compass, Blue Map)를 완전히 합친 느낌이라면, 이 아이템은 삼신기를 적절히 타협하여 섞은 느낌.리펜턴스 이전까지는 인접한 방만 보여주는, 실질적으로 X-Ray Vision의 하위호환이였으나 리펜턴스에서 크게 버프되었다. 리펜턴스 이전까지는 인접한 방만 보여...",
+    "game_id": "91"
+  },
+  {
+    "id": 1065,
     "type": "passive",
     "name": "슈퍼 밴디지",
     "english_name": "Super Bandage",
@@ -885,7 +990,7 @@ const passiveItemsData = [
     "game_id": "92"
   },
   {
-    "id": 259,
+    "id": 1066,
     "type": "passive",
     "name": "동전 주머니",
     "english_name": "Sack of Pennies",
@@ -900,7 +1005,7 @@ const passiveItemsData = [
     "game_id": "94"
   },
   {
-    "id": 260,
+    "id": 1067,
     "type": "passive",
     "name": "로보베이비",
     "english_name": "Robo-Baby",
@@ -915,7 +1020,7 @@ const passiveItemsData = [
     "game_id": "95"
   },
   {
-    "id": 261,
+    "id": 1068,
     "type": "passive",
     "name": "리틀 차드",
     "english_name": "Little C.H.A.D.",
@@ -930,7 +1035,7 @@ const passiveItemsData = [
     "game_id": "96"
   },
   {
-    "id": 262,
+    "id": 1069,
     "type": "passive",
     "name": "성유물",
     "english_name": "The Relic",
@@ -945,7 +1050,7 @@ const passiveItemsData = [
     "game_id": "98"
   },
   {
-    "id": 263,
+    "id": 1070,
     "type": "passive",
     "name": "리틀 기쉬",
     "english_name": "Little Gish",
@@ -960,7 +1065,7 @@ const passiveItemsData = [
     "game_id": "99"
   },
   {
-    "id": 264,
+    "id": 1071,
     "type": "passive",
     "name": "리틀 스티븐",
     "english_name": "Little Steven",
@@ -975,7 +1080,7 @@ const passiveItemsData = [
     "game_id": "100"
   },
   {
-    "id": 265,
+    "id": 1072,
     "type": "passive",
     "name": "광륜",
     "english_name": "The Halo",
@@ -990,7 +1095,7 @@ const passiveItemsData = [
     "game_id": "101"
   },
   {
-    "id": 266,
+    "id": 1073,
     "type": "passive",
     "name": "감기",
     "english_name": "The Common Cold",
@@ -1005,7 +1110,7 @@ const passiveItemsData = [
     "game_id": "103"
   },
   {
-    "id": 267,
+    "id": 1074,
     "type": "passive",
     "name": "기생 생물",
     "english_name": "The Parasite",
@@ -1020,7 +1125,7 @@ const passiveItemsData = [
     "game_id": "104"
   },
   {
-    "id": 268,
+    "id": 1075,
     "type": "passive",
     "name": "미스터 메가",
     "english_name": "Mr. Mega",
@@ -1035,7 +1140,7 @@ const passiveItemsData = [
     "game_id": "106"
   },
   {
-    "id": 269,
+    "id": 1076,
     "type": "passive",
     "name": "밀빵",
     "english_name": "The Wafer",
@@ -1050,7 +1155,7 @@ const passiveItemsData = [
     "game_id": "108"
   },
   {
-    "id": 270,
+    "id": 1077,
     "type": "passive",
     "name": "돈의 힘",
     "english_name": "Money = Power",
@@ -1065,7 +1170,7 @@ const passiveItemsData = [
     "game_id": "109"
   },
   {
-    "id": 271,
+    "id": 1078,
     "type": "passive",
     "name": "엄마의 렌즈",
     "english_name": "Mom's contacts",
@@ -1080,7 +1185,7 @@ const passiveItemsData = [
     "game_id": "110"
   },
   {
-    "id": 272,
+    "id": 1079,
     "type": "passive",
     "name": "수호천사",
     "english_name": "Guardian Angel",
@@ -1095,7 +1200,7 @@ const passiveItemsData = [
     "game_id": "112"
   },
   {
-    "id": 273,
+    "id": 1080,
     "type": "passive",
     "name": "악마 아기",
     "english_name": "Demon Baby",
@@ -1110,7 +1215,7 @@ const passiveItemsData = [
     "game_id": "113"
   },
   {
-    "id": 274,
+    "id": 1081,
     "type": "passive",
     "name": "엄마의 식칼",
     "english_name": "Mom's Knife",
@@ -1125,7 +1230,7 @@ const passiveItemsData = [
     "game_id": "114"
   },
   {
-    "id": 275,
+    "id": 1082,
     "type": "passive",
     "name": "분신사바",
     "english_name": "Ouija Board",
@@ -1140,7 +1245,7 @@ const passiveItemsData = [
     "game_id": "115"
   },
   {
-    "id": 276,
+    "id": 1083,
     "type": "passive",
     "name": "9볼트 건전지",
     "english_name": "9 Volt",
@@ -1155,7 +1260,7 @@ const passiveItemsData = [
     "game_id": "116"
   },
   {
-    "id": 277,
+    "id": 1084,
     "type": "passive",
     "name": "죽은 새",
     "english_name": "Dead Bird",
@@ -1170,7 +1275,7 @@ const passiveItemsData = [
     "game_id": "117"
   },
   {
-    "id": 278,
+    "id": 1085,
     "type": "passive",
     "name": "유황",
     "english_name": "Brimstone",
@@ -1185,7 +1290,7 @@ const passiveItemsData = [
     "game_id": "118"
   },
   {
-    "id": 279,
+    "id": 1086,
     "type": "passive",
     "name": "혈액 주머니",
     "english_name": "Blood Bag",
@@ -1200,7 +1305,7 @@ const passiveItemsData = [
     "game_id": "119"
   },
   {
-    "id": 280,
+    "id": 1087,
     "type": "passive",
     "name": "수상한 버섯",
     "english_name": "Odd Mushroom",
@@ -1215,7 +1320,7 @@ const passiveItemsData = [
     "game_id": "120"
   },
   {
-    "id": 281,
+    "id": 1088,
     "type": "passive",
     "name": "수상한 버섯",
     "english_name": "Odd Mushroom",
@@ -1230,7 +1335,7 @@ const passiveItemsData = [
     "game_id": "121"
   },
   {
-    "id": 282,
+    "id": 1089,
     "type": "passive",
     "name": "바빌론의 창녀",
     "english_name": "Whore of Babylon",
@@ -1245,7 +1350,7 @@ const passiveItemsData = [
     "game_id": "122"
   },
   {
-    "id": 283,
+    "id": 1090,
     "type": "passive",
     "name": "보비 폭탄",
     "english_name": "Bobby-Bomb",
@@ -1260,7 +1365,7 @@ const passiveItemsData = [
     "game_id": "125"
   },
   {
-    "id": 284,
+    "id": 1091,
     "type": "passive",
     "name": "영원한 솔로",
     "english_name": "Forever Alone",
@@ -1275,7 +1380,7 @@ const passiveItemsData = [
     "game_id": "128"
   },
   {
-    "id": 285,
+    "id": 1092,
     "type": "passive",
     "name": "돼지기름",
     "english_name": "Bucket of Lard",
@@ -1290,7 +1395,7 @@ const passiveItemsData = [
     "game_id": "129"
   },
   {
-    "id": 286,
+    "id": 1093,
     "type": "passive",
     "name": "폭탄 주머니",
     "english_name": "Bomb Bag",
@@ -1305,7 +1410,7 @@ const passiveItemsData = [
     "game_id": "131"
   },
   {
-    "id": 287,
+    "id": 1094,
     "type": "passive",
     "name": "석탄한 덩이",
     "english_name": "'A Lump Of Coal",
@@ -1320,7 +1425,7 @@ const passiveItemsData = [
     "game_id": "132"
   },
   {
-    "id": 288,
+    "id": 1095,
     "type": "passive",
     "name": "구피의 꼬리",
     "english_name": "Guppy's Tail",
@@ -1335,7 +1440,7 @@ const passiveItemsData = [
     "game_id": "134"
   },
   {
-    "id": 289,
+    "id": 1096,
     "type": "passive",
     "name": "성흔",
     "english_name": "Stigmata",
@@ -1350,7 +1455,7 @@ const passiveItemsData = [
     "game_id": "138"
   },
   {
-    "id": 290,
+    "id": 1097,
     "type": "passive",
     "name": "엄마의 지갑",
     "english_name": "Mom's Purse",
@@ -1365,7 +1470,7 @@ const passiveItemsData = [
     "game_id": "139"
   },
   {
-    "id": 291,
+    "id": 1098,
     "type": "passive",
     "name": "밥의 저주",
     "english_name": "Bob's Curse",
@@ -1380,7 +1485,7 @@ const passiveItemsData = [
     "game_id": "140"
   },
   {
-    "id": 292,
+    "id": 1099,
     "type": "passive",
     "name": "분장 소년",
     "english_name": "Pageant Boy",
@@ -1395,7 +1500,7 @@ const passiveItemsData = [
     "game_id": "141"
   },
   {
-    "id": 293,
+    "id": 1100,
     "type": "passive",
     "name": "성의",
     "english_name": "Scapular",
@@ -1410,7 +1515,7 @@ const passiveItemsData = [
     "game_id": "142"
   },
   {
-    "id": 294,
+    "id": 1101,
     "type": "passive",
     "name": "스피드볼 마약",
     "english_name": "Speed Ball",
@@ -1425,7 +1530,7 @@ const passiveItemsData = [
     "game_id": "143"
   },
   {
-    "id": 295,
+    "id": 1102,
     "type": "passive",
     "name": "거지 친구",
     "english_name": "Bum Friend",
@@ -1440,7 +1545,7 @@ const passiveItemsData = [
     "game_id": "144"
   },
   {
-    "id": 296,
+    "id": 1103,
     "type": "passive",
     "name": "감염",
     "english_name": "Infestation",
@@ -1455,7 +1560,7 @@ const passiveItemsData = [
     "game_id": "148"
   },
   {
-    "id": 297,
+    "id": 1104,
     "type": "passive",
     "name": "구토제",
     "english_name": "IPECAC",
@@ -1470,7 +1575,7 @@ const passiveItemsData = [
     "game_id": "149"
   },
   {
-    "id": 298,
+    "id": 1105,
     "type": "passive",
     "name": "사랑의 매",
     "english_name": "Tough Love",
@@ -1485,7 +1590,7 @@ const passiveItemsData = [
     "game_id": "150"
   },
   {
-    "id": 299,
+    "id": 1106,
     "type": "passive",
     "name": "멀리건",
     "english_name": "The Mulligan",
@@ -1500,7 +1605,7 @@ const passiveItemsData = [
     "game_id": "151"
   },
   {
-    "id": 300,
+    "id": 1107,
     "type": "passive",
     "name": "기계 장치 2",
     "english_name": "Technology 2",
@@ -1515,7 +1620,7 @@ const passiveItemsData = [
     "game_id": "152"
   },
   {
-    "id": 301,
+    "id": 1108,
     "type": "passive",
     "name": "돌연변이 거미",
     "english_name": "Mutant Spider",
@@ -1530,7 +1635,7 @@ const passiveItemsData = [
     "game_id": "153"
   },
   {
-    "id": 302,
+    "id": 1109,
     "type": "passive",
     "name": "화학 박피제",
     "english_name": "Chemical Peel",
@@ -1545,7 +1650,7 @@ const passiveItemsData = [
     "game_id": "154"
   },
   {
-    "id": 303,
+    "id": 1110,
     "type": "passive",
     "name": "엿보기",
     "english_name": "The Peeper",
@@ -1560,7 +1665,7 @@ const passiveItemsData = [
     "game_id": "155"
   },
   {
-    "id": 304,
+    "id": 1111,
     "type": "passive",
     "name": "수녀복",
     "english_name": "Habit",
@@ -1575,7 +1680,7 @@ const passiveItemsData = [
     "game_id": "156"
   },
   {
-    "id": 305,
+    "id": 1112,
     "type": "passive",
     "name": "피의 욕망",
     "english_name": "Bloody Lust",
@@ -1590,7 +1695,7 @@ const passiveItemsData = [
     "game_id": "157"
   },
   {
-    "id": 306,
+    "id": 1113,
     "type": "passive",
     "name": "밤의 영혼",
     "english_name": "Spirit of the Night",
@@ -1605,7 +1710,7 @@ const passiveItemsData = [
     "game_id": "159"
   },
   {
-    "id": 307,
+    "id": 1114,
     "type": "passive",
     "name": "앙크",
     "english_name": "Ankh",
@@ -1620,7 +1725,7 @@ const passiveItemsData = [
     "game_id": "161"
   },
   {
-    "id": 308,
+    "id": 1115,
     "type": "passive",
     "name": "켈트 십자가",
     "english_name": "Celtic Cross",
@@ -1635,7 +1740,7 @@ const passiveItemsData = [
     "game_id": "162"
   },
   {
-    "id": 309,
+    "id": 1116,
     "type": "passive",
     "name": "유령 아기",
     "english_name": "Ghost Baby",
@@ -1650,7 +1755,7 @@ const passiveItemsData = [
     "game_id": "163"
   },
   {
-    "id": 310,
+    "id": 1117,
     "type": "passive",
     "name": "아홉 가닥 채찍",
     "english_name": "Cat-O-Nine-Tails",
@@ -1665,7 +1770,7 @@ const passiveItemsData = [
     "game_id": "165"
   },
   {
-    "id": 311,
+    "id": 1118,
     "type": "passive",
     "name": "할리퀸 아기",
     "english_name": "Harlequin Baby",
@@ -1680,7 +1785,7 @@ const passiveItemsData = [
     "game_id": "167"
   },
   {
-    "id": 312,
+    "id": 1119,
     "type": "passive",
     "name": "굉장한 태아",
     "english_name": "Epic Fetus",
@@ -1695,7 +1800,7 @@ const passiveItemsData = [
     "game_id": "168"
   },
   {
-    "id": 313,
+    "id": 1120,
     "type": "passive",
     "name": "폴리페무스",
     "english_name": "Polyphemus",
@@ -1710,7 +1815,22 @@ const passiveItemsData = [
     "game_id": "169"
   },
   {
-    "id": 314,
+    "id": 1121,
+    "type": "passive",
+    "name": "장님거미",
+    "english_name": "Daddy Longlegs",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/zOe12zY_ZF9a2HUXiPgi1v8gabfFYFOIuxk5nTuNxLA-y-8ZFYuF6gATmotIOQRH6qR7B0pRzBfmno-wgGOSIA.webp",
+    "description": "아버지의 사랑",
+    "cooldown": "",
+    "unlock_condition": "없음",
+    "location": "보물 방,, 아기 상점,, Greed 보물 방",
+    "grade": "3등급",
+    "effect": "평소에는 그림자가 캐릭터를 따라다니다가 적이 보이면 발로 찍으며 20의 대미지씩 2번인 총 40의 대미지를 준다.이 때 방에 여러 적이 있다면 가장 체력이 많은 적을, 한 종류의 적만 있다면 가장 가까운 적을 노린다.발이 올라가고 다음에 내려올 때까지는 약 4초 정도가 걸린다.내려찍은 동안 지속되는 공격이기 때문에 발이 땅을 찍고 있는 동안 다른 적들이 발에 닿으면 대미지를 입는다. 이 때 방에 여러 적이 있다면 가장 체력이 많은 적을, 한 종...",
+    "game_id": "170"
+  },
+  {
+    "id": 1122,
     "type": "passive",
     "name": "제례용 단검",
     "english_name": "Sacrificial Dagger[65]",
@@ -1725,7 +1845,7 @@ const passiveItemsData = [
     "game_id": "172"
   },
   {
-    "id": 315,
+    "id": 1123,
     "type": "passive",
     "name": "미트라",
     "english_name": "Mitre",
@@ -1740,7 +1860,7 @@ const passiveItemsData = [
     "game_id": "173"
   },
   {
-    "id": 316,
+    "id": 1124,
     "type": "passive",
     "name": "무지개 아기",
     "english_name": "Rainbow Baby",
@@ -1755,7 +1875,7 @@ const passiveItemsData = [
     "game_id": "174"
   },
   {
-    "id": 317,
+    "id": 1125,
     "type": "passive",
     "name": "줄기세포",
     "english_name": "Stem cells",
@@ -1770,7 +1890,7 @@ const passiveItemsData = [
     "game_id": "176"
   },
   {
-    "id": 318,
+    "id": 1126,
     "type": "passive",
     "name": "성수",
     "english_name": "Holy Water",
@@ -1785,7 +1905,7 @@ const passiveItemsData = [
     "game_id": "178"
   },
   {
-    "id": 319,
+    "id": 1127,
     "type": "passive",
     "name": "운명",
     "english_name": "Fate",
@@ -1800,7 +1920,7 @@ const passiveItemsData = [
     "game_id": "179"
   },
   {
-    "id": 320,
+    "id": 1128,
     "type": "passive",
     "name": "검은 콩",
     "english_name": "The Black Bean",
@@ -1815,7 +1935,7 @@ const passiveItemsData = [
     "game_id": "180"
   },
   {
-    "id": 321,
+    "id": 1129,
     "type": "passive",
     "name": "성스러운 심장",
     "english_name": "Sacred Heart",
@@ -1830,7 +1950,7 @@ const passiveItemsData = [
     "game_id": "182"
   },
   {
-    "id": 322,
+    "id": 1130,
     "type": "passive",
     "name": "이쑤시개",
     "english_name": "Toothpicks",
@@ -1845,7 +1965,7 @@ const passiveItemsData = [
     "game_id": "183"
   },
   {
-    "id": 323,
+    "id": 1131,
     "type": "passive",
     "name": "성배",
     "english_name": "Holy Grail",
@@ -1860,7 +1980,7 @@ const passiveItemsData = [
     "game_id": "184"
   },
   {
-    "id": 324,
+    "id": 1132,
     "type": "passive",
     "name": "죽은 비둘기",
     "english_name": "Dead Dove",
@@ -1875,7 +1995,7 @@ const passiveItemsData = [
     "game_id": "185"
   },
   {
-    "id": 325,
+    "id": 1133,
     "type": "passive",
     "name": "구피의 털뭉치",
     "english_name": "Guppy's Hair Ball",
@@ -1890,7 +2010,7 @@ const passiveItemsData = [
     "game_id": "187"
   },
   {
-    "id": 326,
+    "id": 1134,
     "type": "passive",
     "name": "아벨",
     "english_name": "Abel",
@@ -1905,7 +2025,22 @@ const passiveItemsData = [
     "game_id": "188"
   },
   {
-    "id": 327,
+    "id": 1135,
+    "type": "passive",
+    "name": "슈미보 광팬",
+    "english_name": "SMB Super Fan",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/g-C2p3qaBCgEainDX4igQsrtI3bjexq1FXOwOk88tt82HLtHk70hW3cMqx6mjZveW4ALuxXG74PayGU8vPd1Vw.webp",
+    "description": "모든 능력치 증가",
+    "cooldown": "",
+    "unlock_condition": "챌린지 14 It's in the Cards클리어",
+    "location": "보물 방,, 인형 뽑기,, Greed 보물 방",
+    "grade": "3등급",
+    "effect": "최대 체력+ 1칸& 빨간 하트 체력을 전부 회복한다. 이동 속도+ 0.2",
+    "game_id": "189"
+  },
+  {
+    "id": 1136,
     "type": "passive",
     "name": "폭탄마",
     "english_name": "Pyro",
@@ -1920,7 +2055,7 @@ const passiveItemsData = [
     "game_id": "190"
   },
   {
-    "id": 328,
+    "id": 1137,
     "type": "passive",
     "name": "3달러 지폐",
     "english_name": "3 Dollar Bill",
@@ -1935,7 +2070,7 @@ const passiveItemsData = [
     "game_id": "191"
   },
   {
-    "id": 329,
+    "id": 1138,
     "type": "passive",
     "name": "고기!",
     "english_name": "Meat!",
@@ -1950,7 +2085,7 @@ const passiveItemsData = [
     "game_id": "193"
   },
   {
-    "id": 330,
+    "id": 1139,
     "type": "passive",
     "name": "마법의 8번 공",
     "english_name": "Magic 8 Ball",
@@ -1965,7 +2100,7 @@ const passiveItemsData = [
     "game_id": "194"
   },
   {
-    "id": 331,
+    "id": 1140,
     "type": "passive",
     "name": "엄마의 동전 지갑",
     "english_name": "Mom's Coin Purse",
@@ -1980,7 +2115,7 @@ const passiveItemsData = [
     "game_id": "195"
   },
   {
-    "id": 332,
+    "id": 1141,
     "type": "passive",
     "name": "쥐어짜기",
     "english_name": "Squeezy",
@@ -1995,7 +2130,7 @@ const passiveItemsData = [
     "game_id": "196"
   },
   {
-    "id": 333,
+    "id": 1142,
     "type": "passive",
     "name": "예수 음료수",
     "english_name": "Jesus Juice",
@@ -2010,7 +2145,7 @@ const passiveItemsData = [
     "game_id": "197"
   },
   {
-    "id": 334,
+    "id": 1143,
     "type": "passive",
     "name": "상자",
     "english_name": "Box",
@@ -2025,7 +2160,7 @@ const passiveItemsData = [
     "game_id": "198"
   },
   {
-    "id": 335,
+    "id": 1144,
     "type": "passive",
     "name": "엄마의 열쇠",
     "english_name": "Mom's Key",
@@ -2040,7 +2175,7 @@ const passiveItemsData = [
     "game_id": "199"
   },
   {
-    "id": 336,
+    "id": 1145,
     "type": "passive",
     "name": "엄마의 아이섀도우",
     "english_name": "Mom's Eyeshadow",
@@ -2055,7 +2190,7 @@ const passiveItemsData = [
     "game_id": "200"
   },
   {
-    "id": 337,
+    "id": 1146,
     "type": "passive",
     "name": "철괴",
     "english_name": "Iron Bar",
@@ -2070,7 +2205,7 @@ const passiveItemsData = [
     "game_id": "201"
   },
   {
-    "id": 338,
+    "id": 1147,
     "type": "passive",
     "name": "미다스의 손길",
     "english_name": "Midas' Touch",
@@ -2085,7 +2220,7 @@ const passiveItemsData = [
     "game_id": "202"
   },
   {
-    "id": 339,
+    "id": 1148,
     "type": "passive",
     "name": "험블링 번들",
     "english_name": "Humbling Bundle",
@@ -2100,7 +2235,7 @@ const passiveItemsData = [
     "game_id": "203"
   },
   {
-    "id": 340,
+    "id": 1149,
     "type": "passive",
     "name": "작은 주머니",
     "english_name": "Fanny Pack",
@@ -2115,7 +2250,7 @@ const passiveItemsData = [
     "game_id": "204"
   },
   {
-    "id": 341,
+    "id": 1150,
     "type": "passive",
     "name": "플러그",
     "english_name": "Sharp Plug",
@@ -2130,7 +2265,7 @@ const passiveItemsData = [
     "game_id": "205"
   },
   {
-    "id": 342,
+    "id": 1151,
     "type": "passive",
     "name": "단두대",
     "english_name": "Guillotine",
@@ -2145,7 +2280,7 @@ const passiveItemsData = [
     "game_id": "206"
   },
   {
-    "id": 343,
+    "id": 1152,
     "type": "passive",
     "name": "밴드 덩어리",
     "english_name": "Ball of Bandages",
@@ -2160,7 +2295,7 @@ const passiveItemsData = [
     "game_id": "207"
   },
   {
-    "id": 344,
+    "id": 1153,
     "type": "passive",
     "name": "챔피언 벨트",
     "english_name": "Champion Belt",
@@ -2175,7 +2310,7 @@ const passiveItemsData = [
     "game_id": "208"
   },
   {
-    "id": 345,
+    "id": 1154,
     "type": "passive",
     "name": "궁둥이 폭탄",
     "english_name": "Butt Bombs",
@@ -2190,7 +2325,7 @@ const passiveItemsData = [
     "game_id": "209"
   },
   {
-    "id": 346,
+    "id": 1155,
     "type": "passive",
     "name": "벌레 먹은 잎사귀",
     "english_name": "Gnawed Leaf",
@@ -2205,7 +2340,7 @@ const passiveItemsData = [
     "game_id": "210"
   },
   {
-    "id": 347,
+    "id": 1156,
     "type": "passive",
     "name": "새끼 거미",
     "english_name": "Spiderbaby",
@@ -2220,7 +2355,7 @@ const passiveItemsData = [
     "game_id": "211"
   },
   {
-    "id": 348,
+    "id": 1157,
     "type": "passive",
     "name": "구피의 목걸이",
     "english_name": "Guppy's Collar",
@@ -2235,7 +2370,22 @@ const passiveItemsData = [
     "game_id": "212"
   },
   {
-    "id": 349,
+    "id": 1158,
+    "type": "passive",
+    "name": "잃어버린 렌즈",
+    "english_name": "Lost Contact",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/ekkrrWoCjrAdfY_7wG18h-SJl_c00F85iwGg0XesR8MPpdxfcJ9B8HEiQrIvcRysh79Far3YiY_GcCr2x_xvpw.png",
+    "description": "눈물 방패",
+    "cooldown": "",
+    "unlock_condition": "없음",
+    "location": "보물방,, 비밀방,, Greed 보물방,, Greed 비밀방",
+    "grade": "2등급",
+    "effect": "눈물 속도- 0.16 캐릭터가 발사하는 눈물에 보호막이 씌워지며 눈물로 적의 탄막을 막을 수 있게 된다.탄막을 막은 눈물은 그 자리에서 사라진다. 만약 눈물이 적을관통할 수 있다면 탄막을 막아도 눈물이 사라지지 않는다.포가튼 캐릭터는 뼈다귀를 휘두르면 눈물이 반사되고, 반사된 눈물 크기에 따라 이걸로 적에게 피해를 줄 수도 있다.다만 타율이 좋아야 한다.",
+    "game_id": "213"
+  },
+  {
+    "id": 1159,
     "type": "passive",
     "name": "빈혈증",
     "english_name": "Anemic",
@@ -2250,7 +2400,7 @@ const passiveItemsData = [
     "game_id": "214"
   },
   {
-    "id": 350,
+    "id": 1160,
     "type": "passive",
     "name": "염소 머리",
     "english_name": "Goat Head",
@@ -2265,7 +2415,7 @@ const passiveItemsData = [
     "game_id": "215"
   },
   {
-    "id": 351,
+    "id": 1161,
     "type": "passive",
     "name": "의식용 예복",
     "english_name": "Ceremonial Robes",
@@ -2280,7 +2430,7 @@ const passiveItemsData = [
     "game_id": "216"
   },
   {
-    "id": 352,
+    "id": 1162,
     "type": "passive",
     "name": "엄마의 가발",
     "english_name": "Mom's Wig",
@@ -2295,7 +2445,7 @@ const passiveItemsData = [
     "game_id": "217"
   },
   {
-    "id": 353,
+    "id": 1163,
     "type": "passive",
     "name": "태반",
     "english_name": "Placenta",
@@ -2310,7 +2460,7 @@ const passiveItemsData = [
     "game_id": "218"
   },
   {
-    "id": 354,
+    "id": 1164,
     "type": "passive",
     "name": "낡은 밴드",
     "english_name": "Old Bandage",
@@ -2325,7 +2475,7 @@ const passiveItemsData = [
     "game_id": "219"
   },
   {
-    "id": 355,
+    "id": 1165,
     "type": "passive",
     "name": "눈물 폭탄",
     "english_name": "Sad Bombs",
@@ -2340,7 +2490,7 @@ const passiveItemsData = [
     "game_id": "220"
   },
   {
-    "id": 356,
+    "id": 1166,
     "type": "passive",
     "name": "고무풀",
     "english_name": "Rubber Cement",
@@ -2355,7 +2505,7 @@ const passiveItemsData = [
     "game_id": "221"
   },
   {
-    "id": 357,
+    "id": 1167,
     "type": "passive",
     "name": "반중력",
     "english_name": "Anti-Gravity",
@@ -2370,7 +2520,7 @@ const passiveItemsData = [
     "game_id": "222"
   },
   {
-    "id": 358,
+    "id": 1168,
     "type": "passive",
     "name": "폭파광",
     "english_name": "Pyromaniac",
@@ -2385,7 +2535,7 @@ const passiveItemsData = [
     "game_id": "223"
   },
   {
-    "id": 359,
+    "id": 1169,
     "type": "passive",
     "name": "크리켓의 몸뚱이",
     "english_name": "Cricket's Body",
@@ -2400,7 +2550,22 @@ const passiveItemsData = [
     "game_id": "224"
   },
   {
-    "id": 360,
+    "id": 1170,
+    "type": "passive",
+    "name": "김피",
+    "english_name": "Gimpy",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/z22NE3iFalfr8-_mdWl5XxFoxHw9vYP52Z7qKge1h6H-TBLzHMMDBhM7mwYCEEJhOLBft_YJA5PGVDF_U9bHrQ.png",
+    "description": "고통은 달콤해",
+    "cooldown": "",
+    "unlock_condition": "없음",
+    "location": "보물방,, 악마방,, 저주방,, 악마 거지,, Greed 저주방,",
+    "grade": "2등급",
+    "effect": "적을 죽이면 일정 확률로 반 칸짜리 빨간 하트를 드랍한다. 이 확률은 죽인 적의 체력에 따라 다르다. 피격 시 1칸짜리 소울 하트를 드랍할 확률이 생긴다. 확률은 행운에 비례하며 공식은 (8 + 행운 * 2)%. 즉 행운이 46 이상이면 피격 시 소울 하트가 반드시 생성된다.",
+    "game_id": "225"
+  },
+  {
+    "id": 1171,
     "type": "passive",
     "name": "검은 연꽃",
     "english_name": "Black Lotus",
@@ -2415,7 +2580,7 @@ const passiveItemsData = [
     "game_id": "226"
   },
   {
-    "id": 361,
+    "id": 1172,
     "type": "passive",
     "name": "돼지저금통",
     "english_name": "Piggy Bank",
@@ -2430,7 +2595,7 @@ const passiveItemsData = [
     "game_id": "227"
   },
   {
-    "id": 362,
+    "id": 1173,
     "type": "passive",
     "name": "엄마의 향수",
     "english_name": "Mom's Perfume",
@@ -2445,7 +2610,7 @@ const passiveItemsData = [
     "game_id": "228"
   },
   {
-    "id": 363,
+    "id": 1174,
     "type": "passive",
     "name": "몬스트로의 폐",
     "english_name": "Monstro's Lung",
@@ -2460,7 +2625,7 @@ const passiveItemsData = [
     "game_id": "229"
   },
   {
-    "id": 364,
+    "id": 1175,
     "type": "passive",
     "name": "아바돈",
     "english_name": "Abaddon",
@@ -2475,7 +2640,7 @@ const passiveItemsData = [
     "game_id": "230"
   },
   {
-    "id": 365,
+    "id": 1176,
     "type": "passive",
     "name": "타르 덩어리",
     "english_name": "Ball of Tar",
@@ -2490,7 +2655,7 @@ const passiveItemsData = [
     "game_id": "231"
   },
   {
-    "id": 366,
+    "id": 1177,
     "type": "passive",
     "name": "스톱워치",
     "english_name": "Stop Watch",
@@ -2505,7 +2670,7 @@ const passiveItemsData = [
     "game_id": "232"
   },
   {
-    "id": 367,
+    "id": 1178,
     "type": "passive",
     "name": "소행성",
     "english_name": "Tiny Planet",
@@ -2520,7 +2685,7 @@ const passiveItemsData = [
     "game_id": "233"
   },
   {
-    "id": 368,
+    "id": 1179,
     "type": "passive",
     "name": "감염 2",
     "english_name": "Infestation 2",
@@ -2535,7 +2700,7 @@ const passiveItemsData = [
     "game_id": "234"
   },
   {
-    "id": 369,
+    "id": 1180,
     "type": "passive",
     "name": "대장균",
     "english_name": "E. Coli",
@@ -2550,7 +2715,7 @@ const passiveItemsData = [
     "game_id": "236"
   },
   {
-    "id": 370,
+    "id": 1181,
     "type": "passive",
     "name": "죽음의 손길",
     "english_name": "Death's Touch",
@@ -2565,7 +2730,7 @@ const passiveItemsData = [
     "game_id": "237"
   },
   {
-    "id": 371,
+    "id": 1182,
     "type": "passive",
     "name": "첫번째 열쇠 조각",
     "english_name": "Key Piece 1",
@@ -2580,7 +2745,7 @@ const passiveItemsData = [
     "game_id": "238"
   },
   {
-    "id": 372,
+    "id": 1183,
     "type": "passive",
     "name": "두번째 열쇠 조각",
     "english_name": "Key Piece 2",
@@ -2595,7 +2760,7 @@ const passiveItemsData = [
     "game_id": "239"
   },
   {
-    "id": 373,
+    "id": 1184,
     "type": "passive",
     "name": "임상시험",
     "english_name": "Experimental Treatment",
@@ -2610,7 +2775,7 @@ const passiveItemsData = [
     "game_id": "240"
   },
   {
-    "id": 374,
+    "id": 1185,
     "type": "passive",
     "name": "악마의 계약",
     "english_name": "Contract from Below",
@@ -2625,7 +2790,7 @@ const passiveItemsData = [
     "game_id": "241"
   },
   {
-    "id": 375,
+    "id": 1186,
     "type": "passive",
     "name": "악명",
     "english_name": "Infamy",
@@ -2640,7 +2805,7 @@ const passiveItemsData = [
     "game_id": "242"
   },
   {
-    "id": 376,
+    "id": 1187,
     "type": "passive",
     "name": "삼위일체 방패",
     "english_name": "Trinity Shield",
@@ -2655,7 +2820,7 @@ const passiveItemsData = [
     "game_id": "243"
   },
   {
-    "id": 377,
+    "id": 1188,
     "type": "passive",
     "name": "기계 0.5",
     "english_name": "Tech.5",
@@ -2670,7 +2835,7 @@ const passiveItemsData = [
     "game_id": "244"
   },
   {
-    "id": 378,
+    "id": 1189,
     "type": "passive",
     "name": "시력 2.0",
     "english_name": "20/20",
@@ -2685,7 +2850,7 @@ const passiveItemsData = [
     "game_id": "245"
   },
   {
-    "id": 379,
+    "id": 1190,
     "type": "passive",
     "name": "파란 지도",
     "english_name": "Blue Map",
@@ -2700,7 +2865,7 @@ const passiveItemsData = [
     "game_id": "246"
   },
   {
-    "id": 380,
+    "id": 1191,
     "type": "passive",
     "name": "최고의 친구들!",
     "english_name": "BFFS!",
@@ -2715,7 +2880,7 @@ const passiveItemsData = [
     "game_id": "247"
   },
   {
-    "id": 381,
+    "id": 1192,
     "type": "passive",
     "name": "군체 의식",
     "english_name": "Hive Mind",
@@ -2730,7 +2895,7 @@ const passiveItemsData = [
     "game_id": "248"
   },
   {
-    "id": 382,
+    "id": 1193,
     "type": "passive",
     "name": "선택권",
     "english_name": "There's Options",
@@ -2745,7 +2910,7 @@ const passiveItemsData = [
     "game_id": "249"
   },
   {
-    "id": 383,
+    "id": 1194,
     "type": "passive",
     "name": "1+1 폭탄",
     "english_name": "Bogo Bombs",
@@ -2760,7 +2925,7 @@ const passiveItemsData = [
     "game_id": "250"
   },
   {
-    "id": 384,
+    "id": 1195,
     "type": "passive",
     "name": "스타터 덱",
     "english_name": "Starter Deck",
@@ -2775,7 +2940,7 @@ const passiveItemsData = [
     "game_id": "251"
   },
   {
-    "id": 385,
+    "id": 1196,
     "type": "passive",
     "name": "작은 주머니",
     "english_name": "Little Baggy",
@@ -2790,7 +2955,7 @@ const passiveItemsData = [
     "game_id": "252"
   },
   {
-    "id": 386,
+    "id": 1197,
     "type": "passive",
     "name": "요술 딱지",
     "english_name": "Magic Scab",
@@ -2805,7 +2970,7 @@ const passiveItemsData = [
     "game_id": "253"
   },
   {
-    "id": 387,
+    "id": 1198,
     "type": "passive",
     "name": "응혈",
     "english_name": "Blood Clot",
@@ -2820,7 +2985,7 @@ const passiveItemsData = [
     "game_id": "254"
   },
   {
-    "id": 388,
+    "id": 1199,
     "type": "passive",
     "name": "나사못",
     "english_name": "Screw",
@@ -2835,7 +3000,7 @@ const passiveItemsData = [
     "game_id": "255"
   },
   {
-    "id": 389,
+    "id": 1200,
     "type": "passive",
     "name": "불 폭탄",
     "english_name": "Hot Bombs",
@@ -2850,7 +3015,7 @@ const passiveItemsData = [
     "game_id": "256"
   },
   {
-    "id": 390,
+    "id": 1201,
     "type": "passive",
     "name": "불타는 마음",
     "english_name": "Fire Mind",
@@ -2865,7 +3030,7 @@ const passiveItemsData = [
     "game_id": "257"
   },
   {
-    "id": 391,
+    "id": 1202,
     "type": "passive",
     "name": "미싱노",
     "english_name": "Missing No.",
@@ -2880,7 +3045,7 @@ const passiveItemsData = [
     "game_id": "258"
   },
   {
-    "id": 392,
+    "id": 1203,
     "type": "passive",
     "name": "암흑물질",
     "english_name": "Dark Matter",
@@ -2895,7 +3060,7 @@ const passiveItemsData = [
     "game_id": "259"
   },
   {
-    "id": 393,
+    "id": 1204,
     "type": "passive",
     "name": "검은 양초",
     "english_name": "Black Candle",
@@ -2910,7 +3075,7 @@ const passiveItemsData = [
     "game_id": "260"
   },
   {
-    "id": 394,
+    "id": 1205,
     "type": "passive",
     "name": "안구 돌출증",
     "english_name": "Proptosis",
@@ -2925,7 +3090,7 @@ const passiveItemsData = [
     "game_id": "261"
   },
   {
-    "id": 395,
+    "id": 1206,
     "type": "passive",
     "name": "찢어진 페이지 2",
     "english_name": "Missing Page 2",
@@ -2940,7 +3105,7 @@ const passiveItemsData = [
     "game_id": "262"
   },
   {
-    "id": 396,
+    "id": 1207,
     "type": "passive",
     "name": "똑똑한 파리",
     "english_name": "Smart Fly",
@@ -2955,7 +3120,7 @@ const passiveItemsData = [
     "game_id": "264"
   },
   {
-    "id": 397,
+    "id": 1208,
     "type": "passive",
     "name": "말라빠진 아기",
     "english_name": "Dry Baby[22]",
@@ -2970,7 +3135,7 @@ const passiveItemsData = [
     "game_id": "265"
   },
   {
-    "id": 398,
+    "id": 1209,
     "type": "passive",
     "name": "축축한 알집",
     "english_name": "Juicy sack",
@@ -2985,7 +3150,7 @@ const passiveItemsData = [
     "game_id": "266"
   },
   {
-    "id": 399,
+    "id": 1210,
     "type": "passive",
     "name": "로봇 아기 2.0",
     "english_name": "Robo-Baby 2.0",
@@ -3000,7 +3165,7 @@ const passiveItemsData = [
     "game_id": "267"
   },
   {
-    "id": 400,
+    "id": 1211,
     "type": "passive",
     "name": "썩은 아기",
     "english_name": "Rotten Baby",
@@ -3015,7 +3180,7 @@ const passiveItemsData = [
     "game_id": "268"
   },
   {
-    "id": 401,
+    "id": 1212,
     "type": "passive",
     "name": "머리 없는 아기",
     "english_name": "Headless Baby",
@@ -3030,7 +3195,7 @@ const passiveItemsData = [
     "game_id": "269"
   },
   {
-    "id": 402,
+    "id": 1213,
     "type": "passive",
     "name": "거머리",
     "english_name": "Leech",
@@ -3045,7 +3210,7 @@ const passiveItemsData = [
     "game_id": "270"
   },
   {
-    "id": 403,
+    "id": 1214,
     "type": "passive",
     "name": "신비한 주머니",
     "english_name": "Mystery Sack",
@@ -3060,7 +3225,7 @@ const passiveItemsData = [
     "game_id": "271"
   },
   {
-    "id": 404,
+    "id": 1215,
     "type": "passive",
     "name": "베프",
     "english_name": "BBF",
@@ -3075,7 +3240,7 @@ const passiveItemsData = [
     "game_id": "272"
   },
   {
-    "id": 405,
+    "id": 1216,
     "type": "passive",
     "name": "밥의 뇌",
     "english_name": "Bob's Brain",
@@ -3090,7 +3255,7 @@ const passiveItemsData = [
     "game_id": "273"
   },
   {
-    "id": 406,
+    "id": 1217,
     "type": "passive",
     "name": "최고의 짝꿍",
     "english_name": "Best Bud",
@@ -3105,7 +3270,7 @@ const passiveItemsData = [
     "game_id": "274"
   },
   {
-    "id": 407,
+    "id": 1218,
     "type": "passive",
     "name": "작은 유황불",
     "english_name": "Lil Brimstone",
@@ -3120,7 +3285,7 @@ const passiveItemsData = [
     "game_id": "275"
   },
   {
-    "id": 408,
+    "id": 1219,
     "type": "passive",
     "name": "아이작의 심장",
     "english_name": "Isaac's Heart",
@@ -3135,7 +3300,7 @@ const passiveItemsData = [
     "game_id": "276"
   },
   {
-    "id": 409,
+    "id": 1220,
     "type": "passive",
     "name": "리틀 헌트",
     "english_name": "Lil Haunt",
@@ -3150,7 +3315,7 @@ const passiveItemsData = [
     "game_id": "277"
   },
   {
-    "id": 410,
+    "id": 1221,
     "type": "passive",
     "name": "악마 거지",
     "english_name": "Dark Bum",
@@ -3165,7 +3330,7 @@ const passiveItemsData = [
     "game_id": "278"
   },
   {
-    "id": 411,
+    "id": 1222,
     "type": "passive",
     "name": "왕팬",
     "english_name": "Big Fan",
@@ -3180,7 +3345,7 @@ const passiveItemsData = [
     "game_id": "279"
   },
   {
-    "id": 412,
+    "id": 1223,
     "type": "passive",
     "name": "누님거미",
     "english_name": "Sissy Longlegs",
@@ -3195,7 +3360,7 @@ const passiveItemsData = [
     "game_id": "280"
   },
   {
-    "id": 413,
+    "id": 1224,
     "type": "passive",
     "name": "샌드백",
     "english_name": "Punching Bag",
@@ -3210,7 +3375,7 @@ const passiveItemsData = [
     "game_id": "281"
   },
   {
-    "id": 414,
+    "id": 1225,
     "type": "passive",
     "name": "황소자리",
     "english_name": "Taurus",
@@ -3225,7 +3390,7 @@ const passiveItemsData = [
     "game_id": "299"
   },
   {
-    "id": 415,
+    "id": 1226,
     "type": "passive",
     "name": "양자리",
     "english_name": "Aries",
@@ -3240,7 +3405,7 @@ const passiveItemsData = [
     "game_id": "300"
   },
   {
-    "id": 416,
+    "id": 1227,
     "type": "passive",
     "name": "게자리",
     "english_name": "Cancer",
@@ -3255,7 +3420,7 @@ const passiveItemsData = [
     "game_id": "301"
   },
   {
-    "id": 417,
+    "id": 1228,
     "type": "passive",
     "name": "사자자리",
     "english_name": "Leo",
@@ -3270,7 +3435,7 @@ const passiveItemsData = [
     "game_id": "302"
   },
   {
-    "id": 418,
+    "id": 1229,
     "type": "passive",
     "name": "처녀자리",
     "english_name": "Virgo",
@@ -3285,7 +3450,7 @@ const passiveItemsData = [
     "game_id": "303"
   },
   {
-    "id": 419,
+    "id": 1230,
     "type": "passive",
     "name": "천칭자리",
     "english_name": "Libra",
@@ -3300,7 +3465,7 @@ const passiveItemsData = [
     "game_id": "304"
   },
   {
-    "id": 420,
+    "id": 1231,
     "type": "passive",
     "name": "전갈자리",
     "english_name": "Scorpio",
@@ -3315,7 +3480,7 @@ const passiveItemsData = [
     "game_id": "305"
   },
   {
-    "id": 421,
+    "id": 1232,
     "type": "passive",
     "name": "궁수자리",
     "english_name": "Sagittarius",
@@ -3330,7 +3495,7 @@ const passiveItemsData = [
     "game_id": "306"
   },
   {
-    "id": 422,
+    "id": 1233,
     "type": "passive",
     "name": "염소자리",
     "english_name": "Capricorn",
@@ -3345,7 +3510,7 @@ const passiveItemsData = [
     "game_id": "307"
   },
   {
-    "id": 423,
+    "id": 1234,
     "type": "passive",
     "name": "물병자리",
     "english_name": "Aquarius",
@@ -3360,7 +3525,7 @@ const passiveItemsData = [
     "game_id": "308"
   },
   {
-    "id": 424,
+    "id": 1235,
     "type": "passive",
     "name": "물고기자리",
     "english_name": "Pisces",
@@ -3375,7 +3540,7 @@ const passiveItemsData = [
     "game_id": "309"
   },
   {
-    "id": 425,
+    "id": 1236,
     "type": "passive",
     "name": "이브의 마스카라",
     "english_name": "Eve's Mascara",
@@ -3390,7 +3555,7 @@ const passiveItemsData = [
     "game_id": "310"
   },
   {
-    "id": 426,
+    "id": 1237,
     "type": "passive",
     "name": "유다의 그림자",
     "english_name": "Judas' Shadow",
@@ -3405,7 +3570,7 @@ const passiveItemsData = [
     "game_id": "311"
   },
   {
-    "id": 427,
+    "id": 1238,
     "type": "passive",
     "name": "매기의 리본",
     "english_name": "Maggy's Bow",
@@ -3420,7 +3585,7 @@ const passiveItemsData = [
     "game_id": "312"
   },
   {
-    "id": 428,
+    "id": 1239,
     "type": "passive",
     "name": "신성한 망토",
     "english_name": "Holy Mantle",
@@ -3435,7 +3600,7 @@ const passiveItemsData = [
     "game_id": "313"
   },
   {
-    "id": 429,
+    "id": 1240,
     "type": "passive",
     "name": "살찐 허벅지",
     "english_name": "Thunder Thighs",
@@ -3450,7 +3615,7 @@ const passiveItemsData = [
     "game_id": "314"
   },
   {
-    "id": 430,
+    "id": 1241,
     "type": "passive",
     "name": "이상한 끌개",
     "english_name": "Strange Attractor",
@@ -3465,7 +3630,7 @@ const passiveItemsData = [
     "game_id": "315"
   },
   {
-    "id": 431,
+    "id": 1242,
     "type": "passive",
     "name": "저주받은 눈알",
     "english_name": "Cursed Eye",
@@ -3480,7 +3645,7 @@ const passiveItemsData = [
     "game_id": "316"
   },
   {
-    "id": 432,
+    "id": 1243,
     "type": "passive",
     "name": "이상한 액체",
     "english_name": "Mysterious Liquid",
@@ -3495,7 +3660,7 @@ const passiveItemsData = [
     "game_id": "317"
   },
   {
-    "id": 433,
+    "id": 1244,
     "type": "passive",
     "name": "쌍둥이자리",
     "english_name": "Gemini",
@@ -3510,7 +3675,7 @@ const passiveItemsData = [
     "game_id": "318"
   },
   {
-    "id": 434,
+    "id": 1245,
     "type": "passive",
     "name": "카인의 왼쪽 눈",
     "english_name": "Cain's Other Eye",
@@ -3525,7 +3690,7 @@ const passiveItemsData = [
     "game_id": "319"
   },
   {
-    "id": 435,
+    "id": 1246,
     "type": "passive",
     "name": "???의 하나뿐인 친구",
     "english_name": "???'s Only Friend",
@@ -3540,7 +3705,7 @@ const passiveItemsData = [
     "game_id": "320"
   },
   {
-    "id": 436,
+    "id": 1247,
     "type": "passive",
     "name": "삼손의 쇠사슬",
     "english_name": "Samson's Chains",
@@ -3555,7 +3720,7 @@ const passiveItemsData = [
     "game_id": "321"
   },
   {
-    "id": 437,
+    "id": 1248,
     "type": "passive",
     "name": "누더기 아기",
     "english_name": "Mongo Baby",
@@ -3570,7 +3735,7 @@ const passiveItemsData = [
     "game_id": "322"
   },
   {
-    "id": 438,
+    "id": 1249,
     "type": "passive",
     "name": "즉석사진",
     "english_name": "The Polaroid",
@@ -3585,7 +3750,22 @@ const passiveItemsData = [
     "game_id": "327"
   },
   {
-    "id": 439,
+    "id": 1250,
+    "type": "passive",
+    "name": "네거티브",
+    "english_name": "The Negative",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/NrQj3XeOvvH91CwMdX3Phxu5z5PdfNV4PSoTg2d8hxdTAuMvX4rNFjn2xkcnVGggVVOlGfcPhabmvzbcPUgheg.png",
+    "description": "운명 선택",
+    "cooldown": "",
+    "unlock_condition": "The Sheol의사탄 보스를 5회 클리어",
+    "location": "없음",
+    "grade": "2등급",
+    "effect": "공격력+ 1 획득 시 캐릭터에서 아주 미세하게 검은 후광이 나타나게 된다.",
+    "game_id": "328"
+  },
+  {
+    "id": 1251,
     "type": "passive",
     "name": "루도비코 요법",
     "english_name": "The Ludovico Technique",
@@ -3600,7 +3780,7 @@ const passiveItemsData = [
     "game_id": "329"
   },
   {
-    "id": 440,
+    "id": 1252,
     "type": "passive",
     "name": "두유",
     "english_name": "Soy Milk",
@@ -3615,7 +3795,7 @@ const passiveItemsData = [
     "game_id": "330"
   },
   {
-    "id": 441,
+    "id": 1253,
     "type": "passive",
     "name": "신",
     "english_name": "Godhead",
@@ -3630,7 +3810,7 @@ const passiveItemsData = [
     "game_id": "331"
   },
   {
-    "id": 442,
+    "id": 1254,
     "type": "passive",
     "name": "나사로의 누더기",
     "english_name": "Lazarus' Rags",
@@ -3645,7 +3825,7 @@ const passiveItemsData = [
     "game_id": "332"
   },
   {
-    "id": 443,
+    "id": 1255,
     "type": "passive",
     "name": "정신",
     "english_name": "The Mind",
@@ -3660,7 +3840,7 @@ const passiveItemsData = [
     "game_id": "333"
   },
   {
-    "id": 444,
+    "id": 1256,
     "type": "passive",
     "name": "신체",
     "english_name": "The Body",
@@ -3675,7 +3855,7 @@ const passiveItemsData = [
     "game_id": "334"
   },
   {
-    "id": 445,
+    "id": 1257,
     "type": "passive",
     "name": "영혼",
     "english_name": "The Soul",
@@ -3690,7 +3870,7 @@ const passiveItemsData = [
     "game_id": "335"
   },
   {
-    "id": 446,
+    "id": 1258,
     "type": "passive",
     "name": "죽은 양파",
     "english_name": "Dead Onion",
@@ -3705,7 +3885,7 @@ const passiveItemsData = [
     "game_id": "336"
   },
   {
-    "id": 447,
+    "id": 1259,
     "type": "passive",
     "name": "고장난 손목시계",
     "english_name": "Broken Watch",
@@ -3720,7 +3900,7 @@ const passiveItemsData = [
     "game_id": "337"
   },
   {
-    "id": 448,
+    "id": 1260,
     "type": "passive",
     "name": "안전핀",
     "english_name": "Safety Pin",
@@ -3735,7 +3915,7 @@ const passiveItemsData = [
     "game_id": "339"
   },
   {
-    "id": 449,
+    "id": 1261,
     "type": "passive",
     "name": "카페인 정",
     "english_name": "Caffeine Pill",
@@ -3750,7 +3930,7 @@ const passiveItemsData = [
     "game_id": "340"
   },
   {
-    "id": 450,
+    "id": 1262,
     "type": "passive",
     "name": "찢어진 사진",
     "english_name": "Torn Photo",
@@ -3765,7 +3945,7 @@ const passiveItemsData = [
     "game_id": "341"
   },
   {
-    "id": 451,
+    "id": 1263,
     "type": "passive",
     "name": "파란 환각버섯",
     "english_name": "Blue Cap",
@@ -3780,7 +3960,22 @@ const passiveItemsData = [
     "game_id": "342"
   },
   {
-    "id": 452,
+    "id": 1264,
+    "type": "passive",
+    "name": "현관 열쇠",
+    "english_name": "Latch Key",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/KXBOiSQDBYoVGsU2gH7MEFr-QrcdhguXPJ6FN_U5I4bSvOismX7yfoDskX6-caGyt-m0DTodCdV7CjoACNn7hg.png",
+    "description": "행운 증가",
+    "cooldown": "",
+    "unlock_condition": "없음",
+    "location": "보스방,, 황금 상자,, 열쇠 거지,, Greed 보스방",
+    "grade": "2등급",
+    "effect": "소울 하트+ 1개 행운+ 1",
+    "game_id": "343"
+  },
+  {
+    "id": 1265,
     "type": "passive",
     "name": "종이 성냥",
     "english_name": "Match Book",
@@ -3795,7 +3990,22 @@ const passiveItemsData = [
     "game_id": "344"
   },
   {
-    "id": 453,
+    "id": 1266,
+    "type": "passive",
+    "name": "합성 스테로이드",
+    "english_name": "Synthoil",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/tfalN71MxPhtPfR4PgoNc93PRPsRpvlmH-vae--o3DfBHlC4xOZP6K3VMCwtZ2VKJ7k2seu2yXcc7vohjyfHPA.webp",
+    "description": "공격력과 사거리 증가",
+    "cooldown": "",
+    "unlock_condition": "없음",
+    "location": "보스방,, 악마 거지,, Greed 보스방",
+    "grade": "3등급",
+    "effect": "공격력+ 1 사거리+ 2.5",
+    "game_id": "345"
+  },
+  {
+    "id": 1267,
     "type": "passive",
     "name": "과자",
     "english_name": "A Snack",
@@ -3810,7 +4020,7 @@ const passiveItemsData = [
     "game_id": "346"
   },
   {
-    "id": 454,
+    "id": 1268,
     "type": "passive",
     "name": "독성 쇼크",
     "english_name": "Toxic Shock",
@@ -3825,7 +4035,7 @@ const passiveItemsData = [
     "game_id": "350"
   },
   {
-    "id": 455,
+    "id": 1269,
     "type": "passive",
     "name": "폭탄 소년",
     "english_name": "Bomber Boy",
@@ -3840,7 +4050,22 @@ const passiveItemsData = [
     "game_id": "353"
   },
   {
-    "id": 456,
+    "id": 1270,
+    "type": "passive",
+    "name": "식품 완구",
+    "english_name": "Crack Jacks",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/yxDAPPJbPymBUKb5U4X7CB1VW6VesoTcsa701N86oiMmb83_OMMY1Gn4w-y3RVRTOeOLC2mzT9RN3bxpeMDlRg.png",
+    "description": "상품까지 먹지는 마세요!",
+    "cooldown": "",
+    "unlock_condition": "없음",
+    "location": "보스방,, 황금 상자,, Greed 보스방",
+    "grade": "2등급",
+    "effect": "최대 체력+ 1개& 빨간 하트 체력을 1칸 회복한다. 획득 시 임의의 장신구 하나를 필드에 드랍한다.",
+    "game_id": "354"
+  },
+  {
+    "id": 1271,
     "type": "passive",
     "name": "엄마의 진주",
     "english_name": "Mom's Pearls",
@@ -3855,7 +4080,7 @@ const passiveItemsData = [
     "game_id": "355"
   },
   {
-    "id": 457,
+    "id": 1272,
     "type": "passive",
     "name": "자동차 배터리",
     "english_name": "Car Battery",
@@ -3870,7 +4095,7 @@ const passiveItemsData = [
     "game_id": "356"
   },
   {
-    "id": 458,
+    "id": 1273,
     "type": "passive",
     "name": "법사",
     "english_name": "The Wiz",
@@ -3885,7 +4110,7 @@ const passiveItemsData = [
     "game_id": "358"
   },
   {
-    "id": 459,
+    "id": 1274,
     "type": "passive",
     "name": "8인치 대못",
     "english_name": "8 Inch Nails",
@@ -3900,7 +4125,7 @@ const passiveItemsData = [
     "game_id": "359"
   },
   {
-    "id": 460,
+    "id": 1275,
     "type": "passive",
     "name": "몽마",
     "english_name": "Incubus",
@@ -3915,7 +4140,7 @@ const passiveItemsData = [
     "game_id": "360"
   },
   {
-    "id": 461,
+    "id": 1276,
     "type": "passive",
     "name": "운명의 보상",
     "english_name": "Fate's Reward",
@@ -3930,7 +4155,7 @@ const passiveItemsData = [
     "game_id": "361"
   },
   {
-    "id": 462,
+    "id": 1277,
     "type": "passive",
     "name": "작은 상자",
     "english_name": "Lil Chest",
@@ -3945,7 +4170,7 @@ const passiveItemsData = [
     "game_id": "362"
   },
   {
-    "id": 463,
+    "id": 1278,
     "type": "passive",
     "name": "수호자",
     "english_name": "Sworn Protector",
@@ -3960,7 +4185,7 @@ const passiveItemsData = [
     "game_id": "363"
   },
   {
-    "id": 464,
+    "id": 1279,
     "type": "passive",
     "name": "사랑과 우정 사이",
     "english_name": "Friend Zone",
@@ -3975,7 +4200,7 @@ const passiveItemsData = [
     "game_id": "364"
   },
   {
-    "id": 465,
+    "id": 1280,
     "type": "passive",
     "name": "길잃은 파리",
     "english_name": "Lost Fly",
@@ -3990,7 +4215,7 @@ const passiveItemsData = [
     "game_id": "365"
   },
   {
-    "id": 466,
+    "id": 1281,
     "type": "passive",
     "name": "분산형 폭탄",
     "english_name": "Scatter Bombs",
@@ -4005,7 +4230,7 @@ const passiveItemsData = [
     "game_id": "366"
   },
   {
-    "id": 467,
+    "id": 1282,
     "type": "passive",
     "name": "끈끈이 폭탄",
     "english_name": "Sticky Bombs",
@@ -4020,7 +4245,22 @@ const passiveItemsData = [
     "game_id": "367"
   },
   {
-    "id": 468,
+    "id": 1283,
+    "type": "passive",
+    "name": "유루증",
+    "english_name": "Epiphora",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/qvISVZand51HabAPLnghJeg30cpk0A9Lf6BenB2RqcUMI60KF-SgOLJfF6qwN03-0nE1wfHyAfyYZv_sZ78c2g.png",
+    "description": "격렬해지는 눈물",
+    "cooldown": "",
+    "unlock_condition": "없음",
+    "location": "보물방,, Greed 보물방",
+    "grade": "2등급",
+    "effect": "한쪽 방향을 향해 눈물을 계속 발사하고 있으면 서서히 공격 속도가 증가하면서 원래 공격 속도의 2배치까지 증가한다(소숫점 반올림).눈물 발사를 멈추거나, 공격 방향을 바꾸면 공속이 초기화된다.단 방을 넘어가는 순간이나 아이템을 사용하는 중간에 공속 보너스를 잃어버리지 않고 딱 한번 공격 방향을 바꿀 수 있다. 눈물 발사를 멈추거나, 공격 방향을 바꾸면 공속이 초기화된다.",
+    "game_id": "368"
+  },
+  {
+    "id": 1284,
     "type": "passive",
     "name": "연속체",
     "english_name": "Continuum",
@@ -4035,7 +4275,7 @@ const passiveItemsData = [
     "game_id": "369"
   },
   {
-    "id": 469,
+    "id": 1285,
     "type": "passive",
     "name": "인형 아저씨",
     "english_name": "Mr. Dolly",
@@ -4050,7 +4290,7 @@ const passiveItemsData = [
     "game_id": "370"
   },
   {
-    "id": 470,
+    "id": 1286,
     "type": "passive",
     "name": "타워의 저주",
     "english_name": "Curse of the Tower",
@@ -4065,7 +4305,7 @@ const passiveItemsData = [
     "game_id": "371"
   },
   {
-    "id": 471,
+    "id": 1287,
     "type": "passive",
     "name": "충전완료 아기",
     "english_name": "Charged Baby",
@@ -4080,7 +4320,7 @@ const passiveItemsData = [
     "game_id": "372"
   },
   {
-    "id": 472,
+    "id": 1288,
     "type": "passive",
     "name": "죽은 눈",
     "english_name": "Dead Eye",
@@ -4095,7 +4335,7 @@ const passiveItemsData = [
     "game_id": "373"
   },
   {
-    "id": 473,
+    "id": 1289,
     "type": "passive",
     "name": "성스러운 빛",
     "english_name": "Holy Light",
@@ -4110,7 +4350,7 @@ const passiveItemsData = [
     "game_id": "374"
   },
   {
-    "id": 474,
+    "id": 1290,
     "type": "passive",
     "name": "호스트 모자",
     "english_name": "Host Hat",
@@ -4125,7 +4365,7 @@ const passiveItemsData = [
     "game_id": "375"
   },
   {
-    "id": 475,
+    "id": 1291,
     "type": "passive",
     "name": "재입고",
     "english_name": "Restock",
@@ -4140,7 +4380,7 @@ const passiveItemsData = [
     "game_id": "376"
   },
   {
-    "id": 476,
+    "id": 1292,
     "type": "passive",
     "name": "터진 알주머니",
     "english_name": "Bursting Sack",
@@ -4155,7 +4395,37 @@ const passiveItemsData = [
     "game_id": "377"
   },
   {
-    "id": 477,
+    "id": 1293,
+    "type": "passive",
+    "name": "떵싸개",
+    "english_name": "No. 2",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/n4TUx0DZedOpBuLnscR85Z3YMhp9mOfL9qK3T9wlHjXYYtLOwAGZADVVu_sgbfsJYzk4mn3O7rBsjRcP2lHiXg.png",
+    "description": "어 음...",
+    "cooldown": "",
+    "unlock_condition": "없음",
+    "location": "보물방,, 도박 거지,, Greed 보물방",
+    "grade": "2등급",
+    "effect": "공격 키를 3초간 누르고 있으면 캐릭터가 있던 자리에 똥 폭탄을 설치한다.연속적으로 설치는 불가능하며 공격을 중단하거나 피격을 받아야 다시 설치할 수 있다. 연속적으로 설치는 불가능하며 공격을 중단하거나 피격을 받아야 다시 설치할 수 있다.",
+    "game_id": "378"
+  },
+  {
+    "id": 1294,
+    "type": "passive",
+    "name": "두 개의 눈동자",
+    "english_name": "Pupula Duplex",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/Wqjvnr8lO6xoTxz9MSUsqCoC0fGVl8mdryPUQi-dFPUToOrKS3_fcuw1VdW-QgGGtozy-ugwYLG7b35hpPbS2g.png",
+    "description": "넓은 공격",
+    "cooldown": "",
+    "unlock_condition": "없음",
+    "location": "보물방,, Greed 보물방",
+    "grade": "2등급",
+    "effect": "눈물이 초승달 모양처럼 넓어지며 오브젝트를관통하게 된다.",
+    "game_id": "379"
+  },
+  {
+    "id": 1295,
     "type": "passive",
     "name": "페이 투 플레이",
     "english_name": "Pay to Play",
@@ -4170,7 +4440,7 @@ const passiveItemsData = [
     "game_id": "380"
   },
   {
-    "id": 478,
+    "id": 1296,
     "type": "passive",
     "name": "에덴의 축복",
     "english_name": "Eden's Blessing",
@@ -4185,7 +4455,7 @@ const passiveItemsData = [
     "game_id": "381"
   },
   {
-    "id": 479,
+    "id": 1297,
     "type": "passive",
     "name": "리틀 거디",
     "english_name": "Lil Gurdy",
@@ -4200,7 +4470,7 @@ const passiveItemsData = [
     "game_id": "384"
   },
   {
-    "id": 480,
+    "id": 1298,
     "type": "passive",
     "name": "범보",
     "english_name": "Bumbo",
@@ -4215,7 +4485,7 @@ const passiveItemsData = [
     "game_id": "385"
   },
   {
-    "id": 481,
+    "id": 1299,
     "type": "passive",
     "name": "향로",
     "english_name": "Censer",
@@ -4230,7 +4500,7 @@ const passiveItemsData = [
     "game_id": "387"
   },
   {
-    "id": 482,
+    "id": 1300,
     "type": "passive",
     "name": "열쇠 거지",
     "english_name": "Key Bum",
@@ -4245,7 +4515,7 @@ const passiveItemsData = [
     "game_id": "388"
   },
   {
-    "id": 483,
+    "id": 1301,
     "type": "passive",
     "name": "룬 가방",
     "english_name": "Rune Bag",
@@ -4260,7 +4530,7 @@ const passiveItemsData = [
     "game_id": "389"
   },
   {
-    "id": 484,
+    "id": 1302,
     "type": "passive",
     "name": "세라핌",
     "english_name": "Seraphim",
@@ -4275,7 +4545,22 @@ const passiveItemsData = [
     "game_id": "390"
   },
   {
-    "id": 485,
+    "id": 1303,
+    "type": "passive",
+    "name": "배신",
+    "english_name": "Betrayal",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/j_X9QOzaKn8CvnHcXzepO5ABDCct61Q10MGaIs6ttqulZ48DSd1XSAQDS1GMsvRBImVsW2plkknPj6udCf719Q.png",
+    "description": "적을 유혹하다",
+    "cooldown": "",
+    "unlock_condition": "Judas 캐릭터로??? 스테이지의 보스Hush 클리어",
+    "location": "보물방,, 악마방,, Greed 보물방,, Greed 악마방",
+    "grade": "1등급",
+    "effect": "몬스터의 투사체가 다른 몬스터에게 대미지를 줄 수 있게 되며, 다른 몬스터에게 공격당한 몬스터는 자신을 공격한 몬스터를 공격한다. 아군 몬스터가 투사체로 다른 몬스터를 공격하는 경우에도 해당 아군 몬스터를 우선시로 공격하게 된다.",
+    "game_id": "391"
+  },
+  {
+    "id": 1304,
     "type": "passive",
     "name": "황도대",
     "english_name": "Zodiac",
@@ -4290,7 +4575,22 @@ const passiveItemsData = [
     "game_id": "392"
   },
   {
-    "id": 486,
+    "id": 1305,
+    "type": "passive",
+    "name": "악마의 키스",
+    "english_name": "Serpent's Kiss",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/xHjfftMVMejIF0vuUSv-odSkO0WFCclMwheObLttLvwxZKcQZjY1_VeCXMejSLjPYc4kkLh4i96JL2R39znnUA.png",
+    "description": "죽음의 키스",
+    "cooldown": "",
+    "unlock_condition": "Lilith 캐릭터로Sheol 스테이지의 보스Satan 클리어",
+    "location": "보물방,, Greed 보물방",
+    "grade": "2등급",
+    "effect": "공격 시 15% 확률로 1초간, 적에게 접촉 시 3초간중독상태이상을 부여한다.중독 상태이상에 걸린 적은 초당 캐릭터 공격력의 대미지를 2번 받는다. 중독 상태이상에 걸린 적은 초당 캐릭터 공격력의 대미지를 2번 받는다.",
+    "game_id": "393"
+  },
+  {
+    "id": 1306,
     "type": "passive",
     "name": "조준",
     "english_name": "Marked",
@@ -4305,7 +4605,22 @@ const passiveItemsData = [
     "game_id": "394"
   },
   {
-    "id": 487,
+    "id": 1307,
+    "type": "passive",
+    "name": "기술 X",
+    "english_name": "Tech X",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/hPVK90MskYaCy7k7t7V05AA3wjKiAcBDw5U7t2gMiEjgHL2l6iGMNRTdMLRNAb6ovpw18UWiBR0cMJoocdUP_Q.png",
+    "description": "레이저 고리 눈물",
+    "cooldown": "",
+    "unlock_condition": "없음",
+    "location": "보물방,, 인형 뽑기,, Greed 보물방",
+    "grade": "4등급",
+    "effect": "캐릭터의 공격이 충전해서 나가는 사거리 무한의 레이저 고리 공격으로 바뀌며, 고리는 적과 지형을 전부 관통한다. 충전 속도는 연사 속도에 비례하며, 충전을 오래 할수록 발사되는 레이저 고리의 크기랑 대미지가 올라간다.",
+    "game_id": "395"
+  },
+  {
+    "id": 1308,
     "type": "passive",
     "name": "조종빔",
     "english_name": "Tractor Beam",
@@ -4320,7 +4635,22 @@ const passiveItemsData = [
     "game_id": "397"
   },
   {
-    "id": 488,
+    "id": 1309,
+    "type": "passive",
+    "name": "신의 살점",
+    "english_name": "God's Flesh",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/UL0w3NjQuIanqygXnmMpACJPj1G6FiPjQOamZVodxYOYyFoQelTZF-NcNH4lsgboVY7EnXlyXfP5AiTdg2sUHQ.png",
+    "description": "줄어드는 공격!",
+    "cooldown": "",
+    "unlock_condition": "없음",
+    "location": "보물방,, Greed 보물방",
+    "grade": "1등급",
+    "effect": "공격 시 20% 확률로 5초 동안 몬스터에게수축상태이상을 부여하는 눈물을 발사한다. 보스에게는 통하지 않는다. 수축 상태이상에 걸린 몬스터는 작아진 상태로 캐릭터에게서 도망치며, 캐릭터는 해당 적을 밟아서 죽일 수 있다.죽을 때 폭발하거나, 탄을 날리거나, 다른 적들로 분열하는 적들은 캐릭터에게 피해를 입히지 않는다.",
+    "game_id": "398"
+  },
+  {
+    "id": 1310,
     "type": "passive",
     "name": "공허의 아귀",
     "english_name": "Maw of the Void",
@@ -4335,7 +4665,37 @@ const passiveItemsData = [
     "game_id": "399"
   },
   {
-    "id": 489,
+    "id": 1311,
+    "type": "passive",
+    "name": "운명의 창",
+    "english_name": "Spear of Destiny",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/eISo8i_l4xh_PWEqAGRIebxdrqhbVOFtlK1fUxYN93c_3ffcIgBpfbxrwmdx7HL21SOhKHYphvDJeYOq6knvwg.png",
+    "description": "당신의 운명",
+    "cooldown": "",
+    "unlock_condition": "없음",
+    "location": "천사방,, Greed 천사방",
+    "grade": "2등급",
+    "effect": "캐릭터가 전방을 향해 틱당 현재 공격력의 2배만큼의 대미지를 입히는 창이 생성된다. 이 창은 방향키로 8방향을 자유롭게 조정할 수 있지만 원거리로 발사할 수 없다.",
+    "game_id": "400"
+  },
+  {
+    "id": 1312,
+    "type": "passive",
+    "name": "아주 강하게!",
+    "english_name": "Explosivo",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/Q7s9bVj8dn4gqdBMTZlRZKz3rfTQUiTgb4jpw7X3enUOvcAPqbcNGgBI3iMXW0mP8YS77JCsi4UNGaDGb5IVKA.png",
+    "description": "끈끈이 폭탄 공격!",
+    "cooldown": "",
+    "unlock_condition": "없음",
+    "location": "보물방,, 그리드모드 보물방",
+    "grade": "3등급",
+    "effect": "공격 시 25% 확률로 회색의 접착 눈물을 발사하며 이 접착 눈물이 적에게 붙으면 눈물 대미지를 준 다음 몇 초동안 점점 커진 후 폭발하여(60 + 현재 공격력)의 폭발 대미지를 준다. 폭발하기 전에 적이 죽으면 눈물 크기가 초기화되고 그 자리에서 떨어지만, 떨어지기 전 다른 적에게 붙으면 다시 커진다.",
+    "game_id": "401"
+  },
+  {
+    "id": 1313,
     "type": "passive",
     "name": "혼돈",
     "english_name": "Chaos",
@@ -4350,7 +4710,7 @@ const passiveItemsData = [
     "game_id": "402"
   },
   {
-    "id": 490,
+    "id": 1314,
     "type": "passive",
     "name": "거미 모드",
     "english_name": "Spider Mod",
@@ -4365,7 +4725,7 @@ const passiveItemsData = [
     "game_id": "403"
   },
   {
-    "id": 491,
+    "id": 1315,
     "type": "passive",
     "name": "방귀쟁이 아기",
     "english_name": "Farting Baby",
@@ -4380,7 +4740,7 @@ const passiveItemsData = [
     "game_id": "404"
   },
   {
-    "id": 492,
+    "id": 1316,
     "type": "passive",
     "name": "게임 버그",
     "english_name": "GB Bug",
@@ -4395,7 +4755,7 @@ const passiveItemsData = [
     "game_id": "405"
   },
   {
-    "id": 493,
+    "id": 1317,
     "type": "passive",
     "name": "순도",
     "english_name": "Purity",
@@ -4410,7 +4770,37 @@ const passiveItemsData = [
     "game_id": "407"
   },
   {
-    "id": 494,
+    "id": 1318,
+    "type": "passive",
+    "name": "마법 단검",
+    "english_name": "Athame",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/_RNz_G710LDXcOZXRGpl5y4fX2smRw_VTJ8KTmKcBEJk6iO1rAab8BbQuOytGUCjo3b7pa-gutRvH-Ya3iPsiA.png",
+    "description": "공허를 부르라",
+    "cooldown": "",
+    "unlock_condition": "Eve 캐릭터로??? 스테이지의 보스Hush 클리어",
+    "location": "저주방,, 악마방,, 그리드모드 저주방,, 그리드모드 악마방",
+    "grade": "3등급",
+    "effect": "적 처치시 확률적으로 적 주위에 Maw of the Void처럼 적에게 틱당 캐릭터의 현재 공격력만큼의 대미지를 주는 검은 고리가 생긴다. 발동 확률은 행운에 비례하여 행운이 0일 때 25% 확률로 발동, 행운이 30 이상일 때 100% 확률로 발동된다.",
+    "game_id": "408"
+  },
+  {
+    "id": 1319,
+    "type": "passive",
+    "name": "빈 그릇",
+    "english_name": "Empty Vessel",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/noN3XmeQFr-KgYk2EDxrFVOtP_JoyKtT42LxohmcxzAHMUA5vEi0IYpIIDxeOLBXYR1uFuxUEAOL0FcIGNqpNA.webp",
+    "description": "빈 그릇을 내게 주리니",
+    "cooldown": "",
+    "unlock_condition": "Lazarus 캐릭터로??? 스테이지의 보스Hush 클리어",
+    "location": "악마방,, 악마 거지,, 그리드모드 악마방",
+    "grade": "2등급",
+    "effect": "블랙 하트+ 2개 캐릭터가 빨간 하트를 하나도 소지하고 있지 않다면비행능력이 생기고 적이 있는 방에 입장시 40초마다 지속시간 10초의 보호막이 생성된다.Keeper 캐릭터는 사용할 수 없으며 빨간 하트 체력이 없는 캐릭터들은 효과가 언제나 발동된다.",
+    "game_id": "409"
+  },
+  {
+    "id": 1320,
     "type": "passive",
     "name": "악마의 눈",
     "english_name": "Evil Eye",
@@ -4425,7 +4815,7 @@ const passiveItemsData = [
     "game_id": "410"
   },
   {
-    "id": 495,
+    "id": 1321,
     "type": "passive",
     "name": "욕망의 피",
     "english_name": "Lusty Blood",
@@ -4440,7 +4830,37 @@ const passiveItemsData = [
     "game_id": "411"
   },
   {
-    "id": 496,
+    "id": 1322,
+    "type": "passive",
+    "name": "몽마의 자식들",
+    "english_name": "Cambion Conception",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/rTCrwXJG2CwTeZnf3zwWBNyr3lY9JfgZItBuEwAoZCg-FHR0x5FjXaLHiXoqsS2Nmv70Be7o3uTQcqlpUIyVOA.png",
+    "description": "미움을 주세요",
+    "cooldown": "",
+    "unlock_condition": "Lilith 캐릭터로The Chest 스테이지의 보스??? 클리어",
+    "location": "악마방,, 특급 비밀방,, 그리드모드 악마방",
+    "grade": "2등급",
+    "effect": "아이템을 얻은 시점부터 특정 횟수만큼 피격시 영구적으로 8종의 악마 패밀리어중 하나를 랜덤하게 얻는다.첫 번째, 두 번째에는 15번, 세 번째, 네 번째에는 30번 피격 당할 시 소환된다. 4번째 이후로는 소환되지 않는다.이 아이템에 의해 소환된 패밀리어는 아이템을 얻은 것으로 치지 않을 뿐더러 변신이나 도감에도 영향을 주지 못한다. 첫 번째, 두 번째에는 15번, 세 번째, 네 번째에는 30번 피격 당할 시 소환된다. 4번째 이후로는 소환되지...",
+    "game_id": "412"
+  },
+  {
+    "id": 1323,
+    "type": "passive",
+    "name": "원죄 없는 잉태",
+    "english_name": "Immaculate Conception",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/lG50hQtaK3oZZLw2wzmjqoeNylXeY_7DKgMCEBsv4t38eRIr3EF8DSXNppIqy5ahrkuzvb6W-8DKbXZMtPgwmg.png",
+    "description": "사랑을 주세요",
+    "cooldown": "",
+    "unlock_condition": "Lilith 캐릭터로Boss Rush 클리어",
+    "location": "천사방,, 그리드모드 천사방",
+    "grade": "1등급",
+    "effect": "아이템을 얻은 시점부터 특정 횟수만큼 필드에 드랍된 하트를15개 수집하면 소울 하트 1개를 드랍하며 동시에 영구적으로 천사 패밀리어들중 하나를 랜덤으로 얻는다.직접 주운 하트만 계산되며 체력 허드에 즉시 추가되는 액티브 및 패시브 아이템을 이용한 회복은 카운트되지 않는다.각각의 패밀리어는 중복 획득이 불가능하며, 하트를 75개 수집했다면 모든 패밀리어를 획득할 수 있다.이 아이템에 의해 소환된 패밀리어는 아이템을 얻은것으로 치지 않을 뿐더러 변...",
+    "game_id": "413"
+  },
+  {
+    "id": 1324,
     "type": "passive",
     "name": "더 많은 선택권",
     "english_name": "More Options",
@@ -4455,7 +4875,7 @@ const passiveItemsData = [
     "game_id": "414"
   },
   {
-    "id": 497,
+    "id": 1325,
     "type": "passive",
     "name": "빛의 왕관",
     "english_name": "Crown of Light",
@@ -4470,7 +4890,22 @@ const passiveItemsData = [
     "game_id": "415"
   },
   {
-    "id": 498,
+    "id": 1326,
+    "type": "passive",
+    "name": "넓은 가방",
+    "english_name": "Deep Pockets",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/YbpXtFx1FiHhMq9-iSe-hL5u03I8Jqym16Md5ApdMbQoqfAlVv62V6e4cpMW2epad0SzWYnq5RdIgxy8Ijryeg.png",
+    "description": "더 많은 돈!",
+    "cooldown": "",
+    "unlock_condition": "Keeper 캐릭터로chest 스테이지의 보스??? 클리어",
+    "location": "상점,, 그리드모드 상점,, 그리드모드 보물방",
+    "grade": "2등급",
+    "effect": "소지 가능한 동전의 최대치를999개로 올린다.모종의 방법으로 Deep Pockets이 사라졌을 때 소지 중인 동전이 100개 이상이었다면 99개로 감소하며, 나중에 Deep Pockets을 다시 얻어도 동전을 돌려주지 않는다. 모종의 방법으로 Deep Pockets이 사라졌을 때 소지 중인 동전이 100개 이상이었다면 99개로 감소하며, 나중에 Deep Pockets을 다시 얻어도 동전을 돌려주지 않는다.",
+    "game_id": "416"
+  },
+  {
+    "id": 1327,
     "type": "passive",
     "name": "서큐버스",
     "english_name": "Succubus",
@@ -4485,7 +4920,7 @@ const passiveItemsData = [
     "game_id": "417"
   },
   {
-    "id": 499,
+    "id": 1328,
     "type": "passive",
     "name": "과일 케이크",
     "english_name": "Fruit Cake",
@@ -4500,7 +4935,7 @@ const passiveItemsData = [
     "game_id": "418"
   },
   {
-    "id": 500,
+    "id": 1329,
     "type": "passive",
     "name": "흑색 가루",
     "english_name": "Black Powder",
@@ -4515,7 +4950,7 @@ const passiveItemsData = [
     "game_id": "420"
   },
   {
-    "id": 501,
+    "id": 1330,
     "type": "passive",
     "name": "보호의 고리",
     "english_name": "Circle of Protection",
@@ -4530,7 +4965,7 @@ const passiveItemsData = [
     "game_id": "423"
   },
   {
-    "id": 502,
+    "id": 1331,
     "type": "passive",
     "name": "자루 머리",
     "english_name": "Sack Head",
@@ -4545,7 +4980,7 @@ const passiveItemsData = [
     "game_id": "424"
   },
   {
-    "id": 503,
+    "id": 1332,
     "type": "passive",
     "name": "휴대용 손전등",
     "english_name": "Night Light",
@@ -4560,7 +4995,7 @@ const passiveItemsData = [
     "game_id": "425"
   },
   {
-    "id": 504,
+    "id": 1333,
     "type": "passive",
     "name": "홀려버린 추종자",
     "english_name": "Obsessed Fan",
@@ -4575,7 +5010,7 @@ const passiveItemsData = [
     "game_id": "426"
   },
   {
-    "id": 505,
+    "id": 1334,
     "type": "passive",
     "name": "잠옷",
     "english_name": "PJs",
@@ -4590,7 +5025,7 @@ const passiveItemsData = [
     "game_id": "428"
   },
   {
-    "id": 506,
+    "id": 1335,
     "type": "passive",
     "name": "주인의 머리",
     "english_name": "Head of the Keeper",
@@ -4605,7 +5040,7 @@ const passiveItemsData = [
     "game_id": "429"
   },
   {
-    "id": 507,
+    "id": 1336,
     "type": "passive",
     "name": "파리 아저씨",
     "english_name": "Papa Fly",
@@ -4620,7 +5055,7 @@ const passiveItemsData = [
     "game_id": "430"
   },
   {
-    "id": 508,
+    "id": 1337,
     "type": "passive",
     "name": "다차원 아기",
     "english_name": "Multidimensional Baby",
@@ -4635,7 +5070,37 @@ const passiveItemsData = [
     "game_id": "431"
   },
   {
-    "id": 509,
+    "id": 1338,
+    "type": "passive",
+    "name": "반짝이 폭탄",
+    "english_name": "Glitter Bombs",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/YCHoLCXcbFJYt_aiSOPZk9Gfw3GR80dRD6qrvdOgcayJZgc8OmTyMEVpIdZuu6YZfjQwBq7zH3nNcB8NI7fSMA.png",
+    "description": "선물 폭탄!",
+    "cooldown": "",
+    "unlock_condition": "없음",
+    "location": "보물방,, 폭탄 거지,, 그리드모드 보물방",
+    "grade": "2등급",
+    "effect": "폭탄+ 5개. 폭탄이 터질 때 랜덤으로 픽업 아이템 또는 장신구를 드랍한다.픽업 아이템이나 장신구가 나올 확률은 각 층마다 63%로 시작해 폭탄이 픽업 아이템이나 장신구를 드랍할 때마다 확률이 1%씩 낮아져 최종적으로 0%에 도달한다. 황금 폭탄과 같은 무한 폭탄 수급 수단으로 픽업 아이템을 무한으로 획득하는 것을 막기 위한 조치.",
+    "game_id": "432"
+  },
+  {
+    "id": 1339,
+    "type": "passive",
+    "name": "나의 그림자",
+    "english_name": "My Shadow",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/FXc_h7MdWs7uXQICBvShBum-dT51qzvsj0ofVdk0Yw4TANNvIWzSQ7mrB7LAXZ7CMdC46s7KxEaplty391DgPw.webp",
+    "description": "나! 그리고 내 그으으림자!",
+    "cooldown": "",
+    "unlock_condition": "Judas 캐릭터로Greed Mode의 최종 보스Ultra Greed 클리어",
+    "location": "악마방,, 그리드모드 악마방",
+    "grade": "2등급",
+    "effect": "그림자가 캐릭터 뒤를 바싹 쫓아오며 그림자가 적과 접촉 시 상시 매혹효과를 가진 검은색 아군 애벌레(아이템 이름과 동일)를 최대 16마리까지 소환한다. 이 애벌레는 20의 체력을 가졌으며 적에게 8.7의 접촉 대미지를 주지만 방을 넘어가면 사라진다. 또한 적의 탄을 막을 수 있다.",
+    "game_id": "433"
+  },
+  {
+    "id": 1340,
     "type": "passive",
     "name": "리틀 로키",
     "english_name": "Lil' Loki",
@@ -4650,7 +5115,22 @@ const passiveItemsData = [
     "game_id": "435"
   },
   {
-    "id": 510,
+    "id": 1341,
+    "type": "passive",
+    "name": "우유!",
+    "english_name": "Milk!",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/6JjcOFt4JDHGPlHGpWExC6Aal2kOESWXExPiPoKAF9ORQgNssyrNgf_xrt14bMKBiHNY9PX86FF-IrvfblrSIg.png",
+    "description": "엎질러진 건 어쩔 수 없어...",
+    "cooldown": "",
+    "unlock_condition": "없음",
+    "location": "보물방,, 그리드모드 보물방",
+    "grade": "1등급",
+    "effect": "캐릭터를 따라오는 우유잔이 생기며 적의 투사체를 막아준다. 우유잔이 10번 막아주면 엎질러지며 그 층에서만 공격 속도가 1 증가한다. 이 공격 속도 증가는 한계치를 초과할 수 있다. 엎질러진 우유잔은 다음 층으로 가면 다시 생성된다.우유잔이 엎질러질 때 우유 웅덩이가 생기는데, 아무 효과 없는 단순한 시각적 효과이며 몇 초 후에 알아서 사라진다. 우유잔이 엎질러질 때 우유 웅덩이가 생기는데, 아무 효과 없는 단순한 시각적 효과이며 몇 초 후에 ...",
+    "game_id": "436"
+  },
+  {
+    "id": 1342,
     "type": "passive",
     "name": "아기처럼)(쪽쪽이",
     "english_name": "Binky",
@@ -4665,7 +5145,7 @@ const passiveItemsData = [
     "game_id": "438"
   },
   {
-    "id": 511,
+    "id": 1343,
     "type": "passive",
     "name": "신장 결석",
     "english_name": "Kidney Stone",
@@ -4680,7 +5160,7 @@ const passiveItemsData = [
     "game_id": "440"
   },
   {
-    "id": 512,
+    "id": 1344,
     "type": "passive",
     "name": "어두운 왕자의 왕관",
     "english_name": "Dark Prince's Crown",
@@ -4695,7 +5175,7 @@ const passiveItemsData = [
     "game_id": "442"
   },
   {
-    "id": 513,
+    "id": 1345,
     "type": "passive",
     "name": "사과",
     "english_name": "Apple!",
@@ -4710,7 +5190,7 @@ const passiveItemsData = [
     "game_id": "443"
   },
   {
-    "id": 514,
+    "id": 1346,
     "type": "passive",
     "name": "연필",
     "english_name": "Lead pencil",
@@ -4725,7 +5205,7 @@ const passiveItemsData = [
     "game_id": "444"
   },
   {
-    "id": 515,
+    "id": 1347,
     "type": "passive",
     "name": "개 이빨",
     "english_name": "Dog Tooth",
@@ -4740,7 +5220,7 @@ const passiveItemsData = [
     "game_id": "445"
   },
   {
-    "id": 516,
+    "id": 1348,
     "type": "passive",
     "name": "죽은 이빨",
     "english_name": "Dead Tooth",
@@ -4755,7 +5235,7 @@ const passiveItemsData = [
     "game_id": "446"
   },
   {
-    "id": 517,
+    "id": 1349,
     "type": "passive",
     "name": "납작한 콩",
     "english_name": "Linger Bean",
@@ -4770,7 +5250,7 @@ const passiveItemsData = [
     "game_id": "447"
   },
   {
-    "id": 518,
+    "id": 1350,
     "type": "passive",
     "name": "유리 조각",
     "english_name": "Shard of Glass",
@@ -4785,7 +5265,22 @@ const passiveItemsData = [
     "game_id": "448"
   },
   {
-    "id": 519,
+    "id": 1351,
+    "type": "passive",
+    "name": "강철판",
+    "english_name": "Metal Plate",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/tPkcC3YtHzhZb88depy2t_THU3K2ped0k1KlAq8CfdorgeqCQiRBi69iz9mP4VPeJ-noK5RiO9W4v9rq418FgQ.png",
+    "description": "근질근질거려..",
+    "cooldown": "",
+    "unlock_condition": "없음",
+    "location": "보물방,, 그리드모드 보물방",
+    "grade": "1등급",
+    "effect": "소울 하트+ 1개 적의 탄환을 맞을 시 25% 확률로유도효과가 적용된 반사탄을 날린다.반사탄은 캐릭터의 능력치와 일부 눈물 시너지를 따라가며 맞은 적에게혼란상태이상을 걸어 방을 무작위로 돌아다니게 만든다.",
+    "game_id": "449"
+  },
+  {
+    "id": 1352,
     "type": "passive",
     "name": "그리드의 눈",
     "english_name": "Eye of Greed",
@@ -4800,7 +5295,67 @@ const passiveItemsData = [
     "game_id": "450"
   },
   {
-    "id": 520,
+    "id": 1353,
+    "type": "passive",
+    "name": "점술용 천",
+    "english_name": "Tarot Cloth",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/o27N_DLJqZoPbDpj8WIGXqCuIeNi8GyQgaQAsK4ywUgeVrXvUbur7XYr5BSU2IHV3VeQ2WGf3rKh3ssOz2mVnQ.png",
+    "description": "I see the future",
+    "cooldown": "",
+    "unlock_condition": "없음",
+    "location": "저주방,, 상점,, 인형 뽑기,, 그리드모드 저주방,, 그리드모드 악마방,",
+    "grade": "2등급",
+    "effect": "획득 시 임의의 타로 카드를 필드에 하나 드랍한다. 타로 카드의 효과를 강화시키며 타로 카드를 들고 있으면 보라색으로 깜박거린다.",
+    "game_id": "451"
+  },
+  {
+    "id": 1354,
+    "type": "passive",
+    "name": "정맥류",
+    "english_name": "Varicose Veins",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/BWWdG913FyE0na46y040douYwo9U9z7g7pUMklRmv8rK1Zc0eWKU0ZgT2ys1r6iCheiHRhaWhdXC1xeL7J6KmQ.png",
+    "description": "I'm leaking...",
+    "cooldown": "",
+    "unlock_condition": "없음",
+    "location": "보물방,, 특급 비밀방,, 그리드모드 보물방",
+    "grade": "1등급",
+    "effect": "피격 시(현재 공격력 + 25)의 대미지를 주는 눈물 10개를 원형으로 발사한다. 피격 시 일정 확률로 1.5초간 Anemic 아이템 효과가 발동해 사거리가 1.5 증가하고 바닥에 피 장판을 깐다.",
+    "game_id": "452"
+  },
+  {
+    "id": 1355,
+    "type": "passive",
+    "name": "복합 골절",
+    "english_name": "Compound Fracture",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/Vi5ArYCh91bwqTL0CbklUhBw3OargGyLH55gECODPtRD3H9ONEUyeHSqJB-qFSdCAQ1bCV-EZqqYj80pS-dT5A.png",
+    "description": "Bone tears!",
+    "cooldown": "",
+    "unlock_condition": "Lazarus 캐릭터로VOID 스테이지의 보스Delirium 클리어",
+    "location": "보물방,, 그리드모드 보물방",
+    "grade": "3등급",
+    "effect": "사거리+ 1.5 눈물 대신 뼈다귀를 발사하며 적이나 지형물을 맞출 시 1~3조각으로 갈라진다.갈라진 뼈다귀는 기존 공격력의 절반이 된다.",
+    "game_id": "453"
+  },
+  {
+    "id": 1356,
+    "type": "passive",
+    "name": "다지증",
+    "english_name": "Polydactyly",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/J4STOEq7G4CC4cBkK0H1tGjSXTdWyJjqah0rnEEmN3Ls4Q4xFm0ky2UIApd06F-mUjkOgIko2aKU8uXwls3LqA.png",
+    "description": "내 손을 잡아!",
+    "cooldown": "",
+    "unlock_condition": "없음",
+    "location": "보물방,, 그리드모드 보물방",
+    "grade": "2등급",
+    "effect": "획득 시 임의의 카드/룬/알약 중 하나를 필드에 드랍하고 카드/알약을 하나 더 들고 다닐 수 있게 된다. 다른 슬롯 추가 아이템과 중첩되지 않는다.",
+    "game_id": "454"
+  },
+  {
+    "id": 1357,
     "type": "passive",
     "name": "아빠의 잃어버린 동전",
     "english_name": "Dad's Lost Coin",
@@ -4815,7 +5370,7 @@ const passiveItemsData = [
     "game_id": "455"
   },
   {
-    "id": 521,
+    "id": 1358,
     "type": "passive",
     "name": "야식",
     "english_name": "Midnight Snack",
@@ -4830,7 +5385,7 @@ const passiveItemsData = [
     "game_id": "456"
   },
   {
-    "id": 522,
+    "id": 1359,
     "type": "passive",
     "name": "콘헤드",
     "english_name": "Cone Head",
@@ -4845,7 +5400,7 @@ const passiveItemsData = [
     "game_id": "457"
   },
   {
-    "id": 523,
+    "id": 1360,
     "type": "passive",
     "name": "배꼽",
     "english_name": "Belly Button",
@@ -4860,7 +5415,7 @@ const passiveItemsData = [
     "game_id": "458"
   },
   {
-    "id": 524,
+    "id": 1361,
     "type": "passive",
     "name": "축농증",
     "english_name": "Sinus Infection",
@@ -4875,7 +5430,7 @@ const passiveItemsData = [
     "game_id": "459"
   },
   {
-    "id": 525,
+    "id": 1362,
     "type": "passive",
     "name": "녹내장",
     "english_name": "Glaucoma",
@@ -4890,7 +5445,7 @@ const passiveItemsData = [
     "game_id": "460"
   },
   {
-    "id": 526,
+    "id": 1363,
     "type": "passive",
     "name": "기생자",
     "english_name": "Parasitoid",
@@ -4905,7 +5460,7 @@ const passiveItemsData = [
     "game_id": "461"
   },
   {
-    "id": 527,
+    "id": 1364,
     "type": "passive",
     "name": "벨리알의 눈",
     "english_name": "Eye of Belial",
@@ -4920,7 +5475,7 @@ const passiveItemsData = [
     "game_id": "462"
   },
   {
-    "id": 528,
+    "id": 1365,
     "type": "passive",
     "name": "황산",
     "english_name": "Sulfuric Acid",
@@ -4935,7 +5490,7 @@ const passiveItemsData = [
     "game_id": "463"
   },
   {
-    "id": 529,
+    "id": 1366,
     "type": "passive",
     "name": "균형의 문양",
     "english_name": "Glyph of Balance",
@@ -4950,7 +5505,22 @@ const passiveItemsData = [
     "game_id": "464"
   },
   {
-    "id": 530,
+    "id": 1367,
+    "type": "passive",
+    "name": "아날로그 스틱",
+    "english_name": "Analog stick",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/IPkkQVpYhTtrSTiYwUzL2VEDxbhtxa_HUsivqZ4Bh_a9ZYoEvZUyvXQpSSXm8-wXpeonWcPCwQhSvYWGQGKxrw.png",
+    "description": "360 tears!",
+    "cooldown": "",
+    "unlock_condition": "없음",
+    "location": "보물방,, 인형 뽑기,, 그리드모드 보물방",
+    "grade": "2등급",
+    "effect": "공격 속도+ 0.35 눈물을 360도 각도로 쏠 수 있게 된다.",
+    "game_id": "465"
+  },
+  {
+    "id": 1368,
     "type": "passive",
     "name": "전염병",
     "english_name": "Contagion",
@@ -4965,7 +5535,7 @@ const passiveItemsData = [
     "game_id": "466"
   },
   {
-    "id": 531,
+    "id": 1369,
     "type": "passive",
     "name": "핑거",
     "english_name": "Finger!",
@@ -4980,7 +5550,7 @@ const passiveItemsData = [
     "game_id": "467"
   },
   {
-    "id": 532,
+    "id": 1370,
     "type": "passive",
     "name": "그림자",
     "english_name": "Shade",
@@ -4995,7 +5565,7 @@ const passiveItemsData = [
     "game_id": "468"
   },
   {
-    "id": 533,
+    "id": 1371,
     "type": "passive",
     "name": "우울증",
     "english_name": "Depression[29]",
@@ -5010,7 +5580,7 @@ const passiveItemsData = [
     "game_id": "469"
   },
   {
-    "id": 534,
+    "id": 1372,
     "type": "passive",
     "name": "허쉬",
     "english_name": "Hushy",
@@ -5025,7 +5595,7 @@ const passiveItemsData = [
     "game_id": "470"
   },
   {
-    "id": 535,
+    "id": 1373,
     "type": "passive",
     "name": "꼬마 몬스트로",
     "english_name": "Lil Monstro",
@@ -5040,7 +5610,7 @@ const passiveItemsData = [
     "game_id": "471"
   },
   {
-    "id": 536,
+    "id": 1374,
     "type": "passive",
     "name": "아기 왕",
     "english_name": "King Baby",
@@ -5055,7 +5625,7 @@ const passiveItemsData = [
     "game_id": "472"
   },
   {
-    "id": 537,
+    "id": 1375,
     "type": "passive",
     "name": "커다란 처비",
     "english_name": "Big Chubby",
@@ -5070,7 +5640,7 @@ const passiveItemsData = [
     "game_id": "473"
   },
   {
-    "id": 538,
+    "id": 1376,
     "type": "passive",
     "name": "환각[31]아기",
     "english_name": "Acid baby",
@@ -5085,7 +5655,7 @@ const passiveItemsData = [
     "game_id": "491"
   },
   {
-    "id": 539,
+    "id": 1377,
     "type": "passive",
     "name": "야 들어봐!",
     "english_name": "YO LISTEN!",
@@ -5100,7 +5670,7 @@ const passiveItemsData = [
     "game_id": "492"
   },
   {
-    "id": 540,
+    "id": 1378,
     "type": "passive",
     "name": "아드레날린",
     "english_name": "Adrenaline",
@@ -5115,7 +5685,22 @@ const passiveItemsData = [
     "game_id": "493"
   },
   {
-    "id": 541,
+    "id": 1379,
+    "type": "passive",
+    "name": "야곱의 사다리",
+    "english_name": "Jacob's Ladder",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/XAsnGqCi-eYTyYnAL8cK61IWnXt4HE-wdOfe50bpJB0Mtv2RGmvA-1KLGvhz3LCWjIUIdQwmr_bOX3I3d2vxnA.png",
+    "description": "Electric tears",
+    "cooldown": "",
+    "unlock_condition": "없음",
+    "location": "보물방,, 배터리 거지 (비중 0.1),, 인형 뽑기,, 그리드모드 보물방",
+    "grade": "3등급",
+    "effect": "눈물이 적이나 지형물에 닿을 경우 짧은 사거리의 스파크를 발사한다. 스파크가 적을 맞추면 주변의 적에게 최대 4마리까지 퍼져나간다.스파크는 현재 눈물 데미지를 기준으로 절반의 피해를 준다. 스파크는 현재 눈물 데미지를 기준으로 절반의 피해를 준다.",
+    "game_id": "494"
+  },
+  {
+    "id": 1380,
     "type": "passive",
     "name": "유령 고추",
     "english_name": "Ghost Pepper",
@@ -5130,7 +5715,22 @@ const passiveItemsData = [
     "game_id": "495"
   },
   {
-    "id": 542,
+    "id": 1381,
+    "type": "passive",
+    "name": "안락사",
+    "english_name": "Euthanasia",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/fH-2rwnd8SatkgmzjLYA2YiWy8co-eQwNVtlKI25tbOa-qFn0AyQGeic0pfK8GLJ_mMQ6WtDgaaceeUIfnaMFQ.webp",
+    "description": "Needle shot",
+    "cooldown": "",
+    "unlock_condition": "Lilith 캐릭터로VOID 스테이지의 보스Delirium 클리어",
+    "location": "보물방,, 저주방,, 악마 거지,, 그리드모드 보물방,, 그리드모드 저주방",
+    "grade": "3등급",
+    "effect": "공격 시 확률적으로 검은 주사기가 나가며 주사기에 맞은 일반몹은즉사한 후 열 방향으로 눈물이 퍼진다. 보스에게는 즉사 대신 3배의 피해를 준다.즉사에 해당되는 몬스터에는 방어시 데미지를 주지 못하는 몬스터나 체력이 무한인 고정형 몬스터도 포함된다. 이 때 던질 수 있는 폭탄을 드랍하는 Bomb Grimace가 즉사한다면 방을 나가면 사라지는 10개의 던질 수 있는 폭탄을 떨어뜨린다.분열된 눈물에서 주사기가 나온다면 즉사 기능은 없고 3배의 데미...",
+    "game_id": "496"
+  },
+  {
+    "id": 1382,
     "type": "passive",
     "name": "위장 속옷",
     "english_name": "Camo Undies",
@@ -5145,7 +5745,7 @@ const passiveItemsData = [
     "game_id": "497"
   },
   {
-    "id": 543,
+    "id": 1383,
     "type": "passive",
     "name": "이중성",
     "english_name": "Duality",
@@ -5160,7 +5760,22 @@ const passiveItemsData = [
     "game_id": "498"
   },
   {
-    "id": 544,
+    "id": 1384,
+    "type": "passive",
+    "name": "성찬",
+    "english_name": "Eucharist",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/K_Vd_8iQlX96DGj2zuLIaCsNr74RDqO-8BoLCW6pHjjgb8ohyDNnkolabNuGYgM4casVJR96XC6XgCa-Kuf_Hw.png",
+    "description": "Peace be with you",
+    "cooldown": "",
+    "unlock_condition": "Magdalene 캐릭터로VOID 스테이지의 보스Delirium 클리어",
+    "location": "천사방,, 그리드모드 천사방",
+    "grade": "3등급",
+    "effect": "악마방 등장 확률이 100%가 되며, 동시에 천사방 대체 확률이 100%가 되어 악마방/천사방이 출현할 수 있는 2~8스테이지에서 천사방이 무조건 등장한다. 확률이 고정되기 때문에 천사방을 나가도 항상 열려있으며 보스를 클리어하고 그 이후 획득하더라도 보스방을 다시 들르면 천사방이 생성된다.",
+    "game_id": "499"
+  },
+  {
+    "id": 1385,
     "type": "passive",
     "name": "주머니 주머니",
     "english_name": "Sack of Sacks",
@@ -5175,7 +5790,7 @@ const passiveItemsData = [
     "game_id": "500"
   },
   {
-    "id": 545,
+    "id": 1386,
     "type": "passive",
     "name": "탐욕의 식도",
     "english_name": "Greed's Gullet",
@@ -5190,7 +5805,7 @@ const passiveItemsData = [
     "game_id": "501"
   },
   {
-    "id": 546,
+    "id": 1387,
     "type": "passive",
     "name": "대왕 여드름",
     "english_name": "Large Zit",
@@ -5205,7 +5820,7 @@ const passiveItemsData = [
     "game_id": "502"
   },
   {
-    "id": 547,
+    "id": 1388,
     "type": "passive",
     "name": "작은 뿔",
     "english_name": "Little Horn",
@@ -5220,7 +5835,7 @@ const passiveItemsData = [
     "game_id": "503"
   },
   {
-    "id": 548,
+    "id": 1389,
     "type": "passive",
     "name": "포켓고",
     "english_name": "Poke Go",
@@ -5235,7 +5850,7 @@ const passiveItemsData = [
     "game_id": "505"
   },
   {
-    "id": 549,
+    "id": 1390,
     "type": "passive",
     "name": "배신자",
     "english_name": "Backstabber",
@@ -5250,7 +5865,7 @@ const passiveItemsData = [
     "game_id": "506"
   },
   {
-    "id": 550,
+    "id": 1391,
     "type": "passive",
     "name": "엄마의 면도칼",
     "english_name": "Mom's Razor",
@@ -5265,7 +5880,7 @@ const passiveItemsData = [
     "game_id": "508"
   },
   {
-    "id": 551,
+    "id": 1392,
     "type": "passive",
     "name": "피눈물 눈알",
     "english_name": "Bloodshot Eye",
@@ -5280,7 +5895,7 @@ const passiveItemsData = [
     "game_id": "509"
   },
   {
-    "id": 552,
+    "id": 1393,
     "type": "passive",
     "name": "화난 파리",
     "english_name": "Angry Fly",
@@ -5295,7 +5910,22 @@ const passiveItemsData = [
     "game_id": "511"
   },
   {
-    "id": 553,
+    "id": 1394,
+    "type": "passive",
+     "name": "멍청이",
+    "english_name": "Bozo",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/LJtn66OOoySz9ksYS3TB7Hz_SUy5_gANrQuFjJVu8urlICq9DpzAoE-CD_w6fxZ2sXe5Z9E18FjzrwTfz6CKsQ.png",
+    "description": "Party time!",
+    "cooldown": "",
+    "unlock_condition": "무지개 똥 5회 파괴",
+    "location": "보물방,, 그리드모드 보물방",
+    "grade": "2등급",
+    "effect": "소울 하트+ 1개 고정 공격력+ 0.1",
+    "game_id": "513"
+  },
+  {
+    "id": 1395,
     "type": "passive",
     "name": "고장난 모뎀",
     "english_name": "Broken Modem",
@@ -5310,7 +5940,7 @@ const passiveItemsData = [
     "game_id": "514"
   },
   {
-    "id": 554,
+    "id": 1396,
     "type": "passive",
     "name": "고속 폭탄",
     "english_name": "Fast Bombs",
@@ -5325,7 +5955,7 @@ const passiveItemsData = [
     "game_id": "517"
   },
   {
-    "id": 555,
+    "id": 1397,
     "type": "passive",
     "name": "상자 안의 친구",
     "english_name": "Buddy in a Box",
@@ -5340,7 +5970,7 @@ const passiveItemsData = [
     "game_id": "518"
   },
   {
-    "id": 556,
+    "id": 1398,
     "type": "passive",
     "name": "꼬마 주마등",
     "english_name": "Lil Delirium",
@@ -5355,7 +5985,7 @@ const passiveItemsData = [
     "game_id": "519"
   },
   {
-    "id": 557,
+    "id": 1399,
     "type": "passive",
     "name": "점퍼 케이블",
     "english_name": "Jumper Cables",
@@ -5370,7 +6000,22 @@ const passiveItemsData = [
     "game_id": "520"
   },
   {
-    "id": 558,
+    "id": 1400,
+    "type": "passive",
+    "name": "Technology Zero",
+    "english_name": "Technology Zero",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/luH1KIaHvVaXxskczSKukgnI_mcJM7GrawhEV7mS0idvhPrffSxmHScfQwQaia5NXUq-dqNQOfnly6o5xi3F5g.png",
+    "description": "Static tears!",
+    "cooldown": "",
+    "unlock_condition": "한 게임에서 'tech' 태그 아이템 2종류 획득",
+    "location": " 보물방,  인형 뽑기, 그리드모드 보물방",
+    "grade": "3",
+    "effect": "눈물 공격 시 캐릭터 + 패밀리어가 쏜 눈물들 사이로 자기장이 연결되며 나간다.자기장은 틱당 현재 공격력의 30%의 대미지를 초당 15번 입힌다.",
+    "game_id": "524"
+  },
+  {
+    "id": 1401,
     "type": "passive",
     "name": "문둥병",
     "english_name": "Leprosy",
@@ -5385,7 +6030,7 @@ const passiveItemsData = [
     "game_id": "525"
   },
   {
-    "id": 559,
+    "id": 1402,
     "type": "passive",
     "name": "7개의 도장",
     "english_name": "7 Seals",
@@ -5400,7 +6045,37 @@ const passiveItemsData = [
     "game_id": "526"
   },
   {
-    "id": 560,
+    "id": 1403,
+    "type": "passive",
+    "name": "천사빛 프리즘",
+    "english_name": "Angelic Prism",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/3qY3jyc80JEL-M8JLb8U-RstVcuaN_2nzGm8DQ0rI7Fk3Q7Ds3o8VtO6KMhFoaZG7Kk4sjwqrAZ5BkcSbeRweg.png",
+    "description": "Eclipse by the moon",
+    "cooldown": "",
+    "unlock_condition": "천사 중간보스(우리엘 또는가브리엘)을 10번 처치",
+    "location": "천사방,, 그리드모드 천사방",
+    "grade": "3등급",
+    "effect": "프리즘이 생성되어 캐릭터 주위를 약간 거리를 둔 채 돈다. 프리즘에 캐릭터 및 패밀리어의 공격이 통과할 경우 4갈래로 형형색색의 공격으로 갈라져 나아간다.",
+    "game_id": "528"
+  },
+  {
+    "id": 1404,
+    "type": "passive",
+    "name": "Pop!",
+    "english_name": "Pop!",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/DppMkTNREqznya_7ZpislAECFR5gyqG4OoywVtK6Os-7tIhoJ7KQ3d4ccC3s_xWSxU25u9-yDD42SnVQlWihZQ.png",
+    "description": "Eyeball tears!",
+    "cooldown": "",
+    "unlock_condition": "챕터 4인 7,8 스테이지를 피격받지 않고 클리어",
+    "location": "보물방,  그리드모드 보물방",
+    "grade": "1",
+    "effect": "공격 시 눈물 대신 눈알을 발사하며 눈알은 다른 눈알이 닿으면 튕겨 나간다.눈알의 사거리 제한이 사라지며 움직임이 아예 멈추거나, 적 또는 오브젝트를 맞추면 그 자리에 떨어져 사라진다.눈알이 다른 눈알에 의해 총 8번을 튕기면 움직임에 관계없이 점차 바닥으로 떨어지기 시작한다.단독으로는 눈물이 날아가는 속도도 느려지고 눈알이 튕기는 특성상 멀리 있는 적을 맞추기 힘들기에 차라리 안 먹는 게 나을 정도로 성능이 좋지 않지만, 다른 아이템들과 시너지가 생길수록 게임을 파괴할 수도 있는 아이템이 된다.",
+    "game_id": "529"
+  },
+  {
+    "id": 1405,
     "type": "passive",
     "name": "죽음의 살생부",
     "english_name": "Death's List",
@@ -5415,7 +6090,52 @@ const passiveItemsData = [
     "game_id": "530"
   },
   {
-    "id": 561,
+    "id": 1406,
+    "type": "passive",
+  "name": "피눈물병",
+    "english_name": "Haemolacria",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/ina-8qonzXVXL5WbAR4aWDVuCdnI4XhA7dcevTFYS3-BIqYJvZoHlfjpQavugAX7dZtkclxbs0ro3cNGpIdgqg.png",
+    "description": "I'm seeing red...",
+    "cooldown": "",
+    "unlock_condition": "Blood Clot 패시브 아이템 누적 10회 획득",
+    "location": "보물방,, 특급 비밀방,, 그리드모드 보물방",
+    "grade": "4등급",
+    "effect": "공격력+ 1 공격력 배율× 1.5",
+    "game_id": "531"
+  },
+  {
+    "id": 1407,
+    "type": "passive",
+    "name": "눈물을 마시는 새",
+    "english_name": "Lachryphagy",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/VKlSmAxTQHZ0NvDErFk7CTDKpbHp1lh0w1h9vtL1qu2NnKcpXqI7cWhHjxGVxlEpZ0HVh0hrzkJM6AR10FllHw.png",
+    "description": "Feed them!",
+    "cooldown": "",
+    "unlock_condition": "한 게임에서공속을 상승시키는 아이템이나 알약을 10개 획득",
+    "location": "보물방,, 그리드모드 보물방",
+    "grade": "2등급",
+    "effect": "눈물이 발사될 때마다 눈물속도가 점점 감속된다. 눈물이 감속되어도 일정 시간동안은 가만히 있게 되며 그때까지 이 눈물에 캐릭터나 패밀리어가 다른 눈물을 발사해서 흡수시킬 수 있다. 눈물을 흡수할 때마다 눈물이 점점 커지며 5번을 흡수하거나 일정 시간이 지나면 흡수된 눈물의 갯수에 따라 눈물이 5~8방향으로 파열되어 발사된다. 이 때 파열된 눈물은 메인 눈물의 절반의 대미지를 준다.단 파열되는 조건이 되기도 전에 장애물이나 적을 맞히면 파열하지 ...",
+    "game_id": "532"
+  },
+  {
+    "id": 1408,
+    "type": "passive",
+    "name": "삼성송",
+    "english_name": "Trisagion",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/WtvbpSYhbOZb_PEpGqWK11HteWVfJr2klIshFh9RsysSPChLUIcGG_VRS9SWwFGJZjT8yJ3i0C8JXCk7cliLEw.png",
+    "description": "Smite thy enemy",
+    "cooldown": "",
+    "unlock_condition": "천사방에서 제공하는 아이템 누적 25번 획득",
+    "location": "천사방,, 그리드모드 천사방",
+    "grade": "3등급",
+    "effect": "눈물 대신 짧은 하얀색 빛줄기를 발사한다. 이 빛줄기는 적을관통하며 날아가며 바닥에 떨어지기 직전 크기가 점차 줄어든다. 빛줄기가 틱당 입히는 피해는 현재 공격력의 33%정도로 낮으나 하나의 적을 여러 번 타격할 수 있다. 적에게 오래 머물수록 입히는 대미지가 증가하기 때문에 눈물 속도가 낮을수록 효율이 좋으며 유도 아이템들과는 극강의 효율을 자랑한다.",
+    "game_id": "533"
+  },
+  {
+    "id": 1409,
     "type": "passive",
     "name": "책가방",
     "english_name": "Schoolbag",
@@ -5430,7 +6150,37 @@ const passiveItemsData = [
     "game_id": "534"
   },
   {
-    "id": 562,
+    "id": 1410,
+    "type": "passive",
+    "name": "담요",
+    "english_name": "Blanket",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/UqvvjHj5wUiyQ8qZy9bZrAT8rOnjReDOu-US8PiRNR7ewV--AKD3aZRswh6Q6heYiRBOLlPYDfJw82Dlln0iwA.png",
+    "description": "You feel safe",
+    "cooldown": "",
+    "unlock_condition": "침대에서 누적 10번 자기",
+    "location": "상점,, 그리드모드 상점",
+    "grade": "2등급",
+    "effect": "소울 하트+ 1개 빨간 하트 체력을 1칸 회복한다.",
+    "game_id": "535"
+  },
+  {
+    "id": 1411,
+    "type": "passive",
+    "name": "꼬마 구토쟁이",
+    "english_name": "Lil Spewer",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/fIk7X15Zhapdk3HX_fOdWyicuZ8mEccITSioud_e0J7LYGBpx1FCXZRhYSzjKzwUPTzRK3PMVqxk0zmYDXusWQ.png",
+    "description": "Puking buddy",
+    "cooldown": "",
+    "unlock_condition": "독성 폭발 아이템으로 자살하기",
+    "location": "보물방,, 아기 상점,, 그리드모드 보물방",
+    "grade": "1등급",
+    "effect": "획득시 임의의 알약을 필드에 하나 드랍한다. 캐릭터를 따라다니면서 캐릭터가 공격할 때 공격을 충전 후 완충 시 다양한 종류의 장판을 뱉는 패밀리어가 생긴다.",
+    "game_id": "537"
+  },
+  {
+    "id": 1412,
     "type": "passive",
     "name": "구슬구",
     "english_name": "Marbles",
@@ -5445,7 +6195,7 @@ const passiveItemsData = [
     "game_id": "538"
   },
   {
-    "id": 563,
+    "id": 1413,
     "type": "passive",
     "name": "이상한 알",
     "english_name": "Mystery Egg",
@@ -5460,7 +6210,22 @@ const passiveItemsData = [
     "game_id": "539"
   },
   {
-    "id": 564,
+    "id": 1414,
+    "type": "passive",
+   "name": "납작한 돌",
+    "english_name": "Flat Stone",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/s7BiBTMLYJECTOOaH-mL33ykhGKCmAjbVB-cYp3uZZjKVTYGxJbo2lXrvhffPQUvtpuFpjOsRCNWEwjpYQ2Rtg.png",
+    "description": "Skipping tears",
+    "cooldown": "",
+    "unlock_condition": "Rubber Cement 패시브 아이템 누적 5번 획득",
+    "location": "보물방,, 그리드모드 보물방",
+    "grade": "2등급",
+    "effect": "눈물이 바닥을 튀면서 나간다. 튈 때 물보라가 생기는데 이 물보라에 맞은 적은 현재 공격력의 25%만큼의 피해를 입는다. 레트로 보물방이나, 이와 유사한 형식의 방에서는 눈물이 바닥으로 급속도로 떨어질 뿐더러 바닥에 튕기지도 않기 때문에, The Beast나 Mother를 잡으러 간다면 획득하지 않는 것이 좋다.",
+    "game_id": "540"
+  },
+  {
+    "id": 1415,
     "type": "passive",
     "name": "골수",
     "english_name": "Marrow",
@@ -5475,7 +6240,7 @@ const passiveItemsData = [
     "game_id": "541"
   },
   {
-    "id": 565,
+    "id": 1416,
     "type": "passive",
     "name": "미끄러운[65]갈비뼈",
     "english_name": "Slipped Rib",
@@ -5490,7 +6255,7 @@ const passiveItemsData = [
     "game_id": "542"
   },
   {
-    "id": 566,
+    "id": 1417,
     "type": "passive",
     "name": "성지",
     "english_name": "Hallowed Ground",
@@ -5505,7 +6270,7 @@ const passiveItemsData = [
     "game_id": "543"
   },
   {
-    "id": 567,
+    "id": 1418,
     "type": "passive",
     "name": "날카로운 갈비뼈",
     "english_name": "Pointy Rib",
@@ -5520,7 +6285,7 @@ const passiveItemsData = [
     "game_id": "544"
   },
   {
-    "id": 568,
+    "id": 1419,
     "type": "passive",
     "name": "아빠의 반지",
     "english_name": "Dad's Ring",
@@ -5535,7 +6300,7 @@ const passiveItemsData = [
     "game_id": "546"
   },
   {
-    "id": 569,
+    "id": 1420,
     "type": "passive",
     "name": "이혼 서류",
     "english_name": "Divorce Papers",
@@ -5550,7 +6315,7 @@ const passiveItemsData = [
     "game_id": "547"
   },
   {
-    "id": 570,
+    "id": 1421,
     "type": "passive",
     "name": "턱뼈",
     "english_name": "Jaw Bone",
@@ -5565,7 +6330,7 @@ const passiveItemsData = [
     "game_id": "548"
   },
   {
-    "id": 571,
+    "id": 1422,
     "type": "passive",
     "name": "골다골증",
     "english_name": "Brittle Bones",
@@ -5580,7 +6345,22 @@ const passiveItemsData = [
     "game_id": "549"
   },
   {
-    "id": 572,
+    "id": 1423,
+    "type": "passive",
+    "name": "부러진 삽",
+    "english_name": "Broken Shovel",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/PNvUzAGWsGLzA_7wXPxxQigstVOy6rbRhmQwKKUGjmDl65wZOzBvLEBErm6shz6wFke4zqU_3ypWNCiZqhMY-w.png",
+    "description": "It Feels cursed",
+    "cooldown": "",
+    "unlock_condition": "없음",
+    "location": "없음",
+    "grade": "4등급",
+    "effect": "Broken Shovel의 손잡이 부분을 가지고 있을 때 보스 러쉬를 클리어하면 기존의 보스 러쉬 보상 대신 등장하며 획득과 동시에 Mom's Shovel 액티브 아이템을 획득한다. 자세한 내용은The Forgotten 캐릭터 항목참조. Death Certificate나, Spindown Dice로 Broken Shovel 손잡이 액티브 아이템 없이 획득할 수 있는데, 이 경우 아무 효과가 없으며 나중에 Broken Shovel 액티브 아이템을...",
+    "game_id": "551"
+  },
+  {
+    "id": 1424,
     "type": "passive",
     "name": "모균증",
     "english_name": "Mucormycosis",
@@ -5595,7 +6375,7 @@ const passiveItemsData = [
     "game_id": "553"
   },
   {
-    "id": 573,
+    "id": 1425,
     "type": "passive",
     "name": "넘나 무서운 것",
     "english_name": "2Spooky",
@@ -5610,7 +6390,7 @@ const passiveItemsData = [
     "game_id": "554"
   },
   {
-    "id": 574,
+    "id": 1426,
     "type": "passive",
     "name": "아픈 눈",
     "english_name": "Eye Sore",
@@ -5625,7 +6405,7 @@ const passiveItemsData = [
     "game_id": "558"
   },
   {
-    "id": 575,
+    "id": 1427,
     "type": "passive",
     "name": "120볼트",
     "english_name": "120 Volt",
@@ -5640,7 +6420,7 @@ const passiveItemsData = [
     "game_id": "559"
   },
   {
-    "id": 576,
+    "id": 1428,
     "type": "passive",
     "name": "아파",
     "english_name": "It Hurts",
@@ -5655,7 +6435,7 @@ const passiveItemsData = [
     "game_id": "560"
   },
   {
-    "id": 577,
+    "id": 1429,
     "type": "passive",
     "name": "아몬드 우유",
     "english_name": "Almond Milk",
@@ -5670,7 +6450,7 @@ const passiveItemsData = [
     "game_id": "561"
   },
   {
-    "id": 578,
+    "id": 1430,
     "type": "passive",
     "name": "밑바닥",
     "english_name": "Rock Bottom",
@@ -5685,7 +6465,7 @@ const passiveItemsData = [
     "game_id": "562"
   },
   {
-    "id": 579,
+    "id": 1431,
     "type": "passive",
     "name": "낸시 폭탄",
     "english_name": "Nancy Bombs",
@@ -5700,7 +6480,7 @@ const passiveItemsData = [
     "game_id": "563"
   },
   {
-    "id": 580,
+    "id": 1432,
     "type": "passive",
     "name": "비누 한 개",
     "english_name": "A Bar of Soap",
@@ -5715,7 +6495,7 @@ const passiveItemsData = [
     "game_id": "564"
   },
   {
-    "id": 581,
+    "id": 1433,
     "type": "passive",
     "name": "피 강아지",
     "english_name": "Blood Puppy",
@@ -5730,7 +6510,7 @@ const passiveItemsData = [
     "game_id": "565"
   },
   {
-    "id": 582,
+    "id": 1434,
     "type": "passive",
     "name": "꿈 그물",
     "english_name": "Dream Catcher",
@@ -5745,7 +6525,7 @@ const passiveItemsData = [
     "game_id": "566"
   },
   {
-    "id": 583,
+    "id": 1435,
     "type": "passive",
     "name": "부활초",
     "english_name": "Paschal Candle",
@@ -5760,7 +6540,7 @@ const passiveItemsData = [
     "game_id": "567"
   },
   {
-    "id": 584,
+    "id": 1436,
     "type": "passive",
     "name": "신의 개입",
     "english_name": "Divine Intervention",
@@ -5775,7 +6555,7 @@ const passiveItemsData = [
     "game_id": "568"
   },
   {
-    "id": 585,
+    "id": 1437,
     "type": "passive",
     "name": "피의 맹세",
     "english_name": "Blood Oath",
@@ -5790,7 +6570,7 @@ const passiveItemsData = [
     "game_id": "569"
   },
   {
-    "id": 586,
+    "id": 1438,
     "type": "passive",
     "name": "플레이도우 쿠키",
     "english_name": "Playdough Cookie",
@@ -5805,7 +6585,7 @@ const passiveItemsData = [
     "game_id": "570"
   },
   {
-    "id": 587,
+    "id": 1439,
     "type": "passive",
     "name": "짝짝이 양말",
     "english_name": "Orphan Socks",
@@ -5820,7 +6600,7 @@ const passiveItemsData = [
     "game_id": "571"
   },
   {
-    "id": 588,
+    "id": 1440,
     "type": "passive",
     "name": "오컬트의 눈",
     "english_name": "Eye of the Occult",
@@ -5835,7 +6615,22 @@ const passiveItemsData = [
     "game_id": "572"
   },
   {
-    "id": 589,
+    "id": 1441,
+    "type": "passive",
+    "name": "티없는 심장",
+    "english_name": "Immaculate Heart",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/wnIBgb_WPEJlGa57XTgvHbxWOPcoy5SeNPfE3t_nOzR6U6fIpQwOA-Ds4XQyDui5wjNxClxZzXR8A9uz6tFg5A.webp",
+    "description": "눈물의 고리",
+    "cooldown": "",
+    "unlock_condition": "없음",
+    "location": "천사방,, 특급 비밀방,, 그리드모드 천사방",
+    "grade": "3등급",
+    "effect": "최대 체력+ 1개& 빨간 하트 체력을 전부 회복한다. 공격력 배율× 1.2",
+    "game_id": "573"
+  },
+  {
+    "id": 1442,
     "type": "passive",
     "name": "성광",
     "english_name": "Monstrance",
@@ -5850,7 +6645,7 @@ const passiveItemsData = [
     "game_id": "574"
   },
   {
-    "id": 590,
+    "id": 1443,
     "type": "passive",
     "name": "침입자",
     "english_name": "The Intruder",
@@ -5865,7 +6660,7 @@ const passiveItemsData = [
     "game_id": "575"
   },
   {
-    "id": 591,
+    "id": 1444,
     "type": "passive",
     "name": "더러운 마음",
     "english_name": "Dirty Mind",
@@ -5880,7 +6675,7 @@ const passiveItemsData = [
     "game_id": "576"
   },
   {
-    "id": 592,
+    "id": 1445,
     "type": "passive",
     "name": "영혼검",
     "english_name": "Spirit Sword",
@@ -5895,7 +6690,7 @@ const passiveItemsData = [
     "game_id": "579"
   },
   {
-    "id": 593,
+    "id": 1446,
     "type": "passive",
     "name": "초능력 파리",
     "english_name": "Psy Fly",
@@ -5910,7 +6705,7 @@ const passiveItemsData = [
     "game_id": "581"
   },
   {
-    "id": 594,
+    "id": 1447,
     "type": "passive",
     "name": "병 속의 로켓",
     "english_name": "Rocket in a Jar",
@@ -5925,7 +6720,7 @@ const passiveItemsData = [
     "game_id": "583"
   },
   {
-    "id": 595,
+    "id": 1448,
     "type": "passive",
     "name": "미덕의 책",
     "english_name": "Book Of Virtues",
@@ -5940,7 +6735,7 @@ const passiveItemsData = [
     "game_id": "584"
   },
   {
-    "id": 596,
+    "id": 1449,
     "type": "passive",
     "name": "계단",
     "english_name": "The Stairway",
@@ -5955,7 +6750,7 @@ const passiveItemsData = [
     "game_id": "586"
   },
   {
-    "id": 597,
+    "id": 1450,
     "type": "passive",
     "name": "태양",
     "english_name": "Sol",
@@ -5970,7 +6765,7 @@ const passiveItemsData = [
     "game_id": "588"
   },
   {
-    "id": 598,
+    "id": 1451,
     "type": "passive",
     "name": "달",
     "english_name": "Luna",
@@ -5985,7 +6780,7 @@ const passiveItemsData = [
     "game_id": "589"
   },
   {
-    "id": 599,
+    "id": 1452,
     "type": "passive",
     "name": "수성",
     "english_name": "Mercurius",
@@ -6000,7 +6795,7 @@ const passiveItemsData = [
     "game_id": "590"
   },
   {
-    "id": 600,
+    "id": 1453,
     "type": "passive",
     "name": "금성",
     "english_name": "Venus",
@@ -6015,7 +6810,7 @@ const passiveItemsData = [
     "game_id": "591"
   },
   {
-    "id": 601,
+    "id": 1454,
     "type": "passive",
     "name": "지구",
     "english_name": "Terra",
@@ -6030,7 +6825,7 @@ const passiveItemsData = [
     "game_id": "592"
   },
   {
-    "id": 602,
+    "id": 1455,
     "type": "passive",
     "name": "화성",
     "english_name": "Mars",
@@ -6045,7 +6840,7 @@ const passiveItemsData = [
     "game_id": "593"
   },
   {
-    "id": 603,
+    "id": 1456,
     "type": "passive",
     "name": "목성",
     "english_name": "Jupiter",
@@ -6060,7 +6855,7 @@ const passiveItemsData = [
     "game_id": "594"
   },
   {
-    "id": 604,
+    "id": 1457,
     "type": "passive",
     "name": "토성",
     "english_name": "Saturnus",
@@ -6075,7 +6870,7 @@ const passiveItemsData = [
     "game_id": "595"
   },
   {
-    "id": 605,
+    "id": 1458,
     "type": "passive",
     "name": "천왕성",
     "english_name": "Uranus",
@@ -6090,7 +6885,7 @@ const passiveItemsData = [
     "game_id": "596"
   },
   {
-    "id": 606,
+    "id": 1459,
     "type": "passive",
     "name": "해왕성",
     "english_name": "Neptunus",
@@ -6105,7 +6900,7 @@ const passiveItemsData = [
     "game_id": "597"
   },
   {
-    "id": 607,
+    "id": 1460,
     "type": "passive",
     "name": "명왕성",
     "english_name": "Pluto",
@@ -6120,7 +6915,7 @@ const passiveItemsData = [
     "game_id": "598"
   },
   {
-    "id": 608,
+    "id": 1461,
     "type": "passive",
     "name": "부두술 머리",
     "english_name": "Voodoo Head",
@@ -6135,7 +6930,7 @@ const passiveItemsData = [
     "game_id": "599"
   },
   {
-    "id": 609,
+    "id": 1462,
     "type": "passive",
     "name": "안약",
     "english_name": "Eye drops",
@@ -6150,7 +6945,7 @@ const passiveItemsData = [
     "game_id": "600"
   },
   {
-    "id": 610,
+    "id": 1463,
     "type": "passive",
     "name": "통회 기도",
     "english_name": "Act of contrition",
@@ -6165,7 +6960,7 @@ const passiveItemsData = [
     "game_id": "601"
   },
   {
-    "id": 611,
+    "id": 1464,
     "type": "passive",
     "name": "멤버십 카드",
     "english_name": "Member Card",
@@ -6180,7 +6975,7 @@ const passiveItemsData = [
     "game_id": "602"
   },
   {
-    "id": 612,
+    "id": 1465,
     "type": "passive",
     "name": "배터리 팩",
     "english_name": "Battery Pack",
@@ -6195,7 +6990,7 @@ const passiveItemsData = [
     "game_id": "603"
   },
   {
-    "id": 613,
+    "id": 1466,
     "type": "passive",
     "name": "오쿨러 리프트",
     "english_name": "Ocular Rift",
@@ -6210,7 +7005,7 @@ const passiveItemsData = [
     "game_id": "606"
   },
   {
-    "id": 614,
+    "id": 1467,
     "type": "passive",
     "name": "물집[3]아기",
     "english_name": "Boiled Baby",
@@ -6225,7 +7020,7 @@ const passiveItemsData = [
     "game_id": "607"
   },
   {
-    "id": 615,
+    "id": 1468,
     "type": "passive",
     "name": "얼리는 아기",
     "english_name": "Freezer Baby",
@@ -6240,7 +7035,7 @@ const passiveItemsData = [
     "game_id": "608"
   },
   {
-    "id": 616,
+    "id": 1469,
     "type": "passive",
     "name": "새장",
     "english_name": "Bird Cage",
@@ -6255,7 +7050,7 @@ const passiveItemsData = [
     "game_id": "610"
   },
   {
-    "id": 617,
+    "id": 1470,
     "type": "passive",
     "name": "길 잃은 영혼",
     "english_name": "Lost Soul",
@@ -6270,7 +7065,7 @@ const passiveItemsData = [
     "game_id": "612"
   },
   {
-    "id": 618,
+    "id": 1471,
     "type": "passive",
     "name": "피 폭탄",
     "english_name": "Blood Bombs",
@@ -6285,7 +7080,7 @@ const passiveItemsData = [
     "game_id": "614"
   },
   {
-    "id": 619,
+    "id": 1472,
     "type": "passive",
     "name": "꼬마 덤피",
     "english_name": "Lil Dumpy",
@@ -6300,7 +7095,7 @@ const passiveItemsData = [
     "game_id": "615"
   },
   {
-    "id": 620,
+    "id": 1473,
     "type": "passive",
     "name": "쥐똥고추",
     "english_name": "Bird's Eye",
@@ -6315,7 +7110,7 @@ const passiveItemsData = [
     "game_id": "616"
   },
   {
-    "id": 621,
+    "id": 1474,
     "type": "passive",
     "name": "자철석",
     "english_name": "Lodestone",
@@ -6330,7 +7125,7 @@ const passiveItemsData = [
     "game_id": "617"
   },
   {
-    "id": 622,
+    "id": 1475,
     "type": "passive",
     "name": "썩은 토마토",
     "english_name": "Rotten Tomato",
@@ -6345,7 +7140,7 @@ const passiveItemsData = [
     "game_id": "618"
   },
   {
-    "id": 623,
+    "id": 1476,
     "type": "passive",
     "name": "생득권",
     "english_name": "Birthright",
@@ -6360,7 +7155,7 @@ const passiveItemsData = [
     "game_id": "619"
   },
   {
-    "id": 624,
+    "id": 1477,
     "type": "passive",
     "name": "붉은 스튜",
     "english_name": "Red stew",
@@ -6375,7 +7170,7 @@ const passiveItemsData = [
     "game_id": "621"
   },
   {
-    "id": 625,
+    "id": 1478,
     "type": "passive",
     "name": "부스터 팩",
     "english_name": "Booster Pack",
@@ -6390,7 +7185,7 @@ const passiveItemsData = [
     "game_id": "624"
   },
   {
-    "id": 626,
+    "id": 1479,
     "type": "passive",
     "name": "칼조각 1",
     "english_name": "Knife Piece 1",
@@ -6405,7 +7200,7 @@ const passiveItemsData = [
     "game_id": "626"
   },
   {
-    "id": 627,
+    "id": 1480,
     "type": "passive",
     "name": "칼조각 2",
     "english_name": "Knife Piece 2",
@@ -6420,7 +7215,7 @@ const passiveItemsData = [
     "game_id": "627"
   },
   {
-    "id": 628,
+    "id": 1481,
     "type": "passive",
     "name": "로봇 파리",
     "english_name": "Bot Fly",
@@ -6435,7 +7230,7 @@ const passiveItemsData = [
     "game_id": "629"
   },
   {
-    "id": 629,
+    "id": 1482,
     "type": "passive",
     "name": "이블아이 부적",
     "english_name": "Evil Charm",
@@ -6450,7 +7245,7 @@ const passiveItemsData = [
     "game_id": "632"
   },
   {
-    "id": 630,
+    "id": 1483,
     "type": "passive",
     "name": "도그마",
     "english_name": "Dogma",
@@ -6465,7 +7260,7 @@ const passiveItemsData = [
     "game_id": "633"
   },
   {
-    "id": 631,
+    "id": 1484,
     "type": "passive",
     "name": "연옥",
     "english_name": "Purgatory",
@@ -6480,7 +7275,7 @@ const passiveItemsData = [
     "game_id": "634"
   },
   {
-    "id": 632,
+    "id": 1485,
     "type": "passive",
     "name": "KO 물약",
     "english_name": "Knockout Drops",
@@ -6495,7 +7290,7 @@ const passiveItemsData = [
     "game_id": "637"
   },
   {
-    "id": 633,
+    "id": 1486,
     "type": "passive",
     "name": "아겔다마",
     "english_name": "Akeldama",
@@ -6510,7 +7305,7 @@ const passiveItemsData = [
     "game_id": "641"
   },
   {
-    "id": 634,
+    "id": 1487,
     "type": "passive",
     "name": "계시",
     "english_name": "Revelation",
@@ -6525,7 +7320,7 @@ const passiveItemsData = [
     "game_id": "643"
   },
   {
-    "id": 635,
+    "id": 1488,
     "type": "passive",
     "name": "위로상",
     "english_name": "Consolation Prize",
@@ -6540,7 +7335,7 @@ const passiveItemsData = [
     "game_id": "644"
   },
   {
-    "id": 636,
+    "id": 1489,
     "type": "passive",
     "name": "타이니토마",
     "english_name": "Tinytoma",
@@ -6555,7 +7350,7 @@ const passiveItemsData = [
     "game_id": "645"
   },
   {
-    "id": 637,
+    "id": 1490,
     "type": "passive",
     "name": "유황폭탄",
     "english_name": "Brimstone Bombs",
@@ -6570,7 +7365,7 @@ const passiveItemsData = [
     "game_id": "646"
   },
   {
-    "id": 638,
+    "id": 1491,
     "type": "passive",
     "name": "4.5볼트 전지",
     "english_name": "4.5 Volt",
@@ -6585,7 +7380,22 @@ const passiveItemsData = [
     "game_id": "647"
   },
   {
-    "id": 639,
+    "id": 1492,
+    "type": "passive",
+    "name": "Fruity Plum",
+    "english_name": "Fruity Plum",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/k8T8lltl7PH6g4HPoa0uQ2RfpGj-b215J9OkrTSNOME-bB_iLLKPEips3NGqwrLvMSEi-SOeTrgSaUrBMzNi2A.png",
+    "description": "Bouncy friend(통통 튀기는 친구)",
+    "cooldown": "",
+    "unlock_condition": "Baby Plum 10마리 처치",
+    "location": "보물방, 열쇠 거지, 인형 뽑기, 아기 상점, 그리드모드 보물방",
+    "grade": "1",
+    "effect": "작은 Baby Plum 패밀리어가 생성된다. 원본처럼 적이 있으면 대각선으로 이동하면서 벽을 튕겨가며 눈물을 뿜어내는 패턴을 구사한다. Baby Plum에게 닿는 적은 틱당 2, 초당 6의 접촉 대미지를 입으며, 눈물은 한 번에 15개를 뿜어내고 각각의 눈물은 3의 공격력을 갖는다.",
+    "game_id": "649"
+  },
+  {
+    "id": 1493,
     "type": "passive",
     "name": "베들레헴의 별",
     "english_name": "Star of Bethlehem",
@@ -6600,7 +7410,7 @@ const passiveItemsData = [
     "game_id": "651"
   },
   {
-    "id": 640,
+    "id": 1494,
     "type": "passive",
     "name": "얼음 블록 아기",
     "english_name": "Cube Baby",
@@ -6615,7 +7425,7 @@ const passiveItemsData = [
     "game_id": "652"
   },
   {
-    "id": 641,
+    "id": 1495,
     "type": "passive",
     "name": "위조 박사 학위",
     "english_name": "False PHD",
@@ -6630,7 +7440,7 @@ const passiveItemsData = [
     "game_id": "654"
   },
   {
-    "id": 642,
+    "id": 1496,
     "type": "passive",
     "name": "혈관염",
     "english_name": "Vasculitis",
@@ -6645,7 +7455,7 @@ const passiveItemsData = [
     "game_id": "657"
   },
   {
-    "id": 643,
+    "id": 1497,
     "type": "passive",
     "name": "거대세포",
     "english_name": "Giant Cell",
@@ -6660,7 +7470,7 @@ const passiveItemsData = [
     "game_id": "658"
   },
   {
-    "id": 644,
+    "id": 1498,
     "type": "passive",
     "name": "산동제",
     "english_name": "Tropicamide",
@@ -6675,7 +7485,7 @@ const passiveItemsData = [
     "game_id": "659"
   },
   {
-    "id": 645,
+    "id": 1499,
     "type": "passive",
     "name": "카드 리딩",
     "english_name": "Card Reading",
@@ -6690,7 +7500,7 @@ const passiveItemsData = [
     "game_id": "660"
   },
   {
-    "id": 646,
+    "id": 1500,
     "type": "passive",
     "name": "다섯 쌍둥이",
     "english_name": "Quints",
@@ -6705,7 +7515,7 @@ const passiveItemsData = [
     "game_id": "661"
   },
   {
-    "id": 647,
+    "id": 1501,
     "type": "passive",
     "name": "이빨과 손톱",
     "english_name": "Tooth and Nail",
@@ -6720,7 +7530,7 @@ const passiveItemsData = [
     "game_id": "663"
   },
   {
-    "id": 648,
+    "id": 1502,
     "type": "passive",
     "name": "폭식",
     "english_name": "Binge Eater",
@@ -6735,7 +7545,7 @@ const passiveItemsData = [
     "game_id": "664"
   },
   {
-    "id": 649,
+    "id": 1503,
     "type": "passive",
     "name": "구피의 눈",
     "english_name": "Guppy's Eye",
@@ -6750,7 +7560,7 @@ const passiveItemsData = [
     "game_id": "665"
   },
   {
-    "id": 650,
+    "id": 1504,
     "type": "passive",
     "name": "밀짚 인형",
     "english_name": "Strawman",
@@ -6765,7 +7575,7 @@ const passiveItemsData = [
     "game_id": "667"
   },
   {
-    "id": 651,
+    "id": 1505,
     "type": "passive",
     "name": "아빠의 노트",
     "english_name": "Dad's Note",
@@ -6780,7 +7590,7 @@ const passiveItemsData = [
     "game_id": "668"
   },
   {
-    "id": 652,
+    "id": 1506,
     "type": "passive",
     "name": "소세지",
     "english_name": "Sausage",
@@ -6795,7 +7605,7 @@ const passiveItemsData = [
     "game_id": "669"
   },
   {
-    "id": 653,
+    "id": 1507,
     "type": "passive",
     "name": "옵션?",
     "english_name": "Options?",
@@ -6810,7 +7620,7 @@ const passiveItemsData = [
     "game_id": "670"
   },
   {
-    "id": 654,
+    "id": 1508,
     "type": "passive",
     "name": "캔디 하트",
     "english_name": "Candy Heart",
@@ -6825,7 +7635,7 @@ const passiveItemsData = [
     "game_id": "671"
   },
   {
-    "id": 655,
+    "id": 1509,
     "type": "passive",
     "name": "살점 1파운드",
     "english_name": "A Pound of Flesh",
@@ -6840,7 +7650,7 @@ const passiveItemsData = [
     "game_id": "672"
   },
   {
-    "id": 656,
+    "id": 1510,
     "type": "passive",
     "name": "회개",
     "english_name": "Redemption",
@@ -6855,7 +7665,7 @@ const passiveItemsData = [
     "game_id": "673"
   },
   {
-    "id": 657,
+    "id": 1511,
     "type": "passive",
     "name": "영혼 족쇄",
     "english_name": "Spirit Shackles",
@@ -6870,7 +7680,7 @@ const passiveItemsData = [
     "game_id": "674"
   },
   {
-    "id": 658,
+    "id": 1512,
     "type": "passive",
     "name": "금이 간 오브",
     "english_name": "Cracked Orb",
@@ -6885,7 +7695,7 @@ const passiveItemsData = [
     "game_id": "675"
   },
   {
-    "id": 659,
+    "id": 1513,
     "type": "passive",
     "name": "빈 하트",
     "english_name": "Empty Heart",
@@ -6900,7 +7710,7 @@ const passiveItemsData = [
     "game_id": "676"
   },
   {
-    "id": 660,
+    "id": 1514,
     "type": "passive",
     "name": "유체이탈",
     "english_name": "Astral Projection",
@@ -6915,7 +7725,7 @@ const passiveItemsData = [
     "game_id": "677"
   },
   {
-    "id": 661,
+    "id": 1515,
     "type": "passive",
     "name": "제왕절개",
     "english_name": "C Section[28]",
@@ -6930,7 +7740,22 @@ const passiveItemsData = [
     "game_id": "678"
   },
   {
-    "id": 662,
+    "id": 1516,
+    "type": "passive",
+    "name": "Lil Abaddon",
+    "english_name": "Lil Abaddon",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/4dSnNjJrZSV9XdcKTY5nEUhdEBRHg6lxqrBqyL7A-T6hbAsfcISbl0AaT2lTsrH9Xkx2zGwtxW0aBh2M4T018w.webp",
+    "description": "Abyssal Friend (심연의 친구)",
+    "cooldown": "",
+    "unlock_condition": "Azazel로 The Beast 처치",
+    "location": " 악마방, 아기 상점, 그리드모드 악마방",
+    "grade": "2",
+    "effect": "캐릭터를 따라다니면서 캐릭터가 공격 시 1초동안 충전 후 Maw of the Void처럼 검은 고리 공격을 하는 패밀리어가 생긴다. 고리 공격은 적에게 틱당 3.5의 대미지를 입히며 최대 15틱까지 입힐 수 있다.",
+    "game_id": "679"
+  },
+  {
+    "id": 1517,
     "type": "passive",
     "name": "몬테수마의 복수",
     "english_name": "Montezuma's Revenge",
@@ -6945,7 +7770,22 @@ const passiveItemsData = [
     "game_id": "680"
   },
   {
-    "id": 663,
+    "id": 1518,
+    "type": "passive",
+    "name": "Lil Portal",
+    "english_name": "Lil Portal",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/u-cGfmlYUK6r5wC0DgoYzRXH9AKTl0K7MnBh2jgkUx286yHKwI50ozZuBcnKdC3Lw_l-sfswWSaXLlTyk59ORQ.png",
+    "description": "It hungers (굶주린 친구)",
+    "cooldown": "",
+    "unlock_condition": "Apollyon로 Corpse 스테이지의 Mother 처치",
+    "location": " 보물방,그리드모드 보물방",
+    "grade": "0",
+    "effect": "공격키를 빠르게 2번 누르면 공격 방향으로 나아가며 경로상의 적들에게 틱당 2의 피해를 주고 픽업 아이템들을 파란 자폭파리로 변환한다. 흡수한 픽업이 많을수록 틱당 데미지도 늘어나 최대 6까지 상승한다. 일정 갯수의 픽업[31]을 흡수하고 방이 클리어 된 상태면 포탈을 하나 생성하는데, 이 포탈로 통하는 방은 확률적으로 Butter 장신구나 Moving Box가 있다. 이 방의 상황은 해당 게임 동안 유지되기 때문에 바꾸기 아까운 액티브 아이템이나 아직 쓰기 애매한 카드/알약을 여기에 보관해서 이후 사용할 수 있다. 쉽게 말하면 마인크래프트의 엔더 상자를 생각하면 된다. 포탈만 만들면 어느 층에서나 같은 창고로 접근할 수 있다는 점이 공통점이다. 이 방에 어떠한 방식으로든 다락문이 형성되었을 경우, 에러방으로 연결된다. 방의 배열은 황금방 배열을 따른다.",
+    "game_id": "681"
+  },
+  {
+    "id": 1519,
     "type": "passive",
     "name": "지렁이 친구",
     "english_name": "Worm Friend",
@@ -6960,7 +7800,7 @@ const passiveItemsData = [
     "game_id": "682"
   },
   {
-    "id": 664,
+    "id": 1520,
     "type": "passive",
     "name": "골극",
     "english_name": "Bone Spurs",
@@ -6975,7 +7815,7 @@ const passiveItemsData = [
     "game_id": "683"
   },
   {
-    "id": 665,
+    "id": 1521,
     "type": "passive",
     "name": "배고픈 영혼",
     "english_name": "Hungry Soul",
@@ -6990,7 +7830,7 @@ const passiveItemsData = [
     "game_id": "684"
   },
   {
-    "id": 666,
+    "id": 1522,
     "type": "passive",
     "name": "영혼 목걸이",
     "english_name": "Soul Locket",
@@ -7005,7 +7845,7 @@ const passiveItemsData = [
     "game_id": "686"
   },
   {
-    "id": 667,
+    "id": 1523,
     "type": "passive",
     "name": "내면의 아이",
     "english_name": "Inner Child",
@@ -7020,7 +7860,37 @@ const passiveItemsData = [
     "game_id": "688"
   },
   {
-    "id": 668,
+    "id": 1524,
+    "type": "passive",
+    "name": "Glitched Crown",
+    "english_name": "Glitched Crown",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/bxWEnAhM7WJq2GTgoNxZ2AJdYQTLnLZGQ332PzH5CFhM3kXZF1RFrMGTbuxWyZdWAO6gmJpST4iuXgYXiy9AdA.png",
+    "description": "?????",
+    "cooldown": "",
+    "unlock_condition": "알트Isaac으로 The Beast 처치",
+    "location": "비밀방, 그리드모드 비밀방, 그리드모드 상점 (비중 0.1)",
+    "grade": "4",
+    "effect": "아이템이 있는 방 입장, 거지 보상 및 상자 개봉 등으로 받침대 위의 아이템을 랜덤하게 새로 볼 때, 원래 등장할 아이템 외에 NO!, Sacred Orb 등을 통해 거른 현재 방 배열 아이템 4개 후보를 추가로 보여준다. quest 태그 아이템들은 영향을 받지 않는다. 원본 아이템에 현재 방 배열 아이템까지 총 5개의 아이템은 0.2초마다 한 받침대 위에서 순환하며, ESC를 통해 이 타이밍을 조절하여 원하는 아이템을 선택하는 것이 가능하다. 원래 상자나 거지에서 아이템이 등장하면 1초 정도 획득할 수 없는 텀이 있는데, 이 아이템이 있을 때는 아이템이 순환하자마자 그 텀이 없어지므로 원하지 않는 아이템을 먹을 수 있으므로 주의해야 한다. D6 계열로 5개 후보가 있는 아이템을 재추첨하면 5개 후보가 통째로 소진되고 새로운 그 방 배열 5개 후보가 등장한다. 예외적으로 Spindown Dice를 사용했을 때에는 랜덤한 아이템 추첨이 아님에도 사용 당시의 아이템은 ID 번호가 내려가고, 기존 4개 후보는 소진되고 새로운 4개 후보가 등장한다.",
+    "game_id": "689"
+  },
+  {
+    "id": 1525,
+    "type": "passive",
+    "name": "Belly Jelly",
+    "english_name": "Belly Jelly",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/kkiuYEWrn_IJ9tJLNXmZIK_lKTzrahU0mqS4mnLXcFBcSTD7Y8Bme1jUR6v__f9XTn1y51tL2Eq8GRj6CsV3Jw.png",
+    "description": "Bounce away! (튕겨나가라!)",
+    "cooldown": "",
+    "unlock_condition": "알트Magdalene 으로 The Beast 처치",
+    "location": "보물방, 그리드모드 보물방",
+    "grade": "3",
+    "effect": "캐릭터에 닿는 적이 튕겨나가며, 50%의 확률로 접촉 대미지를 입지 않는다. 추가로 50%의 확률로 적의 탄환도 튕겨낸다. Infamy, Cone Head의 상위호환. 튕겨진 적은 오브젝트나 벽에 닿으면 8 + 현재 층 수 x 2의 대미지를 입고, 다른 적에 닿으면 서로 그만큼의 대미지를 입는다. 튕겨낸 탄환은 적에게 6의 대미지를 입히지만, 적의 종류에 따라 대미지가 약간 다를 수 있다. 접촉 대미지를 입히지 않는 적은 튕겨지지 않는다. 반대로 접촉 대미지를 입히기만 한다면 뭐든지 튕겨내기 때문에 불꽃, Dark Esau 또한 튕겨낼 수 있다.",
+    "game_id": "690"
+  },
+  {
+    "id": 1526,
     "type": "passive",
     "name": "신성한 구체",
     "english_name": "Sacred Orb",
@@ -7035,7 +7905,7 @@ const passiveItemsData = [
     "game_id": "691"
   },
   {
-    "id": 669,
+    "id": 1527,
     "type": "passive",
     "name": "피의 연결",
     "english_name": "Sanguine Bond",
@@ -7050,7 +7920,7 @@ const passiveItemsData = [
     "game_id": "692"
   },
   {
-    "id": 670,
+    "id": 1528,
     "type": "passive",
     "name": "군단",
     "english_name": "The Swarm",
@@ -7065,7 +7935,7 @@ const passiveItemsData = [
     "game_id": "693"
   },
   {
-    "id": 671,
+    "id": 1529,
     "type": "passive",
     "name": "가슴앓이",
     "english_name": "Heartbreak",
@@ -7080,7 +7950,7 @@ const passiveItemsData = [
     "game_id": "694"
   },
   {
-    "id": 672,
+    "id": 1530,
     "type": "passive",
     "name": "피바람",
     "english_name": "Bloody Gust",
@@ -7095,7 +7965,7 @@ const passiveItemsData = [
     "game_id": "695"
   },
   {
-    "id": 673,
+    "id": 1531,
     "type": "passive",
     "name": "구원",
     "english_name": "Salvation",
@@ -7110,7 +7980,7 @@ const passiveItemsData = [
     "game_id": "696"
   },
   {
-    "id": 674,
+    "id": 1532,
     "type": "passive",
     "name": "쌍둥이 소실",
     "english_name": "Vanishing Twin",
@@ -7125,7 +7995,22 @@ const passiveItemsData = [
     "game_id": "697"
   },
   {
-    "id": 675,
+    "id": 1533,
+    "type": "passive",
+    "name": "뒤틀린 한 쌍",
+    "english_name": "Twisted Pair",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/BMh6D6ATqzyvPH4Z5kkfzljJ-5W3OwMxke5dwR4OYI5BTwsvB3K91oUZI1lZB5wW_ROUmBnrGXunoC5UAVZRtA.webp",
+    "description": "골칫덩이가 두 배!",
+    "cooldown": "",
+    "unlock_condition": "알트\"Lilith\"로 The Beast 처치",
+    "location": "악마방,, 아기 상점,, 그리드모드 악마방",
+    "grade": "4등급",
+    "effect": "캐릭터의 양 옆에서 캐릭터가 공격할 때 캐릭터가 공격하는 방향으로 캐릭터의 공격을 37.5%의 공격력으로 그대로 따라하는 패밀리어가 생긴다.캐릭터의 공격방식을 그대로 복사한다. 예를 들어 Epic Fetus를 가지고 있으면 Twisted Pair도 미사일을 발사하고, 더 포가튼이 가지고 있으면 Twisted Pair도 뼈다귀를 휘두르는 식.Twisted Pair을 여러 개 습득하면 패밀리어가 원래 있는 Twisted Pair 패밀리어 양옆에 붙...",
+    "game_id": "698"
+  },
+  {
+    "id": 1534,
     "type": "passive",
     "name": "아자젤의 분노",
     "english_name": "Azazel's Rage",
@@ -7140,7 +8025,7 @@ const passiveItemsData = [
     "game_id": "699"
   },
   {
-    "id": 676,
+    "id": 1535,
     "type": "passive",
     "name": "반향 효과",
     "english_name": "Echo Chamber",
@@ -7155,7 +8040,7 @@ const passiveItemsData = [
     "game_id": "700"
   },
   {
-    "id": 677,
+    "id": 1536,
     "type": "passive",
     "name": "아이작의 무덤",
     "english_name": "Isaac's Tomb",
@@ -7170,7 +8055,7 @@ const passiveItemsData = [
     "game_id": "701"
   },
   {
-    "id": 678,
+    "id": 1537,
     "type": "passive",
     "name": "복수의 영혼",
     "english_name": "Vengeful Spirit",
@@ -7185,7 +8070,7 @@ const passiveItemsData = [
     "game_id": "702"
   },
   {
-    "id": 679,
+    "id": 1538,
     "type": "passive",
     "name": "저녁참",
     "english_name": "Supper",
@@ -7200,7 +8085,7 @@ const passiveItemsData = [
     "game_id": "707"
   },
   {
-    "id": 680,
+    "id": 1539,
     "type": "passive",
     "name": "스테이플러",
     "english_name": "Stapler",
@@ -7215,7 +8100,7 @@ const passiveItemsData = [
     "game_id": "708"
   },
   {
-    "id": 681,
+    "id": 1540,
     "type": "passive",
     "name": "키퍼의 주머니",
     "english_name": "Keeper's Sack",
@@ -7230,7 +8115,7 @@ const passiveItemsData = [
     "game_id": "716"
   },
   {
-    "id": 682,
+    "id": 1541,
     "type": "passive",
     "name": "키퍼의 친족",
     "english_name": "Keeper's Kin",
@@ -7245,7 +8130,22 @@ const passiveItemsData = [
     "game_id": "717"
   },
   {
-    "id": 683,
+    "id": 1542,
+    "type": "passive",
+    "name": "TMTRAINER",
+    "english_name": "TMTRAINER",
+    "icon": "⭐",
+    "image_url": "https://i.namu.wiki/i/GWHLxkAeewC2xBeAlNANSSdFuVPnrG-jl_u9ei3IzJndss6aaOqILY1X2DyuFDIq--M6CqRLm_RrYxe3dB3hVA.png",
+    "description": "ZZaZZ ZZdZZiZZmZZhZZ ZZvZZ ZZoZZ ZZ ZZsZZlZZhZZsZZoZZaZZiZZ",
+    "cooldown": "",
+    "unlock_condition": "알트\"Eden\"으로 The Beast 처치",
+    "location": " 비밀방,그리드모드 비밀방,그리드모드 상점 (비중 0.1), 그리드모드 보물방",
+    "grade": "0",
+    "effect": "획득 시 방 안의 몬스터를 석화하고, 화상 상태이상을 부여하며 BGM이 바뀌기 전까지 현재 재생중인 BGM이 꺼진다.[38] quest 태그가 붙은 아이템, Bag of Crafting으로 생성된/획득한 아이템, Death Certificate를 사용해서 간 방에 놓인 아이템을 제외하고, 앞으로 획득하게 되는 아이템 및 받침대에 놓일 아이템은 글리치 아이템 으로 바뀐다. 글리치 아이템은 D4 등의 효과로는 확률적으로 리롤되며, 만약 한번 리롤이 안 되면 쭉 고정된다. 글리치 아이템은 25% 확률로 액티브이고 75% 확률로 패시브이다.글리치 아이템의 효과는, 현존하는 아이템의 발동 조건과 효과를 뒤섞어 효력을 발휘한다. 발동 조건으로는 적 몬스터 피격, 캐릭터가 피격, 캐릭터가 적에게 맞을 정도로 가까이 붙음, 액티브 아이템 사용, 아이템 획득, 몬스터 처치, 방 클리어 등이 있다. 효과로는 방귀 뀌기, 지우개를 비롯한 특정 아이템 사용, 현재 방의 픽업/아이템/몬스터를 바꾸기 등이 있다. 다른 것으로 바꿀 수 있는 대상에 엔딩 상자 및 트로피, 다음 방으로 가는 트랩도어 및 빛줄기는 제외된다. 바뀌어 나오는 것으로 뭐로든지 바뀌어 나올 수 있다.",
+    "game_id": "721"
+  },
+  {
+    "id": 1543,
     "type": "passive",
     "name": "과다응고",
     "english_name": "Hypercoagulation",
@@ -7260,7 +8160,7 @@ const passiveItemsData = [
     "game_id": "724"
   },
   {
-    "id": 684,
+    "id": 1544,
     "type": "passive",
     "name": "과민성 대장 증후군",
     "english_name": "IBS",
@@ -7275,7 +8175,7 @@ const passiveItemsData = [
     "game_id": "725"
   },
   {
-    "id": 685,
+    "id": 1545,
     "type": "passive",
     "name": "각혈",
     "english_name": "Hemoptysis",
@@ -7290,7 +8190,7 @@ const passiveItemsData = [
     "game_id": "726"
   },
   {
-    "id": 686,
+    "id": 1546,
     "type": "passive",
     "name": "유령 폭탄",
     "english_name": "Ghost bombs",
@@ -7305,7 +8205,7 @@ const passiveItemsData = [
     "game_id": "727"
   },
   {
-    "id": 687,
+    "id": 1547,
     "type": "passive",
     "name": "유리 눈",
     "english_name": "Glass Eye",
@@ -7320,7 +8220,7 @@ const passiveItemsData = [
     "game_id": "730"
   },
   {
-    "id": 688,
+    "id": 1548,
     "type": "passive",
     "name": "다래끼",
     "english_name": "Stye",
@@ -7335,7 +8235,7 @@ const passiveItemsData = [
     "game_id": "731"
   },
   {
-    "id": 689,
+    "id": 1549,
     "type": "passive",
     "name": "엄마의 반지",
     "english_name": "Mom's Ring",

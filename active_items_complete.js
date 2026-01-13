@@ -812,6 +812,21 @@ const activeItemsData = [
   {
     "id": 55,
     "type": "active",
+    "name": "4면 주사위",
+    "english_name": "D4",
+    "icon": "🎯",
+    "image_url": "https://i.namu.wiki/i/gO1TuocVcntbhM4PaMcUleHfter_ScQqMomQ17v3dL_hmxY20WJ24pTAWuooZ39F5cjzDWk_pgbXsEJNciV-Lw.png",
+    "description": "Reroll into something else (소지한 것을 바꾸는 능력)",
+    "cooldown": "6칸",
+    "unlock_condition": "슬롯 머신을 30개 파괴",
+    "location": "보물 방,, 인형 뽑기,, Greed 상점",
+    "grade": "1등급",
+    "effect": "사용 시 현재 가지고 있는 패시브 아이템 및 흡수한 장신구들을 각 아이템을 획득 했던 배열에서 무작위로 바꾼다. quest 태그 아이템, 이미 사용한 Damocles, Missing No.는 리롤되지 않는다.아이템 배열이 존재 하지않는 아이템이나 배열을 모두 소진한 아이템은 보물 방 배열에서 무작위로 바뀌며 흡수한 장신구는 다른 장신구 효과로 바뀐다.이전에 포함되었던 패시브 아이템들은 효과를 상실하고, 변신 세트의 일부였다면 변신 세트를 잃는다. 체력 증가 아이템들이 바뀔 경우 최대 체력은 제거된다.중복 획득한 패시브 아이템들은 각각 다른 아이템으로 바뀐다.  픽업 아이템을 즉시 획득하는 아이템이 나왔을 경우 나중에 아이템이 바뀌어도 픽업 아이템을 회수해 가지는 않는다. D4로 돌려진 아이템들은 배열에 다시 추가되기 때문에 나중에 D4를 사용했을 때 다시 등장할 수 있다.",
+    "game_id": "284"
+  },
+  {
+    "id": 56,
+    "type": "active",
     "name": "10면 주사위",
     "english_name": "D10",
     "icon": "🎯",
@@ -825,7 +840,7 @@ const activeItemsData = [
     "game_id": "285"
   },
   {
-    "id": 56,
+    "id": 57,
     "type": "active",
     "name": "백지 카드",
     "english_name": "Blank Card",
@@ -840,7 +855,7 @@ const activeItemsData = [
     "game_id": "286"
   },
   {
-    "id": 57,
+    "id": 58,
     "type": "active",
     "name": "비밀의 서",
     "english_name": "Book of Secrets",
@@ -855,7 +870,7 @@ const activeItemsData = [
     "game_id": "287"
   },
   {
-    "id": 58,
+    "id": 59,
     "type": "active",
     "name": "거미 상자",
     "english_name": "Box of Spiders",
@@ -870,7 +885,7 @@ const activeItemsData = [
     "game_id": "288"
   },
   {
-    "id": 59,
+    "id": 60,
     "type": "active",
     "name": "붉은 양초",
     "english_name": "Red Candle",
@@ -885,7 +900,7 @@ const activeItemsData = [
     "game_id": "289"
   },
   {
-    "id": 60,
+    "id": 61,
     "type": "active",
     "name": "유리병",
     "english_name": "The Jar",
@@ -900,7 +915,7 @@ const activeItemsData = [
     "game_id": "290"
   },
   {
-    "id": 61,
+    "id": 62,
     "type": "active",
     "name": "쏴아",
     "english_name": "Flush!",
@@ -915,7 +930,7 @@ const activeItemsData = [
     "game_id": "291"
   },
   {
-    "id": 62,
+    "id": 63,
     "type": "active",
     "name": "사탄경",
     "english_name": "Satanic Bible",
@@ -930,7 +945,7 @@ const activeItemsData = [
     "game_id": "292"
   },
   {
-    "id": 63,
+    "id": 64,
     "type": "active",
     "name": "크람푸스의 머리",
     "english_name": "Head of Krampus",
@@ -945,7 +960,37 @@ const activeItemsData = [
     "game_id": "293"
   },
   {
-    "id": 64,
+    "id": 65,
+    "type": "active",
+    "name": "흰강낭콩",
+    "english_name": "Butter Bean",
+    "icon": "🎯",
+    "image_url": "https://i.namu.wiki/i/8WVVNXME5iufHWczIPNe3mwaA-6a2BRI8ik0M7QzopzYtuwDLD4mcUGKILliNCU_JNyiRvd_iD5AIozzRFKwnQ.png",
+    "description": "Reusable knock-back (충전식 넉백 발생기)",
+    "cooldown": "2초",
+    "unlock_condition": "똥을 100개 파괴",
+    "location": "거지, 보물 방",
+    "grade": "0등급",
+    "effect": "사용 시 캐릭터 주변의 적이나 탄환을 튕겨낸다.이 벽이나 오브젝트에 부딪힐 경우 (10 + 2 × (현재 층수 - 1))의 대미지를 입는다.튕겨낸 탄환이 적을 맞추면 6(한 칸의 피해를 주는 탄환은 7)의 대미지를 입힌다.",
+    "game_id": "294"
+  },
+  {
+    "id": 66,
+    "type": "active",
+    "name": "유료 안마기",
+    "english_name": "Magic Fingers",
+    "icon": "🎯",
+    "image_url": "https://i.namu.wiki/i/TcgE79nFuu3Yk5HBvkypqkDRRSP-bRdkyCTi85Vc6EJIzPGaluJ5sV9LUxNC1uXgHEIHbLbKPFbnsi94hRTYJg.png",
+    "description": "Pay to play(1센트를 넣어주세요)",
+    "cooldown": "무제한",
+    "unlock_condition": "없음",
+    "location": "상점, 보물 방",
+    "grade": "0등급",
+    "effect": "사용시 1원을 소모하여 방 안에 있는 모든 적에게 현재 눈물 대미지의 두 배+10에 해당하는 대미지를 준다.",
+    "game_id": "295"
+  },
+  {
+    "id": 67,
     "type": "active",
     "name": "변환기",
     "english_name": "Converter",
@@ -960,7 +1005,7 @@ const activeItemsData = [
     "game_id": "296"
   },
   {
-    "id": 65,
+    "id": 68,
     "type": "active",
     "name": "판도라의 상자",
     "english_name": "Pandora's Box",
@@ -975,7 +1020,7 @@ const activeItemsData = [
     "game_id": "297"
   },
   {
-    "id": 66,
+    "id": 69,
     "type": "active",
     "name": "유니콘의 잘린 뿔",
     "english_name": "Unicorn Stump",
@@ -990,7 +1035,7 @@ const activeItemsData = [
     "game_id": "298"
   },
   {
-    "id": 67,
+    "id": 70,
     "type": "active",
     "name": "아이작의 눈물",
     "english_name": "Isaac's Tears",
@@ -1005,7 +1050,7 @@ const activeItemsData = [
     "game_id": "323"
   },
   {
-    "id": 68,
+    "id": 71,
     "type": "active",
     "name": "오류",
     "english_name": "Undefined",
@@ -1020,7 +1065,7 @@ const activeItemsData = [
     "game_id": "324"
   },
   {
-    "id": 69,
+    "id": 72,
     "type": "active",
     "name": "가위",
     "english_name": "Scissors",
@@ -1035,7 +1080,7 @@ const activeItemsData = [
     "game_id": "325"
   },
   {
-    "id": 70,
+    "id": 73,
     "type": "active",
     "name": "생명의 숨결",
     "english_name": "Breath of Life",
@@ -1050,7 +1095,7 @@ const activeItemsData = [
     "game_id": "326"
   },
   {
-    "id": 71,
+    "id": 74,
     "type": "active",
     "name": "부메랑",
     "english_name": "The Boomerang",
@@ -1065,7 +1110,7 @@ const activeItemsData = [
     "game_id": "338"
   },
   {
-    "id": 72,
+    "id": 75,
     "type": "active",
     "name": "복시",
     "english_name": "Diplopia",
@@ -1080,7 +1125,7 @@ const activeItemsData = [
     "game_id": "347"
   },
   {
-    "id": 73,
+    "id": 76,
     "type": "active",
     "name": "위약",
     "english_name": "Placebo",
@@ -1095,7 +1140,7 @@ const activeItemsData = [
     "game_id": "348"
   },
   {
-    "id": 74,
+    "id": 77,
     "type": "active",
     "name": "나무 동전",
     "english_name": "Wooden Nickel",
@@ -1110,7 +1155,7 @@ const activeItemsData = [
     "game_id": "349"
   },
   {
-    "id": 75,
+    "id": 78,
     "type": "active",
     "name": "대빵 큰 콩",
     "english_name": "Mega Bean",
@@ -1125,7 +1170,7 @@ const activeItemsData = [
     "game_id": "351"
   },
   {
-    "id": 76,
+    "id": 79,
     "type": "active",
     "name": "유리 대포",
     "english_name": "Glass Cannon",
@@ -1140,7 +1185,7 @@ const activeItemsData = [
     "game_id": "352(Glass Cannon),474(Broken Glass Cannon)"
   },
   {
-    "id": 77,
+    "id": 80,
     "type": "active",
     "name": "친구 상자",
     "english_name": "Box of Friends",
@@ -1155,7 +1200,22 @@ const activeItemsData = [
     "game_id": "357"
   },
   {
-    "id": 78,
+    "id": 81,
+    "type": "active",
+    "name": "친절한 공",
+    "english_name": "Friendly Ball",
+    "icon": "🎯",
+    "image_url": "https://i.namu.wiki/i/f5_zP9qMBrqSgyGnPneKHgBXBaOI4BuC-rAbBw_IMFZ8UE5AMxstqOxKoCNdnKQTsMTiXEJ7bWMrdK-iyujZzw.png",
+    "description": "Gotta fetch 'em all! (넌 내 거야!)",
+    "cooldown": "2칸",
+    "unlock_condition": "없음",
+    "location": "보물방, 인형 뽑기,, Greed 보물 방",
+    "grade": "1등급",
+    "effect": "사용 시 캐릭터가 몬스터볼을 머리 위로 들며, 공격 시 해당 방향으로 몬스터볼을 던져 닿은 몬스터를 포획한다. 몬스터볼을 던지지 않고 재사용하면 캐릭터가 몬스터볼을 집어넣으며, 이 때는 게이지가 소모되지 않는다. 보스 및 미니 보스는 포획할 수 없다.몬스터를 포획하는 데 실패했으면 몬스터볼은 몇 초 후 사라지며, 다시 쿨타임을 채워야 한다. 포획한 몬스터볼을 주우면 즉시 쿨타임이 차며, 이 때 재사용해 몬스터볼을 던지면 방금 포획한 몬스터가 영구적으로 매혹 상태이상에 걸린 채 나타나 다른 적과 싸운다. 영구 매혹 상태의 몬스터는 플레이어에게 어떠한 형식의 공격으로도 플레이어에게 피해를 입힐 수 없다. 영구 매혹 상태의 몬스터가 몬스터를 소환하거나, 죽어서 다른 몬스터가 되었다면 그 몬스터들 또한 영구 매혹 상태이다. 챔피언 몬스터를 포획했을 경우 그 챔피언 형태가 유지된다. 다른 몬스터의 공격을 막아주는 Bishop 몬스터를 포획했을 경우 캐릭터의 피격을 총 6회 막아준다. 죽은 몬스터를 되살리는 Cultist 몬스터를 포획했을 경우 포획된 몬스터를 되살려줄 수 있다.",
+    "game_id": "382"
+  },
+  {
+    "id": 82,
     "type": "active",
     "name": "눈물 기폭제",
     "english_name": "Tear Detonator",
@@ -1170,7 +1230,7 @@ const activeItemsData = [
     "game_id": "383"
   },
   {
-    "id": 79,
+    "id": 83,
     "type": "active",
     "name": "12면 주사위",
     "english_name": "D12",
@@ -1185,7 +1245,7 @@ const activeItemsData = [
     "game_id": "386"
   },
   {
-    "id": 80,
+    "id": 84,
     "type": "active",
     "name": "심실 절단기",
     "english_name": "Ventricle Razor",
@@ -1200,7 +1260,7 @@ const activeItemsData = [
     "game_id": "396"
   },
   {
-    "id": 81,
+    "id": 85,
     "type": "active",
     "name": "8면 주사위",
     "english_name": "D8",
@@ -1215,7 +1275,7 @@ const activeItemsData = [
     "game_id": "406"
   },
   {
-    "id": 82,
+    "id": 86,
     "type": "active",
     "name": "텔레포트 2.0",
     "english_name": "Teleport 2.0",
@@ -1230,7 +1290,7 @@ const activeItemsData = [
     "game_id": "419"
   },
   {
-    "id": 83,
+    "id": 87,
     "type": "active",
     "name": "강낭콩",
     "english_name": "Kidney Bean",
@@ -1245,7 +1305,7 @@ const activeItemsData = [
     "game_id": "421"
   },
   {
-    "id": 84,
+    "id": 88,
     "type": "active",
     "name": "빛나는 모래시계",
     "english_name": "Glowing Hourglass",
@@ -1260,7 +1320,7 @@ const activeItemsData = [
     "game_id": "422"
   },
   {
-    "id": 85,
+    "id": 89,
     "type": "active",
     "name": "마인크래프터",
     "english_name": "Mine Crafter",
@@ -1275,7 +1335,7 @@ const activeItemsData = [
     "game_id": "427"
   },
   {
-    "id": 86,
+    "id": 90,
     "type": "active",
     "name": "파리 담은 병",
     "english_name": "Jar of Flies",
@@ -1290,7 +1350,7 @@ const activeItemsData = [
     "game_id": "434"
   },
   {
-    "id": 87,
+    "id": 91,
     "type": "active",
     "name": "7면체 주사위",
     "english_name": "D7",
@@ -1305,7 +1365,7 @@ const activeItemsData = [
     "game_id": "437"
   },
   {
-    "id": 88,
+    "id": 92,
     "type": "active",
     "name": "엄마의 상자",
     "english_name": "Mom's Box",
@@ -1320,7 +1380,7 @@ const activeItemsData = [
     "game_id": "439"
   },
   {
-    "id": 89,
+    "id": 93,
     "type": "active",
     "name": "거대 돌풍",
     "english_name": "Mega Blast",
@@ -1335,7 +1395,7 @@ const activeItemsData = [
     "game_id": "441"
   },
   {
-    "id": 90,
+    "id": 94,
     "type": "active",
     "name": "플랜 C",
     "english_name": "Plan C",
@@ -1350,7 +1410,22 @@ const activeItemsData = [
     "game_id": "475"
   },
   {
-    "id": 91,
+    "id": 95,
+    "type": "active",
+    "name": "D1",
+    "english_name": "D1",
+    "icon": "🎯",
+    "image_url": "https://i.namu.wiki/i/wGNBOhGpujDlxFAnaPtl2OoqZX5dlk24bkf5XOCZmIS2FZEA6U1vuD-k8sfx6sNaBGfCBv7rsIwGwa7n4lFzrA.webp",
+    "description": "What will it be? (무엇이 나올까?)",
+    "cooldown": "4칸",
+    "unlock_condition": "Isaac 캐릭터로 Ultra Greedier 클리어",
+    "location": "보물 방, 인형 뽑기, Greed 상점",
+    "grade": "2등급",
+    "effect": "사용 시 현재 방 안의 랜덤한 픽업 아이템, 상자, 장신구 1개를 똑같은 종류의 픽업으로 복사한다. 복사된 픽업은 기존의 픽업과 동일하지 않을 수 있다.[61] 단 Cracked Key, Dice Shard, Emergency Contact는 그대로 복사된다. 상점에서 아직 구매하지 않은 픽업도 복제가 가능하다. 패치 이전에는 Blank Card, Placebo, 그리고 Clear Rune으로 6칸이나 12칸이 걸리는 픽업을 단 4칸만으로 복제할 수 있었고 단 한 종류의 픽업만을 따라할 수 있는 앞의 셋과 달리 이쪽은 모든 픽업을 복제할 수 있어서 사기성이 짙었고, 한때 등급 4가 책정된 적도 있지만, 1.7.7 패치로 완전히 동일한 픽업만 나오지 않게 너프를 먹었다. 특히 Holy Card 복사로 게임을 쉽게 진행할 수 있었던 더럽혀진 로스트가 이 너프로 직격탄을 맞았다. 하지만 반대로 말하면 별볼일 없는 빨간하트나 1원 동전, 능력이 좋지 않은 카드 등에서 더 좋은 픽업이 나올 가능성(예: Bad Trip → Tears Up)이 생겨서 완전한 너프라기보다는 주사위답게 랜덤성이 가미된 것에 더 가깝다.",
+    "game_id": "476"
+  },
+  {
+    "id": 96,
     "type": "active",
     "name": "공허",
     "english_name": "Void",
@@ -1365,7 +1440,7 @@ const activeItemsData = [
     "game_id": "477"
   },
   {
-    "id": 92,
+    "id": 97,
     "type": "active",
     "name": "일시 정지",
     "english_name": "Pause",
@@ -1380,7 +1455,7 @@ const activeItemsData = [
     "game_id": "478"
   },
   {
-    "id": 93,
+    "id": 98,
     "type": "active",
     "name": "용광로",
     "english_name": "Smelter",
@@ -1395,7 +1470,7 @@ const activeItemsData = [
     "game_id": "479"
   },
   {
-    "id": 94,
+    "id": 99,
     "type": "active",
     "name": "퇴비",
     "english_name": "Compost",
@@ -1410,7 +1485,7 @@ const activeItemsData = [
     "game_id": "480"
   },
   {
-    "id": 95,
+    "id": 100,
     "type": "active",
     "name": "데이터마이너",
     "english_name": "Dataminer",
@@ -1425,7 +1500,7 @@ const activeItemsData = [
     "game_id": "481"
   },
   {
-    "id": 96,
+    "id": 101,
     "type": "active",
     "name": "클리커",
     "english_name": "Clicker",
@@ -1440,7 +1515,7 @@ const activeItemsData = [
     "game_id": "482"
   },
   {
-    "id": 97,
+    "id": 102,
     "type": "active",
     "name": "맘마 메가!",
     "english_name": "Mama Mega!",
@@ -1455,7 +1530,7 @@ const activeItemsData = [
     "game_id": "483"
   },
   {
-    "id": 98,
+    "id": 103,
     "type": "active",
     "name": "잠깐, 뭐라고?",
     "english_name": "Wait What?",
@@ -1470,7 +1545,7 @@ const activeItemsData = [
     "game_id": "484"
   },
   {
-    "id": 99,
+    "id": 104,
     "type": "active",
     "name": "비뚤어진 페니",
     "english_name": "Crooked Penny",
@@ -1485,7 +1560,7 @@ const activeItemsData = [
     "game_id": "485"
   },
   {
-    "id": 100,
+    "id": 105,
     "type": "active",
     "name": "무딘 면도날",
     "english_name": "Dull Razor",
@@ -1500,7 +1575,7 @@ const activeItemsData = [
     "game_id": "486"
   },
   {
-    "id": 101,
+    "id": 106,
     "type": "active",
     "name": "감자칼",
     "english_name": "Potato Peeler",
@@ -1515,7 +1590,7 @@ const activeItemsData = [
     "game_id": "487"
   },
   {
-    "id": 102,
+    "id": 107,
     "type": "active",
     "name": "메트로놈",
     "english_name": "Metronome",
@@ -1530,7 +1605,7 @@ const activeItemsData = [
     "game_id": "488"
   },
   {
-    "id": 103,
+    "id": 108,
     "type": "active",
     "name": "D 인피니티",
     "english_name": "D Infinity",
@@ -1545,7 +1620,7 @@ const activeItemsData = [
     "game_id": "489"
   },
   {
-    "id": 104,
+    "id": 109,
     "type": "active",
     "name": "에덴의 영혼",
     "english_name": "Eden's Soul",
@@ -1560,7 +1635,7 @@ const activeItemsData = [
     "game_id": "490"
   },
   {
-    "id": 105,
+    "id": 110,
     "type": "active",
     "name": "브라운 너겟",
     "english_name": "Brown Nugget",
@@ -1575,7 +1650,7 @@ const activeItemsData = [
     "game_id": "504"
   },
   {
-    "id": 106,
+    "id": 111,
     "type": "active",
     "name": "날카로운 빨대",
     "english_name": "Sharp Straw",
@@ -1590,7 +1665,7 @@ const activeItemsData = [
     "game_id": "507"
   },
   {
-    "id": 107,
+    "id": 112,
     "type": "active",
     "name": "정신착란",
     "english_name": "Delirious",
@@ -1605,7 +1680,7 @@ const activeItemsData = [
     "game_id": "510"
   },
   {
-    "id": 108,
+    "id": 113,
     "type": "active",
     "name": "블랙홀",
     "english_name": "Black Hole",
@@ -1620,7 +1695,7 @@ const activeItemsData = [
     "game_id": "512"
   },
   {
-    "id": 109,
+    "id": 114,
     "type": "active",
     "name": "비밀의 선물",
     "english_name": "Mystery Gift",
@@ -1635,7 +1710,7 @@ const activeItemsData = [
     "game_id": "515"
   },
   {
-    "id": 110,
+    "id": 115,
     "type": "active",
     "name": "스프링클러",
     "english_name": "Sprinkler",
@@ -1650,7 +1725,7 @@ const activeItemsData = [
     "game_id": "516"
   },
   {
-    "id": 111,
+    "id": 116,
     "type": "active",
     "name": "쿠폰",
     "english_name": "Coupon",
@@ -1665,7 +1740,7 @@ const activeItemsData = [
     "game_id": "521"
   },
   {
-    "id": 112,
+    "id": 117,
     "type": "active",
     "name": "염력",
     "english_name": "Telekinesis",
@@ -1680,7 +1755,7 @@ const activeItemsData = [
     "game_id": "522"
   },
   {
-    "id": 113,
+    "id": 118,
     "type": "active",
     "name": "이삿짐 상자",
     "english_name": "Moving Box",
@@ -1695,7 +1770,7 @@ const activeItemsData = [
     "game_id": "523"
   },
   {
-    "id": 114,
+    "id": 119,
     "type": "active",
     "name": "미스터 나!",
     "english_name": "Mr. ME![71]",
@@ -1710,7 +1785,7 @@ const activeItemsData = [
     "game_id": "527"
   },
   {
-    "id": 115,
+    "id": 120,
     "type": "active",
     "name": "희생 제단",
     "english_name": "Sacrificial Altar",
@@ -1725,7 +1800,7 @@ const activeItemsData = [
     "game_id": "536"
   },
   {
-    "id": 116,
+    "id": 121,
     "type": "active",
     "name": "망자의 서",
     "english_name": "Book of the Dead",
@@ -1740,7 +1815,7 @@ const activeItemsData = [
     "game_id": "545"
   },
   {
-    "id": 117,
+    "id": 122,
     "type": "active",
     "name": "망가진 삽",
     "english_name": "Broken Shovel",
@@ -1755,7 +1830,7 @@ const activeItemsData = [
     "game_id": "550"
   },
   {
-    "id": 118,
+    "id": 123,
     "type": "active",
     "name": "엄마의 삽",
     "english_name": "Mom's Shovel",
@@ -1770,7 +1845,7 @@ const activeItemsData = [
     "game_id": "552"
   },
   {
-    "id": 119,
+    "id": 124,
     "type": "active",
     "name": "깔끔한 룬",
     "english_name": "Clear Rune",
@@ -1785,7 +1860,7 @@ const activeItemsData = [
     "game_id": "263"
   },
   {
-    "id": 120,
+    "id": 125,
     "type": "active",
     "name": "황금 면도기",
     "english_name": "Golden Razor",
@@ -1800,7 +1875,7 @@ const activeItemsData = [
     "game_id": "555"
   },
   {
-    "id": 121,
+    "id": 126,
     "type": "active",
     "name": "황",
     "english_name": "Sulfur",
@@ -1815,7 +1890,7 @@ const activeItemsData = [
     "game_id": "556"
   },
   {
-    "id": 122,
+    "id": 127,
     "type": "active",
     "name": "포춘 쿠키",
     "english_name": "Fortune Cookie",
@@ -1830,7 +1905,7 @@ const activeItemsData = [
     "game_id": "557"
   },
   {
-    "id": 123,
+    "id": 128,
     "type": "active",
     "name": "다모클레스",
     "english_name": "Damocles",
@@ -1845,7 +1920,7 @@ const activeItemsData = [
     "game_id": "577,656(사용 전, 사용 후)"
   },
   {
-    "id": 124,
+    "id": 129,
     "type": "active",
     "name": "공짜 레모네이드",
     "english_name": "Free Lemonade",
@@ -1860,7 +1935,7 @@ const activeItemsData = [
     "game_id": "578"
   },
   {
-    "id": 125,
+    "id": 130,
     "type": "active",
     "name": "빨간 열쇠",
     "english_name": "Red Key",
@@ -1875,7 +1950,7 @@ const activeItemsData = [
     "game_id": "580"
   },
   {
-    "id": 126,
+    "id": 131,
     "type": "active",
     "name": "환각 버섯",
     "english_name": "Wavy cap",
@@ -1890,7 +1965,7 @@ const activeItemsData = [
     "game_id": "582"
   },
   {
-    "id": 127,
+    "id": 132,
     "type": "active",
     "name": "옥합",
     "english_name": "Alabaster Box",
@@ -1905,7 +1980,7 @@ const activeItemsData = [
     "game_id": "585"
   },
   {
-    "id": 128,
+    "id": 133,
     "type": "active",
     "name": "엄마의 팔찌",
     "english_name": "Mom's Bracelet",
@@ -1920,7 +1995,7 @@ const activeItemsData = [
     "game_id": "604"
   },
   {
-    "id": 129,
+    "id": 134,
     "type": "active",
     "name": "스쿱",
     "english_name": "The Scooper",
@@ -1935,7 +2010,7 @@ const activeItemsData = [
     "game_id": "605"
   },
   {
-    "id": 130,
+    "id": 135,
     "type": "active",
     "name": "영원한 주사위",
     "english_name": "Eternal D6",
@@ -1950,7 +2025,7 @@ const activeItemsData = [
     "game_id": "609"
   },
   {
-    "id": 131,
+    "id": 136,
     "type": "active",
     "name": "후두",
     "english_name": "Larynx",
@@ -1965,7 +2040,7 @@ const activeItemsData = [
     "game_id": "611"
   },
   {
-    "id": 132,
+    "id": 137,
     "type": "active",
     "name": "창세기",
     "english_name": "Genesis",
@@ -1980,7 +2055,7 @@ const activeItemsData = [
     "game_id": "622"
   },
   {
-    "id": 133,
+    "id": 138,
     "type": "active",
     "name": "날카로운 열쇠",
     "english_name": "Sharp Key",
@@ -1995,7 +2070,7 @@ const activeItemsData = [
     "game_id": "623"
   },
   {
-    "id": 134,
+    "id": 139,
     "type": "active",
     "name": "거대버섯",
     "english_name": "Mega Mush",
@@ -2010,7 +2085,7 @@ const activeItemsData = [
     "game_id": "625"
   },
   {
-    "id": 135,
+    "id": 140,
     "type": "active",
     "name": "사망 진단서",
     "english_name": "Death Certificate",
@@ -2025,7 +2100,7 @@ const activeItemsData = [
     "game_id": "628"
   },
   {
-    "id": 136,
+    "id": 141,
     "type": "active",
     "name": "푸주칼",
     "english_name": "Meat Cleaver",
@@ -2040,7 +2115,7 @@ const activeItemsData = [
     "game_id": "631"
   },
   {
-    "id": 137,
+    "id": 142,
     "type": "active",
     "name": "바느질 인형",
     "english_name": "Stitches",
@@ -2055,7 +2130,7 @@ const activeItemsData = [
     "game_id": "635"
   },
   {
-    "id": 138,
+    "id": 143,
     "type": "active",
     "name": "R키",
     "english_name": "R Key",
@@ -2070,7 +2145,7 @@ const activeItemsData = [
     "game_id": "636"
   },
   {
-    "id": 139,
+    "id": 144,
     "type": "active",
     "name": "지우개",
     "english_name": "Eraser",
@@ -2085,7 +2160,7 @@ const activeItemsData = [
     "game_id": "638"
   },
   {
-    "id": 140,
+    "id": 145,
     "type": "active",
     "name": "역겨운 심장",
     "english_name": "Yuck Heart",
@@ -2100,7 +2175,7 @@ const activeItemsData = [
     "game_id": "639"
   },
   {
-    "id": 141,
+    "id": 146,
     "type": "active",
     "name": "영혼의 단지",
     "english_name": "Urn of Souls",
@@ -2115,7 +2190,7 @@ const activeItemsData = [
     "game_id": "640"
   },
   {
-    "id": 142,
+    "id": 147,
     "type": "active",
     "name": "마법 피부",
     "english_name": "Magic Skin",
@@ -2130,7 +2205,7 @@ const activeItemsData = [
     "game_id": "642"
   },
   {
-    "id": 143,
+    "id": 148,
     "type": "active",
     "name": "플럼 피리",
     "english_name": "Plum Flute",
@@ -2145,7 +2220,7 @@ const activeItemsData = [
     "game_id": "650"
   },
   {
-    "id": 144,
+    "id": 149,
     "type": "active",
     "name": "물러가라!",
     "english_name": "Vade Retro",
@@ -2160,7 +2235,22 @@ const activeItemsData = [
     "game_id": "653"
   },
   {
-    "id": 145,
+    "id": 150,
+    "type": "active",
+    "name": "Spin to Win 팽이",
+    "english_name": "Spin to Win",
+    "icon": "🎯",
+    "image_url": "https://i.namu.wiki/i/cjo1g3FbHvxM7_Rj-lY7umts9yPRV_G7vvym4WmW4OzOaO7jJLuF97u-jeRR8qhi1aRwckCg2f4dMec-XIt_yg.png",
+    "description": "Let it rip! (제발 대박!)",
+    "cooldown": "3초",
+    "unlock_condition": "",
+    "location": "보물 방, 인형 뽑기, Greed 보물 방",
+    "grade": "0등급",
+    "effect": "소지 시 캐릭터 주위를 도는 팽이 모양의 패밀리어가 생성된다. 팽이는 적의 탄환을 방어하고 닿은 적에게 틱당 3.5, 초당 35의 대미지를 준다. 사용 시 게이지가 최대 3초에 걸쳐 줄어들며, 게이지가 다 소모되거나 중간에 사용을 중단하기 전까지 아래의 효과를 얻는다. isaac speed 이동 속도 + 0.5. 스탯상으로는 반영되지 않지만 이 이동 속도 증가치는 한계치를 초과할 수 있다. 적에게 접촉 대미지를 입히는 패밀리어들의 틱당 대미지가 1.5배에 더해 추가로 6 증가하며, 본래 접촉 피해가 없는 패밀리어들도 6의 접촉 대미지를 입힐 수 있게 된다. 아군 파리/거미가 상단의 공식에 맞춰 대미지가 강해지며, 적을 맞춰도 사라지지 않고 지속적으로 대미지를 입힌다. 캐릭터를 공전하는 배리어형 패밀리어(팽이 포함)들의 공전 속도가 굉장히 빨라지며, 적을 맞추면 적과 캐릭터를 넉백시킨다. 적을 공격하거나, 적의 공격을 맞으면 사라지는 패밀리어들이 이 동안에는 절대 사라지지 않으며 적을 관통하고 지나간다. 쿨타임을 전부 채우지 않아도 사용이 가능하며, 중간에 사용을 멈췄을 경우 그만큼 완충에 필요한 쿨타임이 감소한다.",
+    "game_id": "655"
+  },
+  {
+    "id": 151,
     "type": "active",
     "name": "병의 담긴 위습",
     "english_name": "Jar of Wisps",
@@ -2175,7 +2265,7 @@ const activeItemsData = [
     "game_id": "685"
   },
   {
-    "id": 146,
+    "id": 152,
     "type": "active",
     "name": "친구 탐지기",
     "english_name": "Friend Finder",
@@ -2190,7 +2280,7 @@ const activeItemsData = [
     "game_id": "687"
   },
   {
-    "id": 147,
+    "id": 153,
     "type": "active",
     "name": "에사우 주니어",
     "english_name": "Esau Jr.",
@@ -2205,7 +2295,7 @@ const activeItemsData = [
     "game_id": "703"
   },
   {
-    "id": 148,
+    "id": 154,
     "type": "active",
     "name": "폭주!",
     "english_name": "Berserk!",
@@ -2220,7 +2310,7 @@ const activeItemsData = [
     "game_id": "704"
   },
   {
-    "id": 149,
+    "id": 155,
     "type": "active",
     "name": "흑마술",
     "english_name": "Dark Arts",
@@ -2235,7 +2325,7 @@ const activeItemsData = [
     "game_id": "705"
   },
   {
-    "id": 150,
+    "id": 156,
     "type": "active",
     "name": "무저갱",
     "english_name": "Abyss",
@@ -2250,7 +2340,7 @@ const activeItemsData = [
     "game_id": "706"
   },
   {
-    "id": 151,
+    "id": 157,
     "type": "active",
     "name": "수플렉스!",
     "english_name": "Suplex!",
@@ -2265,7 +2355,7 @@ const activeItemsData = [
     "game_id": "709"
   },
   {
-    "id": 152,
+    "id": 158,
     "type": "active",
     "name": "제작 가방",
     "english_name": "Bag of Crafting",
@@ -2280,7 +2370,7 @@ const activeItemsData = [
     "game_id": "710"
   },
   {
-    "id": 153,
+    "id": 159,
     "type": "active",
     "name": "뒤집기",
     "english_name": "Flip",
@@ -2295,7 +2385,7 @@ const activeItemsData = [
     "game_id": "711"
   },
   {
-    "id": 154,
+    "id": 160,
     "type": "active",
     "name": "레메게톤",
     "english_name": "Lemegeton",
@@ -2310,7 +2400,7 @@ const activeItemsData = [
     "game_id": "712"
   },
   {
-    "id": 155,
+    "id": 161,
     "type": "active",
     "name": "섬토리움",
     "english_name": "Sumptorium",
@@ -2325,7 +2415,7 @@ const activeItemsData = [
     "game_id": "713"
   },
   {
-    "id": 156,
+    "id": 162,
     "type": "active",
     "name": "회수",
     "english_name": "Recall",
@@ -2340,7 +2430,7 @@ const activeItemsData = [
     "game_id": "714"
   },
   {
-    "id": 157,
+    "id": 163,
     "type": "active",
     "name": "저장",
     "english_name": "Hold",
@@ -2355,7 +2445,7 @@ const activeItemsData = [
     "game_id": "715"
   },
   {
-    "id": 158,
+    "id": 164,
     "type": "active",
     "name": "상점 키퍼 상자",
     "english_name": "Keeper's Box",
@@ -2370,7 +2460,7 @@ const activeItemsData = [
     "game_id": "719"
   },
   {
-    "id": 159,
+    "id": 165,
     "type": "active",
     "name": "모든 게 담긴 병",
     "english_name": "Everything Jar",
@@ -2385,7 +2475,7 @@ const activeItemsData = [
     "game_id": "720"
   },
   {
-    "id": 160,
+    "id": 166,
     "type": "active",
     "name": "아니마 솔라",
     "english_name": "Anima Sola",
@@ -2400,7 +2490,7 @@ const activeItemsData = [
     "game_id": "722"
   },
   {
-    "id": 161,
+    "id": 167,
     "type": "active",
     "name": "스핀다운 주사위",
     "english_name": "Spindown Dice",
@@ -2415,7 +2505,7 @@ const activeItemsData = [
     "game_id": "723"
   },
   {
-    "id": 162,
+    "id": 168,
     "type": "active",
     "name": "젤로",
     "english_name": "Gello",
@@ -2430,7 +2520,7 @@ const activeItemsData = [
     "game_id": "728"
   },
   {
-    "id": 163,
+    "id": 169,
     "type": "active",
     "name": "디캡 어택",
     "english_name": "Decap Attack",
